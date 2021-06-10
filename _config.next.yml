@@ -1,0 +1,71 @@
+minify: true
+darkmode: true
+cache:
+  enable: true
+footer:
+  since: 2021
+  icon:
+    animated: true
+scheme: Gemini
+menu:
+  home: / || fa fa-home
+  categories: /categories/ || fa fa-th
+  archives: /archives/ || fa fa-archive
+menu_settings:
+  badges: true
+social:
+  GitHub: https://github.com/deepmodeling || fab fa-github
+  Wechat: https://open.weixin.qq.com/qr/code?username=deepmd || fab fa-weixin
+  Zhihu: https://www.zhihu.com/org/shen-du-shi-neng-deep-potential || fab fa-zhihu
+social_icons:
+  icons_only: true
+  transition: true
+#follow_me:
+mobile_layout_economy: true
+pjax: true
+lazyload: true
+mediumzoom: true
+quicklink:
+  enable: true
+  home: true
+  archive: true
+motion:
+  enable: false
+  async: true
+related_posts:
+   enable: false
+post_edit:
+  enable: true
+  url: https://github.com/deepmodeling/blog/tree/hexo/source/ # Link for view source.
+note:
+  style: modern
+  icons: true
+codeblock:
+  copy_button:
+    enable: true
+    show_result: true
+reading_progress:
+  enable: true
+bookmark:
+  enable: true
+seo: true
+index_with_subtitle: true
+exturl: true
+baidu_push: false
+math:
+  mathjax:
+    enable: true
+local_search:
+  enable: true
+pdf:
+  enable: false
+links_settings:
+  icon: fa fa-link
+  title: Friend Links
+  layout: block
+links:
+
+vendors:
+  internal: jsdelivr
+  plugins: jsdelivr
+preconnect: true
