@@ -1,9 +1,7 @@
 on:
   push:
     branches:
-      - hexo
-    tags:
-      - v*
+      - master
   pull_request:
 name: Build and deploy on push
 jobs:
