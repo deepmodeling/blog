@@ -1,7 +1,10 @@
 ---
 title: "DP Tutorial 1: How to Setup a DeePMD-kit Training within 5 Minutes?"
 date: 2021-06-12
-category: tutorial
+categories:
+- tutorial
+tags:
+- DeePMD-kit
 ---
 
 DeePMD-kit is a software to implement Deep Potential.
