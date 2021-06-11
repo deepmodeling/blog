@@ -15,6 +15,7 @@ menu_settings:
   badges: true
 social:
   GitHub: https://github.com/deepmodeling || fab fa-github
+  Twitter: https://twitter.com/DeepModeling || fab fa-twitter
   Wechat: https://open.weixin.qq.com/qr/code?username=deepmd || fab fa-weixin
   Zhihu: https://www.zhihu.com/org/shen-du-shi-neng-deep-potential || fab fa-zhihu
 social_icons:
