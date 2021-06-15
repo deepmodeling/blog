@@ -20,7 +20,7 @@ B --> C[Freeze the model]
 
 What? Only three steps?
 Yes, it's that simple.
-Preparing data is converting the computational results of DFT to data that can be recongized by the DeePMD-kit.
+Preparing data is converting the computational results of DFT to data that can be recognized by the DeePMD-kit.
 Training is train a Deep Potential model using the DeePMD-kit with data prepared in the previous step.
 Finally, what we need to do is to freeze the restart file in the training process into a model, in other words is to extract the neural network parameters into a file for subsequent use.
 I believe you can't wait to get started. Let's go!
