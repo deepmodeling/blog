@@ -70,3 +70,5 @@ vendors:
   internal: jsdelivr
   plugins: jsdelivr
 preconnect: true
+mermaid:
+  enable: true

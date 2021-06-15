@@ -46,6 +46,7 @@ highlight:
   auto_detect: true
 marked:
   lazyload: true
+  smartypants: false
 
 # Home page setting
 # path: Root path for your blogs index page. (default = '')
