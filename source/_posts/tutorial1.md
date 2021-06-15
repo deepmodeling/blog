@@ -40,9 +40,9 @@ where `npy` is the compressed format of the numpy, which is required by the DeeP
 We assume `OUTCAR` stores 1000 frames of molecular dynamics trajectory, then where will be 1000 points after converting.
 `set_size=200` means these 1000 points will be divided into 5 subsets, which is named as `data/set.000`~`data/set.004`, respectively.
 The size of each set is 200.
-In these 5 sets, `data/set.000`~`data/set.003` will be considered as the trainign set by the DeePMD-kit, and `data/set.004` will be considered as the test set.
+In these 5 sets, `data/set.000`~`data/set.003` will be considered as the training set by the DeePMD-kit, and `data/set.004` will be considered as the test set.
 The last set will be considered as the test set by the DeePMD-kit by default.
-If there is only one set, the set will be both the training set and the test set. (Of course, such the test set is meaningless.)
+If there is only one set, the set will be both the training set and the test set. (Of course, such test set is meaningless.)
 It's required to prepare an input script to start the DeePMD-kit training.
 Are you still out of the fear of being dominated by INCAR script? 
 Don't worry, it's much easier to configure the DeePMD-kit than configuring the VASP.
@@ -60,7 +60,7 @@ Here is the first parameter to modify:
 ```
 
 In the DeePMD-kit data, each atom type is numbered as an integer starting from 0.
-The parameter gices an element name to each atom in the numbering system.
+The parameter gives an element name to each atom in the numbering system.
 Here, we can copy from the content of `data/type_map.raw`.
 For example,
 
@@ -79,7 +79,7 @@ For example, `46` means there are at most 46 `O` (type `0`) neighbours.
 Here, our elements were modified to `A`, `B`, and `C`, so this parameters is also required to modify.
 What to do if you don’t know the maximum number of neighbors?
 You can be roughly estimate one by the density of the system, or try a number blindly.
-If it is not big enough, the DeePMD-kit will tell you. 
+If it is not big enough, the DeePMD-kit will shoot WARNINGS. 
 Below we changed it to 
 
 ```json
@@ -98,12 +98,15 @@ to
 "systems":     ["./data/"],
 ```
 
-It is the reason that the directory to write to is `./data/` in the current directory.
-Here I'd like to introduce the defination of the data system.
-The DeePMD-kit considers that data with the same atomic number and elements can form a system.
+It is because that the directory to write to is `./data/` in the current directory.
+Here I'd like to introduce the definition of the data system.
+The DeePMD-kit considers that data with corresponding element types and atomic numbers form a system.
 Our data is generated from a molecular dynamics simulation and meets this condition, so we can put them into one system.
-Dpdata also did so.
-If data cannot be put into a system, multiple systems is required to be set as a list.
+Dpdata works the same way.
+If data cannot be put into a system, multiple systems is required to be set as a list here:
+```json
+ "training": {
+        "systems": [system1, system2]
 
 Finnally, we are likely to modify another two parameters:
 
@@ -126,7 +129,7 @@ dp train input.json
 ```
 
 and wait for results. During the training process, we can see `lcurve.out` to observe the error reduction.
-Among them, Column 4 and 5 are the test and training errors of energy (normalize the number of atoms), and Column 6 and 7 are the test and training errors of the force. 
+Among them, Column 4 and 5 are the test and training errors of energy (normalized by the number of atoms), and Column 6 and 7 are the test and training errors of the force. 
 
 After training, we can use the following script to freeze the model:
 
@@ -136,4 +139,3 @@ dp freeze
 
 The default filename of the output model is `frozen_model.pb`. As so, we have got a good or bad DP model. 
 As for the reliability of this model and how to use it, I will give you a detailed tutorial in the next post.
-
