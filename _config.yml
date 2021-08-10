@@ -107,3 +107,8 @@ search:
   field: post
   content: true
   format: striptags
+
+pub_author:
+  - Weinan E
+  - Linfeng Zhang
+  - Han Wang

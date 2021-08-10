@@ -9,6 +9,11 @@ footer:
 scheme: Gemini
 menu:
   home: / || fa fa-home
+  Papers:
+    default: /papers || fas fa-university
+    Reviews: /reviews.html
+    Co-authored: /coauthored.html
+    Others: /others.html
   categories: /categories/ || fa fa-th
   archives: /archives/ || fa fa-archive
 menu_settings:
@@ -24,7 +29,7 @@ social_icons:
   transition: true
 #follow_me:
 mobile_layout_economy: true
-pjax: true
+pjax: false
 lazyload: true
 mediumzoom: true
 quicklink:
