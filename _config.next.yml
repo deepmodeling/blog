@@ -43,7 +43,7 @@ related_posts:
    enable: false
 post_edit:
   enable: true
-  url: https://github.com/deepmodeling/blog/tree/hexo/source/ # Link for view source.
+  url: https://github.com/deepmodeling/blog/tree/master/source/ # Link for view source.
 note:
   style: modern
   icons: true
