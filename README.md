@@ -1,6 +1,14 @@
 # The Deep Modeling Blog
 
-## Add a post
+[![jsDelivr hits](https://data.jsdelivr.com/v1/package/gh/deepmodeling/blog/badge/all?style=rounded)](https://www.jsdelivr.com/package/gh/deepmodeling/blog)
+[![jsDelivr monthly hits](https://data.jsdelivr.com/v1/package/gh/deepmodeling/blog/badge?style=rounded)](https://www.jsdelivr.com/package/gh/deepmodeling/blog)
+
+## For readers
+
+Visit our blog at https://deepmodeling.org/blog!
+
+## For editors
+### Add a post
 
 Add a markdown file to `source/_posts` directory, such as `some_post.md`, with the following format:
 
