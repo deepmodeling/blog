@@ -3,5 +3,12 @@ title: Papers citing DP
 ---
 
 - [Reviews](reviews.html).
-- [Co-authored by Weinan E, or Linfeng Zhang, or Han Wang](coauthored.html).
 - [Others](others.html).
+
+---
+title: Papers citing ABACUS
+---
+
+---
+title: Papers citing FEALPY
+---
