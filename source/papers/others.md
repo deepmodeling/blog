@@ -470,5 +470,5 @@ zhaiDiscoveryDesignSoft2020,
 zhaiInferringMicrobubbleDynamics2021,
 zhangArrestedPhaseSeparation2021a,
 zhangPhysicallyInspiredAtomcentered2021,
-zhaoAdaptiveGeneticAlgorithm2020
+zhaoAdaptiveGeneticAlgorithm2020, 
 {% endpublications %}
