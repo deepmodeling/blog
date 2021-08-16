@@ -747,7 +747,7 @@ __metadata:
     hexo-renderer-marked: 4.0.0
     hexo-renderer-stylus: 2.0.1
     hexo-server: 2.0.0
-    hexo-tag-publications: 0.2.1
+    hexo-tag-publications: 0.2.2
     hexo-theme-next: 8.7.0
     hexo-word-counter: 0.0.3
     hexo-yam: 5.0.0
@@ -1325,16 +1325,16 @@ fsevents@~2.3.1:
   languageName: node
   linkType: hard
 
-"hexo-tag-publications@npm:0.2.1":
-  version: 0.2.1
-  resolution: "hexo-tag-publications@npm:0.2.1"
+"hexo-tag-publications@npm:0.2.2":
+  version: 0.2.2
+  resolution: "hexo-tag-publications@npm:0.2.2"
   dependencies:
     bibtex-parse: ^2.1.0
     hexo-fs: ^3.1.0
     hexo-tag-injector: ^0.1.0
     hexo-util: ^2.4.0
     jsdelivr_url: ^0.0.1
-  checksum: 0c7fecb2fce2dfa3dc786c51db7e82af60d5aec4f9df1f6a8442b3b70ad85639b67913a94865c03f1e2e4190a8520eed01e16c690aa1a36b9a7592e28377a398
+  checksum: 9e30f44c6ce73aa9ffa596343f636362c01e7908246d44baeee40c6f7a20cd1e5d4a500b97cf3e827da02ef91dfa7535e5e45f6ad1767280f89a6f300e090be0
   languageName: node
   linkType: hard
 
