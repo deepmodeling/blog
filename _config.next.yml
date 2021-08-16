@@ -12,7 +12,6 @@ menu:
   Papers:
     default: /papers || fas fa-university
     Reviews: /reviews.html
-    Co-authored: /coauthored.html
     Others: /others.html
   categories: /categories/ || fa fa-th
   archives: /archives/ || fa fa-archive
