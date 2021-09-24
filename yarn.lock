@@ -748,7 +748,7 @@ __metadata:
     hexo-renderer-stylus: 2.0.1
     hexo-server: 2.0.0
     hexo-tag-publications: 0.2.2
-    hexo-theme-next: 8.7.0
+    hexo-theme-next: ^8.7.1
     hexo-word-counter: 0.0.3
     hexo-yam: 5.0.0
     jsdelivr_url: 0.0.1
@@ -1338,10 +1338,10 @@ fsevents@~2.3.1:
   languageName: node
   linkType: hard
 
-"hexo-theme-next@npm:8.7.0":
-  version: 8.7.0
-  resolution: "hexo-theme-next@npm:8.7.0"
-  checksum: 640c70a8887996be9b6dcc0e00c92f216ad3eb4459de421784dba974d9ca79bdc9be994968122e37b3cbce4fd5700e69058cb3f39882e2daeb5c0e0bddd134d1
+"hexo-theme-next@npm:^8.7.1":
+  version: 8.7.1
+  resolution: "hexo-theme-next@npm:8.7.1"
+  checksum: 669510c6db6d540dff17b159714e82733196fb77c49f888e72ba02d551992edee30834836a11375bf5cf296f5d53652436cbde260a9397ca71bebda93e788202
   languageName: node
   linkType: hard
 
