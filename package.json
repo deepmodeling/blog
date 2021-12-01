@@ -30,7 +30,7 @@
     "jsdelivr_url": "0.0.1"
   },
   "devDependencies": {
-    "hexo-yam": "5.0.0"
+    "hexo-yam": "6.0.0"
   },
   "resolutions": {
     "hexo-util": "2.5.0",
