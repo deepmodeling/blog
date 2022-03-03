@@ -91,8 +91,6 @@ google_analytics:
 custom_file_path:
   style: source/_data/styles.styl
   sidebar: source/_data/sidebar.njk
-sidebar:
-  #display: always
 toc:
   enable: false
 site_state: false
