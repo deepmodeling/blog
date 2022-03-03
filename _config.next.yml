@@ -10,10 +10,6 @@ scheme: Mist
 menu:
   home: https://deepmodeling.org || fa fa-home
   Blog: / || fa fa-blog
-  Papers:
-    default: /papers || fas fa-university
-    Reviews: /reviews.html
-    Others: /others.html
   Tutorial:
     default: /tutorial || fa fa-book
     "DeePMD-kit":
@@ -21,6 +17,10 @@ menu:
     "DP-GEN":
       default: /dpgen
   Docs: https://docs.deepmodeling.org || fa fa-book
+  Papers:
+    default: /papers || fas fa-university
+    Reviews: /reviews.html
+    Others: /others.html
   #categories: /categories/ || fa fa-th
   #archives: /archives/ || fa fa-archive
 menu_settings:
