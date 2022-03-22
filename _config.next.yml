@@ -6,23 +6,19 @@ footer:
   since: 2021
   icon:
     animated: true
-scheme: Mist
+scheme: Gemini
 menu:
   home: https://deepmodeling.org || fa fa-home
   Blog: / || fa fa-blog
   Tutorial:
-    default: /tutorial || fa fa-book
-    "DeePMD-kit":
-      default: /deepmd-kit
-    "DP-GEN":
-      default: /dpgen
+    default: https://tutorials.deepmodeling.org/ || fa fa-book
   Docs: https://docs.deepmodeling.org || fa fa-book
-  Papers:
+  Publications:
     default: /papers || fas fa-university
     Reviews: /reviews.html
     Others: /others.html
-  #categories: /categories/ || fa fa-th
-  #archives: /archives/ || fa fa-archive
+  categories: /categories/ || fa fa-th
+  archives: /archives/ || fa fa-archive
 menu_settings:
   badges: true
 social:
@@ -88,9 +84,6 @@ mermaid:
   enable: true
 google_analytics:
   tracking_id: G-862QCMLC31
-custom_file_path:
-  style: source/_data/styles.styl
-  sidebar: source/_data/sidebar.njk
 toc:
-  enable: false
+  enable: true
 site_state: false
