@@ -1,5 +1,5 @@
 ---
-title: Papers citing Deep Modeling's work
+title: Publications citing Deep Modeling's work
 ---
 
 - [Reviews](reviews.html).
