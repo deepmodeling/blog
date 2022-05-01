@@ -2,6 +2,7 @@
 title: Publications driven by DeePMD-kit
 date: 2022-05-01
 update: 2022-05-01
+mathjax: true
 ---
 
 The following publications have used the DeePMD-kit software. Publications that only mentioned the DeePMD-kit will not be included below.
