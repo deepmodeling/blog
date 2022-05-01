@@ -1,5 +1,5 @@
 ---
-title: Publications citing Deep Modeling's work
+title: Publications citing DeepModeling's work
 ---
 
 - [Reviews](reviews.html).
@@ -7,7 +7,7 @@ title: Publications citing Deep Modeling's work
 
 ## Classified by Project (in progress)
 
-- DeePMD-kit
+- [DeePMD-kit](deepmd-kit/)
 - DP-GEN
 - DeePKS-kit
 - RiD-kit
