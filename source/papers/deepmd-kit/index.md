@@ -26,7 +26,8 @@ Pan_JChemTheoryComput_2021_v17_p5745,
 Wu_PhysRevB_2021_v104_p174107,
 Zeng_EnergyFuels_2021_v35_p762,
 Zeng_JChemTheoryComput_2021_v17_p6993,
-Galib_Science_2021_v371_p921
+Galib_Science_2021_v371_p921,
+Lu_ComputerPhysicsCommunications_2021_v259_p107624
 {% endpublications %}
 
 ## 2020
@@ -40,11 +41,14 @@ Sommers_PhysChemChemPhys_2020_v22_p10592,
 Tuo_JChemPhys_2020_v152_p114105,
 Wang_SoftMatter_2020_v16_p8330,
 Zeng_NatCommun_2020_v11_p5713,
-Zhang_PhysRevB_2020_v102_p041121
+Zhang_PhysRevB_2020_v102_p041121,
+Zhang_ComputerPhysicsCommunications_2020_v253_p107206
 {% endpublications %}
 
 ## 2019
-
+{% publications %}
+Zhang_PhysRevMaterials_2019_v3_p023804
+{% endpublications}
 
 ## 2018
 {% publications %}
