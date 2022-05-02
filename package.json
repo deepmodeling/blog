@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "hexo": {
-    "version": "5.4.0"
+    "version": "6.1.0"
   },
   "scripts": {
     "build": "hexo g",
@@ -24,7 +24,7 @@
     "hexo-renderer-marked": "^5.0.0",
     "hexo-renderer-stylus": "2.0.1",
     "hexo-server": "3.0.0",
-    "hexo-tag-publications": "0.2.2",
+    "hexo-tag-publications": "0.2.5",
     "hexo-theme-next": "^8.11.1",
     "hexo-word-counter": "0.0.3",
     "jsdelivr_url": "0.0.1"
