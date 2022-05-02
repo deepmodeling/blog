@@ -21,7 +21,10 @@ Achar_JPhysChemC_2021_v125_p14874,
 Chen_ACSNano_2021_v15_p12418,
 Huang_JChemPhys_2021_v154_p094703,
 Pan_JChemTheoryComput_2021_v17_p5745,
-Wu_PhysRevB_2021_v104_p174107
+Wu_PhysRevB_2021_v104_p174107,
+Zeng_EnergyFuels_2021_v35_p762,
+Zeng_JChemTheoryComput_2021_v17_p6993,
+Galib_Science_2021_v371_p921
 {% endpublications %}
 
 ## 2020
@@ -44,5 +47,6 @@ Zhang_PhysRevB_2020_v102_p041121
 ## 2018
 {% publications %}
 Bonati_PhysRevLett_2018_v121_p265701,
-Chen_JPhysChemLett_2018_v9_p6702
+Chen_JPhysChemLett_2018_v9_p6702,
+Wang_ComputerPhysicsCommunications_2018_v228_p178
 {% endpublications %}

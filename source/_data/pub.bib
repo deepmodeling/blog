@@ -45,7 +45,7 @@
     author =   {Marcos F {Calegari Andrade} and Hsin-Yu Ko and Linfeng Zhang and
              Roberto Car and Annabella Selloni},
     title =    {{Free energy of proton transfer at the
-             water{\textendash}TiO<sub>2</sub> interface from <i>ab initio</i> deep
+             water{$\textendash$}TiO<sub>2</sub> interface from <i>ab initio</i> deep
              potential molecular dynamics}},
     journal =  {Chem. Sci.},
     year =     2020,
@@ -135,7 +135,7 @@
 @Article{Dai_JournalofMaterialsScienceTechnology_2020_v43_p168,
     author =   {Fu-Zhi Dai and Bo Wen and Yinjie Sun and Huimin Xiang and Yanchun Zhou},
     title =    {{Theoretical prediction on thermal and mechanical properties of high
-             entropy (Zr0.2Hf0.2Ti0.2Nb0.2Ta0.2)C by deep learning potential}},
+             entropy (Zr<sub>0.2</sub>Hf<sub>0.2</sub>Ti<sub>0.2</sub>Nb<sub>0.2</sub>Ta<sub>0.2</sub>)C by deep learning potential}},
     journal =  {Journal of Materials Science &amp; Technology},
     year =     2020,
     volume =   43,
@@ -217,7 +217,7 @@
              Asegun Henry and Eungkyu Lee and Tengfei Luo},
     title =    {{A deep neural network interatomic potential for studying thermal
              conductivity of
-             <b><i>{\ensuremath{\beta}}</i></b>-Ga<sub>2</sub>O<sub>3</sub>}},
+             <b><i>{$\ensuremath{\beta}$}</i></b>-Ga<sub>2</sub>O<sub>3</sub>}},
     journal =  {Appl. Phys. Lett.},
     year =     2020,
     volume =   117,
@@ -476,4 +476,103 @@
     issue =    4,
     pages =    041121,
     doi =      {10.1103/PhysRevB.102.041121},
+}
+
+@Article{Zeng_EnergyFuels_2021_v35_p762,
+    author =   {Jinzhe Zeng and Linfeng Zhang and Han Wang and Tong Zhu},
+    title =    {{Exploring the Chemical Space of Linear Alkane Pyrolysis via Deep
+             Potential GENerator}},
+    journal =  {Energy Fuels},
+    year =     2021,
+    volume =   35,
+    issue =    1,
+    pages =    {762--769},
+    doi =      {10.1021/acs.energyfuels.0c03211},
+}
+
+@Article{Zeng_JChemTheoryComput_2021_v17_p6993,
+    author =   {Jinzhe Zeng and Timothy J Giese and {\c{S}}{\"o}len Ekesan and Darrin
+             M York},
+    title =    {{Development of Range-Corrected Deep Learning Potentials for Fast,
+             Accurate Quantum Mechanical/Molecular Mechanical Simulations of
+             Chemical Reactions in Solution}},
+    journal =  {J. Chem. Theory Comput.},
+    year =     2021,
+    volume =   17,
+    issue =    11,
+    pages =    {6993--7009},
+    annote =   {We develop a new deep potential─range correction (DPRc) machine
+             learning potential for combined quantum mechanical/molecular
+             mechanical (QM/MM) simulations of chemical reactions in the condensed
+             phase. The new range correction enables short-ranged QM/MM
+             interactions to be tuned for higher accuracy, and the correction
+             smoothly vanishes within a specified cutoff. We further develop an
+             active learning procedure for robust neural network training. We test
+             the DPRc model and training procedure against a series of six
+             nonenzymatic phosphoryl transfer reactions in solution that are
+             important in mechanistic studies of RNA-cleaving enzymes.
+             Specifically, we apply DPRc corrections to a base QM model and test
+             its ability to reproduce free-energy profiles generated from a target
+             QM model. We perform these comparisons using the MNDO/d and DFTB2
+             semiempirical models because they differ in the way they treat orbital
+             orthogonalization and electrostatics and produce free-energy profiles
+             which differ significantly from each other, thereby providing us a
+             rigorous stress test for the DPRc model and training procedure. The
+             comparisons show that accurate reproduction of the free-energy
+             profiles requires correction of the QM/MM interactions out to 6
+             {\r{A}}. We further find that the model's initial training benefits
+             from generating data from temperature replica exchange simulations and
+             including high-temperature configurations into the fitting procedure,
+             so the resulting models are trained to properly avoid high-energy
+             regions. A single DPRc model was trained to reproduce four different
+             reactions and yielded good agreement with the free-energy profiles
+             made from the target QM/MM simulations. The DPRc model was further
+             demonstrated to be transferable to 2D free-energy surfaces and 1D
+             free-energy profiles that were not explicitly considered in the
+             training. Examination of the computational performance of the DPRc
+             model showed that it was fairly slow when run on CPUs but was sped up
+             almost 100-fold when using NVIDIA V100 GPUs, resulting in almost
+             negligible overhead. The new DPRc model and training procedure provide
+             a potentially powerful new tool for the creation of next-generation
+             QM/MM potentials for a wide spectrum of free-energy applications
+             ranging from drug discovery to enzyme design.},
+    PMCID =    {PMC8578402},
+    doi =      {10.1021/acs.jctc.1c00201},
+}
+
+@Article{Wang_ComputerPhysicsCommunications_2018_v228_p178,
+    author =   {Han Wang and Linfeng Zhang and Jiequn Han and Weinan E},
+    title =    {{DeePMD-kit: A deep learning package for many-body potential energy
+             representation and molecular dynamics}},
+    journal =  {Computer Physics Communications},
+    year =     2018,
+    volume =   228,
+    pages =    {178--184},
+    doi =      {10.1016/j.cpc.2018.03.016},
+}
+
+@Article{Galib_Science_2021_v371_p921,
+    author =   {Mirza Galib and David T Limmer},
+    title =    {{Reactive uptake of N             <sub>2</sub>             O
+             <sub>5</sub>             by atmospheric aerosol is dominated by
+             interfacial processes}},
+    journal =  {Science},
+    year =     2021,
+    volume =   371,
+    issue =    6532,
+    pages =    {921--925},
+    annote =   {Nitrogen oxides are removed from the troposphere through the reactive
+             uptake of N2O5 into aqueous aerosol. This process is thought to occur
+             within the bulk of an aerosol, through solvation and subsequent
+             hydrolysis. However, this perspective is difficult to reconcile with
+             field measurements and cannot be verified directly because of the fast
+             reaction kinetics of N2O5 Here, we use molecular simulations,
+             including reactive potentials and importance sampling, to study the
+             uptake of N2O5 into an aqueous aerosol. Rather than being mediated by
+             the bulk, uptake is dominated by interfacial processes due to facile
+             hydrolysis at the liquid-vapor interface and competitive
+             reevaporation. With this molecular information, we propose an
+             alternative interfacial reactive uptake model consistent with existing
+             experimental observations.},
+    doi =      {10.1126/science.abd7716},
 }
