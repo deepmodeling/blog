@@ -48,7 +48,7 @@ Zhang_ComputerPhysicsCommunications_2020_v253_p107206
 ## 2019
 {% publications %}
 Zhang_PhysRevMaterials_2019_v3_p023804
-{% endpublications}
+{% endpublications %}
 
 ## 2018
 {% publications %}
