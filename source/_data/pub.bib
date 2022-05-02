@@ -505,7 +505,7 @@
 }
 
 @Article{Zeng_JChemTheoryComput_2021_v17_p6993,
-    author =   {Jinzhe Zeng and Timothy J Giese and {\c{S}}{\"o}len Ekesan and Darrin
+    author =   {Jinzhe Zeng and Timothy J Giese and Şölen Ekesan and Darrin
              M York},
     title =    {{Development of Range-Corrected Deep Learning Potentials for Fast,
              Accurate Quantum Mechanical/Molecular Mechanical Simulations of
@@ -658,4 +658,356 @@
     pages =    023804,
     doi =      {10.1103/PhysRevMaterials.3.023804},
     image = {https://journals.aps.org/prmaterials/article/10.1103/PhysRevMaterials.3.023804/figures/1/medium},
+}
+
+@Article{Zhang_JChemPhys_2018_v149_p154107,
+    author =   {Linfeng Zhang and Han Wang and Weinan E},
+    title =    {{Adaptive coupling of a deep neural network potential to a classical
+             force field}},
+    journal =  {J. Chem. Phys.},
+    year =     2018,
+    volume =   149,
+    issue =    15,
+    pages =    154107,
+    annote =   {An adaptive modeling method (AMM) that couples a deep neural network
+             potential and a classical force field is introduced to address the
+             accuracy-efficiency dilemma faced by the molecular simulation
+             community. The AMM simulated system is decomposed into three types of
+             regions. The first type captures the important phenomena in the system
+             and requires high accuracy, for which we use the Deep Potential
+             Molecular Dynamics (DeePMD) model in this work. The DeePMD model is
+             trained to accurately reproduce the statistical properties of the ab
+             initio molecular dynamics. The second type does not require high
+             accuracy, and a classical force field is used to describe it in an
+             efficient way. The third type is used for a smooth transition between
+             the first and the second types of regions. By using a force
+             interpolation scheme and imposing a thermodynamics force in the
+             transition region, we make the DeePMD region embedded in the AMM
+             simulated system as if it were embedded in a system that is fully
+             described by the accurate potential. A representative example of the
+             liquid water system is used to show the feasibility and promise of
+             this method.},
+    doi =      {10.1063/1.5042714},
+    image = {https://aip.scitation.org/na101/home/literatum/publisher/aip/journals/content/jcp/2018/jcp.2018.149.issue-15/1.5042714/20181017/images/small/1.5042714.figures.online.f1.gif},
+}
+
+@Article{Zhang_JChemPhys_2018_v149_p034101,
+    author =   {Linfeng Zhang and Jiequn Han and Han Wang and Roberto Car and Weinan E},
+    title =    {{DeePCG: Constructing coarse-grained models via deep neural networks}},
+    journal =  {J. Chem. Phys.},
+    year =     2018,
+    volume =   149,
+    issue =    3,
+    pages =    034101,
+    annote =   {We introduce a general framework for constructing coarse-grained
+             potential models without ad hoc approximations such as limiting the
+             potential to two- and/or three-body contributions. The scheme, called
+             the Deep Coarse-Grained Potential (abbreviated DeePCG), exploits a
+             carefully crafted neural network to construct a many-body coarse-
+             grained potential. The network is trained with full atomistic data in
+             a way that preserves the natural symmetries of the system. The
+             resulting model is very accurate and can be used to sample the
+             configurations of the coarse-grained variables in a much faster way
+             than with the original atomistic model. As an application, we consider
+             liquid water and use the oxygen coordinates as the coarse-grained
+             variables, starting from a full atomistic simulation of this system at
+             the ab initio molecular dynamics level. We find that the two-body,
+             three-body, and higher-order oxygen correlation functions produced by
+             the coarse-grained and full atomistic models agree very well with each
+             other, illustrating the effectiveness of the DeePCG model on a rather
+             challenging task.},
+    doi =      {10.1063/1.5027645},
+    image = {https://aip.scitation.org/na101/home/literatum/publisher/aip/journals/content/jcp/2018/jcp.2018.149.issue-3/1.5027645/20180716/images/small/1.5027645.figures.online.f1.gif},
+}
+
+@Article{Ko_MolecularPhysics_2019_v117_p3269,
+    author =   {Hsin-Yu Ko and Linfeng Zhang and Biswajit Santra and Han Wang and
+             Weinan E and Robert A. {DiStasio Jr} and Roberto Car},
+    title =    {{Isotope effects in liquid water via deep potential molecular dynamics}},
+    journal =  {Molecular Physics},
+    year =     2019,
+    volume =   117,
+    issue =    22,
+    pages =    {3269--3281},
+    doi =      {10.1080/00268976.2019.1652366},
+    image = {https://www.tandfonline.com/na101/home/literatum/publisher/tandf/journals/content/tmph20/2019/tmph20.v117.i22/00268976.2019.1652366/20200220/images/medium/tmph_a_1652366_uf0001_oc.jpg},
+}
+@Article{Wang_ApplPhysLett_2019_v114_p244101,
+    author =   {Hao Wang and Xun Guo and Linfeng Zhang and Han Wang and Jianming Xue},
+    title =    {{Deep learning inter-atomic potential model for accurate irradiation
+             damage simulations}},
+    journal =  {Appl. Phys. Lett.},
+    year =     2019,
+    volume =   114,
+    issue =    24,
+    pages =    244101,
+    doi =      {10.1063/1.5098061},
+    image = {https://aip.scitation.org/na101/home/literatum/publisher/aip/journals/content/apl/2019/apl.2019.114.issue-24/1.5098061/20190615/images/small/1.5098061.figures.online.f1.gif},
+}
+@Article{Xu_PhysRevB_2020_v102_p214113,
+    author =   {Jianhang Xu and Chunyi Zhang and Linfeng Zhang and Mohan Chen and
+             Biswajit Santra and Xifan Wu},
+    title =    {{Isotope effects in molecular structures and electronic properties of
+             liquid water via deep potential molecular dynamics based on the SCAN
+             functional}},
+    journal =  {Phys. Rev. B},
+    year =     2020,
+    volume =   102,
+    issue =    21,
+    pages =    214113,
+    doi =      {10.1103/PhysRevB.102.214113},
+    image = {https://journals.aps.org/prb/article/10.1103/PhysRevB.102.214113/figures/1/thumbnail},
+}
+@Article{Andreani_JPhysChemLett_2020_v11_p9461,
+    author =   {Carla Andreani and Giovanni Romanelli and Alexandra Parmentier and
+             Roberto Senesi and Alexander I Kolesnikov and Hsin-Yu Ko and Marcos F
+             {Calegari Andrade} and Roberto Car},
+    title =    {{Hydrogen Dynamics in Supercritical Water Probed by Neutron Scattering
+             and Computer Simulations}},
+    journal =  {J. Phys. Chem. Lett.},
+    year =     2020,
+    volume =   11,
+    issue =    21,
+    pages =    {9461--9467},
+    annote =   {In this work, an investigation of supercritical water is presented
+             combining inelastic and deep inelastic neutron scattering experiments
+             and molecular dynamics simulations based on a machine-learned
+             potential of ab initio quality. The local hydrogen dynamics is
+             investigated at 250 bar and in the temperature range of 553-823 K,
+             covering the evolution from subcritical liquid to supercritical gas-
+             like water. The evolution of libration, bending, and stretching
+             motions in the vibrational density of states is studied, analyzing the
+             spectral features by a mode decomposition. Moreover, the hydrogen
+             nuclear momentum distribution is measured, and its anisotropy is
+             probed experimentally. It is shown that hydrogen bonds survive up to
+             the higher temperatures investigated, and we discuss our results in
+             the framework of the coupling between intramolecular modes and
+             intermolecular librations. Results show that the local potential
+             affecting hydrogen becomes less anisotropic within the molecular plane
+             in the supercritical phase, and we attribute this result to the
+             presence of more distorted hydrogen bonds.},
+    doi =      {10.1021/acs.jpclett.0c02547},
+    image = {https://pubs.acs.org/cms/10.1021/acs.jpclett.0c02547/asset/images/medium/jz0c02547_0004.gif},
+}
+
+@Article{Li_MaterialsTodayPhysics_2020_v12_p100181,
+    author =   {R. Li and E. Lee and T. Luo},
+    title =    {{A unified deep neural network potential capable of predicting thermal
+             conductivity of silicon in different phases}},
+    journal =  {Materials Today Physics},
+    year =     2020,
+    volume =   12,
+    pages =    100181,
+    doi =      {10.1016/j.mtphys.2020.100181},
+    image={https://ars.els-cdn.com/content/image/1-s2.0-S2542529320300055-fx1.jpg},
+}
+
+@Article{Wang_JPhysChemB_2020_v124_p3027,
+    author =   {Zhilong Wang and Yanqiang Han and Jinjin Li and Xiao He},
+    title =    {{Combining the Fragmentation Approach and Neural Network Potential
+             Energy Surfaces of Fragments for Accurate Calculation of Protein
+             Energy}},
+    journal =  {J. Phys. Chem. B},
+    year =     2020,
+    volume =   124,
+    issue =    15,
+    pages =    {3027--3035},
+    annote =   {Accurate and efficient all-atom quantum mechanical (QM) calculations
+             for biomolecules still present a challenge to computational physicists
+             and chemists. In this study, an extensible generalized molecular
+             fractionation with a conjugate caps method combined with neural
+             networks (NN-GMFCC) is developed for efficient QM calculation of
+             protein energy. In the NN-GMFCC scheme, the total energy of a given
+             protein is calculated by taking a proper combination of the high-
+             precision neural network potential energies of all capped residues and
+             overlapping conjugate caps. In addition, the two-body interaction
+             energies of residue pairs are calculated by molecular mechanics (MM).
+             With reference to the GMFCC/MM calculation at the
+             {\ensuremath{\omega}}B97XD/6-31G* level, the overall mean unsigned
+             errors of the energy deviations and atomic force root-mean-squared
+             errors calculated by NN-GMFCC are only 2.01 kcal/mol and 0.68
+             kcal/mol/{\r{A}}, respectively, for 14 proteins (containing up to
+             13,728 atoms). Meanwhile, the NN-GMFCC approach is about 4 orders of
+             magnitude faster than the GMFCC/MM method. The NN-GMFCC method could
+             be systematically improved by inclusion of two-body QM interaction and
+             multibody electronic polarization effect. Moreover, the NN-GMFCC
+             approach can also be applied to other macromolecular systems such as
+             DNA/RNA, and it is capable of providing a powerful and efficient
+             approach for exploration of structures and functions of proteins with
+             QM accuracy.},
+    doi =      {10.1021/acs.jpcb.0c01370},
+    image = {https://pubs.acs.org/cms/10.1021/acs.jpcb.0c01370/asset/images/medium/jp0c01370_0008.gif},
+}
+@Article{Xu_JPhysChemC_2020_v124_p16278,
+    author =   {Nan Xu and Yao Shi and Yi He and Qing Shao},
+    title =    {{A Deep-Learning Potential for Crystalline and Amorphous
+             Li{-}Si Alloys}},
+    journal =  {J. Phys. Chem. C},
+    year =     2020,
+    volume =   124,
+    issue =    30,
+    pages =    {16278--16288},
+    doi =      {10.1021/acs.jpcc.0c03333},
+    image = {https://pubs.acs.org/cms/10.1021/acs.jpcc.0c03333/asset/images/medium/jp0c03333_0010.gif},
+}
+@Article{Tang_PhysChemChemPhys_2020_v22_p18467,
+    author =   {L {Tang                                  } and Z J {Yang
+             } and T Q {Wen                                  } and K M {Ho
+             } and M J {Kramer                                  } and C Z {Wang
+             }},
+    title =    {{Development of interatomic potential for Al{-}Tb alloys
+             using a deep neural network learning method}},
+    journal =  {Phys. Chem. Chem. Phys.},
+    year =     2020,
+    volume =   22,
+    issue =    33,
+    pages =    {18467--18479},
+    annote =   {An interatomic potential for the Al-Tb alloy around the composition of
+             Al90Tb10 is developed using the deep neural network (DNN) learning
+             method. The atomic configurations and the corresponding total
+             potential energies and forces on each atom obtained from ab initio
+             molecular dynamics (AIMD) simulations are collected to train a DNN
+             model to construct the interatomic potential for the Al-Tb alloy. We
+             show that the obtained DNN model can well reproduce the energies and
+             forces calculated by AIMD simulations. Molecular dynamics (MD)
+             simulations using the DNN interatomic potential also accurately
+             describe the structural properties of the Al90Tb10 liquid, such as
+             partial pair correlation functions (PPCFs) and bond angle
+             distributions, in comparison with the results from AIMD simulations.
+             Furthermore, the developed DNN interatomic potential predicts the
+             formation energies of the crystalline phases of the Al-Tb system with
+             an accuracy comparable to ab initio calculations. The structure
+             factors of the Al90Tb10 metallic liquid and glass obtained by MD
+             simulations using the developed DNN interatomic potential are also in
+             good agreement with the experimental X-ray diffraction data. The
+             development of short-range order (SRO) in the Al90Tb10 liquid and the
+             undercooled liquid is also analyzed and three dominant SROs, i.e., Al-
+             centered distorted icosahedron (DISICO) and Tb-centered '3661' and
+             '15551' clusters, respectively, are identified.},
+    doi =      {10.1039/D0CP01689F},
+}
+@Article{Zhang_PhysRevB_2020_v102_p115155,
+    author =   {Chunyi Zhang and Linfeng Zhang and Jianhang Xu and Fujie Tang and
+             Biswajit Santra and Xifan Wu},
+    title =    {{Isotope effects in x-ray absorption spectra of liquid water}},
+    journal =  {Phys. Rev. B},
+    year =     2020,
+    volume =   102,
+    issue =    11,
+    pages =    115155,
+    doi =      {10.1103/PhysRevB.102.115155},
+    image = {https://journals.aps.org/prb/article/10.1103/PhysRevB.102.115155/figures/1/thumbnail},
+}
+@Article{Zhang_PhysicsofPlasmas_2020_v27_p122704,
+    author =   {Yuzhi Zhang and Chang Gao and Qianrui Liu and Linfeng Zhang and Han
+             Wang and Mohan Chen},
+    title =    {{Warm dense matter simulation via electron temperature dependent deep
+             potential molecular dynamics}},
+    journal =  {Physics of Plasmas},
+    year =     2020,
+    volume =   27,
+    issue =    12,
+    pages =    122704,
+    doi =      {10.1063/5.0023265},
+    image = {https://aip.scitation.org/na101/home/literatum/publisher/aip/journals/content/php/2020/php.2020.27.issue-12/5.0023265/20201218/images/small/5.0023265.figures.online.f1.gif},
+}
+@Article{Liang_AdvTheorySimul_2020_v3_p2000180,
+    author =   {Wenshuo Liang and Guimin Lu and Jianguo Yu},
+    title =    {{Molecular Dynamics Simulations of Molten Magnesium Chloride Using
+             Machine{-}Learning{-}Based Deep Potential}},
+    journal =  {Adv. Theory Simul.},
+    year =     2020,
+    volume =   3,
+    issue =    12,
+    pages =    2000180,
+    doi =      {10.1002/adts.202000180},
+    image  = {https://onlinelibrary.wiley.com/cms/asset/a72ecdaf-9ee9-4a5e-a069-c4e0b28a8e02/adts202000180-fig-0001-m.png},
+}
+@Article{Pan_ComputationalMaterialsScience_2020_v185_p109955,
+    author =   {Gechuanqi Pan and Pin Chen and Hui Yan and Yutong Lu},
+    title =    {{A DFT accurate machine learning description of molten ZnCl2 and its
+             mixtures: 1. Potential development and properties prediction of molten
+             ZnCl2}},
+    journal =  {Computational Materials Science},
+    year =     2020,
+    volume =   185,
+    pages =    109955,
+    doi =      {10.1016/j.commatsci.2020.109955},
+    image = {https://ars.els-cdn.com/content/image/1-s2.0-S0927025620304468-ga1.jpg},
+}
+@Article{Dai_JournaloftheEuropeanCeramicSociety_2020_v40_p5029,
+    author =   {Fu-Zhi Dai and Bo Wen and Huimin Xiang and Yanchun Zhou},
+    title =    {{Grain boundary strengthening in ZrB2 by segregation of W: Atomistic
+             simulations with deep learning potential}},
+    journal =  {Journal of the European Ceramic Society},
+    year =     2020,
+    volume =   40,
+    issue =    15,
+    pages =    {5029--5036},
+    doi =      {10.1016/j.jeurceramsoc.2020.06.007},
+    image = {https://ars.els-cdn.com/content/image/1-s2.0-S0955221920304581-gr1.jpg},
+}
+@Article{Wang_FrontChem_2020_v8_p589795,
+    author =   {Haidi Wang and Yuzhi Zhang and Linfeng Zhang and Han Wang},
+    title =    {{Crystal Structure Prediction of Binary Alloys via Deep Potential}},
+    journal =  {Front. Chem.},
+    year =     2020,
+    volume =   8,
+    pages =    589795,
+    annote =   {Predicting crystal structure has been a challenging problem in physics
+             and materials science for a long time. A reliable energy calculation
+             engine combined with an efficient global search algorithm, such as
+             particle swarm optimization algorithm or genetic algorithm, is needed
+             to conduct crystal structure prediction. In recent years, machine
+             learning-based interatomic potential energy surface models have been
+             proposed, potentially allowing us to perform crystal structure
+             prediction for systems with the accuracy of density functional theory
+             (DFT) and the speed of empirical force fields. In this paper, we
+             employ a previously developed Deep Potential model to predict the
+             intermetallic compound of the aluminum-magnesium system, and find six
+             meta-stable phases with negative or nearly zero formation energy. In
+             particular, Mg12Al8 shows excellent ductility and Mg5Al27 has a high
+             Young's modulus. Based on our benchmark results, we propose a
+             relatively robust structure screening criterion that selects
+             potentially stable structures from the Deep Potential-based convex
+             hull and performs DFT refinement. By using this criterion, the
+             computational cost needed to construct the convex hull with ab initio
+             accuracy can be dramatically reduced.},
+    PMCID =    {PMC7732660},
+    doi =      {10.3389/fchem.2020.589795},
+    image = {https://www.frontiersin.org/files/Articles/589795/fchem-08-589795-HTML/image_t/fchem-08-589795-g001.gif},
+}
+@Article{Balyakin_PhysRevE_2020_v102_p052125,
+    author =   {I A Balyakin and S V Rempel and R E Ryltsev and A A Rempel},
+    title =    {{Deep machine learning interatomic potential for liquid silica}},
+    journal =  {Phys. Rev. E},
+    year =     2020,
+    volume =   102,
+    issue =    {5-1},
+    pages =    052125,
+    annote =   {The use of machine learning to develop neural network potentials (NNP)
+             representing the interatomic potential energy surface allows us to
+             achieve an optimal balance between accuracy and efficiency in computer
+             simulation of materials. A key point in developing such potentials is
+             the preparation of a training dataset of ab initio trajectories. Here
+             we apply a deep potential molecular dynamics (DeePMD) approach to
+             develop NNP for silica, which is the representative glassformer widely
+             used as a model system for simulating network-forming liquids and
+             glasses. We show that the use of a relatively small training dataset
+             of high-temperature ab initio configurations is enough to fabricate
+             NNP, which describes well both structural and dynamical properties of
+             liquid silica. In particular, we calculate the pair correlation
+             functions, angular distribution function, velocity autocorrelation
+             functions, vibrational density of states, and mean-square displacement
+             and reveal a close agreement with ab initio data. We show that NNP
+             allows us to expand significantly the time-space scales achievable in
+             simulations and thus calculating dynamical and transport properties
+             with more accuracy than that for ab initio methods. We find that
+             developed NNP allows us to describe the structure of the glassy silica
+             with satisfactory accuracy even though no low-temperature
+             configurations were included in the training procedure. The results
+             obtained open up prospects for simulating structural and dynamical
+             properties of liquids and glasses via NNP.},
+    doi =      {10.1103/PhysRevE.102.052125},
+    image = {https://journals.aps.org/pre/article/10.1103/PhysRevE.102.052125/figures/1/thumbnail},
 }

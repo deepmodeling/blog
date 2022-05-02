@@ -42,17 +42,37 @@ Tuo_JChemPhys_2020_v152_p114105,
 Wang_SoftMatter_2020_v16_p8330,
 Zeng_NatCommun_2020_v11_p5713,
 Zhang_PhysRevB_2020_v102_p041121,
-Zhang_ComputerPhysicsCommunications_2020_v253_p107206
+Zhang_ComputerPhysicsCommunications_2020_v253_p107206,
+Xu_PhysRevB_2020_v102_p214113,
+Andreani_JPhysChemLett_2020_v11_p9461,
+Li_MaterialsTodayPhysics_2020_v12_p100181,
+Wang_JPhysChemB_2020_v124_p3027,
+Xu_JPhysChemC_2020_v124_p16278,
+Tang_PhysChemChemPhys_2020_v22_p18467,
+Zhang_PhysRevB_2020_v102_p115155,
+Zhang_PhysicsofPlasmas_2020_v27_p122704,
+Liang_AdvTheorySimul_2020_v3_p2000180,
+Dai_JournaloftheEuropeanCeramicSociety_2020_v40_p5029,
+Wang_FrontChem_2020_v8_p589795,
+Balyakin_PhysRevE_2020_v102_p052125,
+CalegariAndrade_PhysRevMaterials_2020_v4_p113803,
+Gartner_ProcNatlAcadSciUSA_2020_v117_p26040
 {% endpublications %}
 
 ## 2019
 {% publications %}
-Zhang_PhysRevMaterials_2019_v3_p023804
+Zhang_PhysRevMaterials_2019_v3_p023804,
+Ko_MolecularPhysics_2019_v117_p3269,
+Wen_PhysRevB_2019_v100_p174101,
+Wang_ApplPhysLett_2019_v114_p244101
 {% endpublications %}
 
 ## 2018
 {% publications %}
 Bonati_PhysRevLett_2018_v121_p265701,
 Chen_JPhysChemLett_2018_v9_p6702,
+Zhang_JChemPhys_2018_v149_p154107,
+Zhang_JChemPhys_2018_v149_p034101,
+Zhang_PhysRevLett_2018_v120_p143001,
 Wang_ComputerPhysicsCommunications_2018_v228_p178
 {% endpublications %}
