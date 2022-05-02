@@ -27,7 +27,7 @@ social:
   Twitter: https://twitter.com/DeepModeling || fab fa-twitter
   Wechat: https://open.weixin.qq.com/qr/code?username=deepmd || fab fa-weixin
   Zhihu: https://www.zhihu.com/org/shen-du-shi-neng-deep-potential || fab fa-zhihu
-  Bilibili: https://space.bilibili.com/626179751/ || fa fa-video
+  Bilibili: https://space.bilibili.com/626179751/ || fa-brands fa-bilibili
 social_icons:
   icons_only: true
   transition: true
