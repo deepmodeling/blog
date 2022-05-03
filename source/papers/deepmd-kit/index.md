@@ -1,7 +1,7 @@
 ---
 title: Publications driven by DeePMD-kit
 date: 2022-05-01
-update: 2022-05-01
+update: 2022-05-02
 mathjax: true
 ---
 
@@ -27,7 +27,56 @@ Wu_PhysRevB_2021_v104_p174107,
 Zeng_EnergyFuels_2021_v35_p762,
 Zeng_JChemTheoryComput_2021_v17_p6993,
 Galib_Science_2021_v371_p921,
-Lu_ComputerPhysicsCommunications_2021_v259_p107624
+Lu_ComputerPhysicsCommunications_2021_v259_p107624,
+Garcia_JPhysChemC_2021_v125_p27130,
+Rodriguez_ACSApplMaterInterfaces_2021_v13_p55367,
+Tisi_PhysRevB_2021_v104_p224202,
+Wen_npjComputMater_2021_v7_p206,
+Gupta_EnergyEnvironSci_2021_v14_p6554,
+Cheng_NatCommun_2021_v12_p6901,
+Shi_MaterialsScienceinSemiconductorProcessing_2021_v136_p106146,
+Tang_JChemPhys_2021_v155_p194503,
+Pinheiro_ChemSci_2021_v12_p14396,
+Wang_JournalofAppliedPhysics_2021_v130_p185103,
+Daniels_JPhysChemC_2021_v125_p24440,
+Calio_JAmChemSoc_2021_v143_p18672,
+Cheng_AIPAdvances_2021_v11_p015043,
+Chen_ChinJChem_2021_v39_p3029,
+Shi_JPhysChemLett_2021_v12_p10310,
+Niblett_JChemPhys_2021_v155_p164101,
+Zhang_JPhysChemB_2021_v125_p11444,
+ZepedaNunez_JournalofComputationalPhysics_2021_v443_p110523,
+Jin_PhysChemChemPhys_2021_v23_p21470,
+Bu_SolarEnergyMaterialsandSolarCells_2021_v232_p111346,
+Torres_JPhysChemB_2021_v125_p10772,
+Deng_GeophysResLett_2021_v48_p093806,
+Zeng_PhysRevResearch_2021_v3_p033116,
+Yang_PhysRevLett_2021_v127_p080603,
+Andolina_JPhysChemC_2021_v125_p17438,
+Akhanda_PhysRevMater_2021_v5_p083804,
+Luo_GeophysResLett_2021_v48_p093573,
+Xu_FrontChem_2021_v9_p692200,
+Luo_GeochimicaetCosmochimicaActa_2021_v303_p38,
+Zhang_PhysRevLett_2021_v126_p236001,
+Liang_JMaterSciTech_2021_v75_p78,
+Guo_MaterialsTodayEnergy_2021_v20_p100665,
+Piaggi_JChemTheoryComput_2021_v17_p3065,
+Dai_JMaterSciTech_2021_v72_p8,
+Zhao_Ionics_2021_v27_p2079,
+Jiang_ChinesePhysB_2021_v30_p050706,
+Shang_AIPAdvances_2021_v11_p035105,
+Liu_MatterRadiationExtremes_2021_v6_p2,
+Zhang_JPhysChemC_2021_v125_p3127,
+Piaggi_MolecularPhysics_2021_v119_p1916634,
+Li_JChemTheoryComput_2022_v18_p2124,
+Feng_ComputationalMaterialsScience_2021_vNone_p111014,
+Luo_GeochemPerspLet_2021_vNone_p19,
+Tang_ActaMaterialia_2021_v204_p116513,
+Pan_ComputationalMaterialsScience_2021_v187_p110055,
+Wu_PhysRevB_2021_v103_p024108,
+Liang_ACSApplMaterInterfaces_2021_v13_p4034,
+Li_InorgChemFront_2021_v8_p425,
+Yue_JChemPhys_2021_v154_p034111
 {% endpublications %}
 
 ## 2020
