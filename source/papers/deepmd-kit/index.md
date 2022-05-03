@@ -140,5 +140,6 @@ Chen_JPhysChemLett_2018_v9_p6702,
 Zhang_JChemPhys_2018_v149_p154107,
 Zhang_JChemPhys_2018_v149_p034101,
 Zhang_PhysRevLett_2018_v120_p143001,
-Wang_ComputerPhysicsCommunications_2018_v228_p178
+Wang_ComputerPhysicsCommunications_2018_v228_p178,
+Zhang_PhysRevLett_2018_v120_p143001
 {% endpublications %}
