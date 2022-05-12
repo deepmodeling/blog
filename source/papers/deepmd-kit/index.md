@@ -9,6 +9,9 @@ The following publications have used the DeePMD-kit software. Publications that 
 
 ## 2022
 {% publications %}
+Zhang_NatCommun_2022_v13_p822,
+Yang_Chemphyschem_2022_v23_pe202100841,
+He_PhysRevB_2022_v105_p064104,
 Ding_MaterialsScienceinSemiconductorProcessing_2022_v143_p106513,
 Jiao_AdvSci_2022_v9_pe2105574,
 Wang_Carbon_2022_v186_p1,

@@ -1,0 +1,56 @@
+---
+title: Publications driven by DP-GEN
+date: 2022-05-11
+update: 2022-05-11
+mathjax: true
+---
+
+The following publications have used the DP-GEN software. Publications that only mentioned the DP-GEN will not be included below.
+
+## 2022
+{% publications %}
+Zhang_NatCommun_2022_v13_p822,
+Pegolo_npjComputMater_2022_v8_p24,
+Fu_JournalofEnergyChemistry_2022_v70_p59,
+Ding_MaterialsScienceinSemiconductorProcessing_2022_v143_p106513,
+Yang_Chemphyschem_2022_v23_pe202100841,
+Jiao_AdvSci_2022_v9_pe2105574,
+Zhang_JChemPhys_2022_v156_p124107,
+Wang_ModellingSimulMaterSciEng_2022_v30_p025003,
+Yang_CatalysisToday_2022_v387_p143,
+Guo_JournalofMolecularLiquids_2022_v348_p118380,
+He_PhysRevB_2022_v105_p064104,
+Zhou_CementandConcreteResearch_2022_v152_p106685
+{% endpublications %}
+
+## 2021
+{% publications %}
+Garcia_JPhysChemC_2021_v125_p27130,
+Wen_npjComputMater_2021_v7_p206,
+Shi_MaterialsScienceinSemiconductorProcessing_2021_v136_p106146,
+Zeng_JChemTheoryComput_2021_v17_p6993,
+Wu_PhysRevB_2021_v104_p174107,
+Yang_PhysRevLett_2021_v127_p080603,
+Luo_GeophysResLett_2021_v48_p093573,
+Zhang_PhysRevLett_2021_v126_p236001,
+Guo_MaterialsTodayEnergy_2021_v20_p100665,
+Piaggi_JChemTheoryComput_2021_v17_p3065,
+Jiang_ChinesePhysB_2021_v30_p050706,
+Huang_JChemPhys_2021_v154_p094703,
+Shang_AIPAdvances_2021_v11_p035105,
+Wu_PhysRevB_2021_v103_p024108,
+Li_InorgChemFront_2021_v8_p425,
+Zeng_EnergyFuels_2021_v35_p762,
+Luo_GeochemPerspLet_2021_vNone_p19,
+Cheng_AIPAdvances_2021_v11_p015043
+{% endpublications %}
+
+## 2020
+{% publications %}
+Wang_FrontChem_2020_v8_p589795,
+Gartner_ProcNatlAcadSciUSA_2020_v117_p26040,
+Xu_JPhysChemC_2020_v124_p16278,
+Zhang_PhysRevB_2020_v102_p041121,
+Sommers_PhysChemChemPhys_2020_v22_p10592,
+Zhang_ComputerPhysicsCommunications_2020_v253_p107206
+{% endpublications %}

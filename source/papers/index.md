@@ -8,7 +8,7 @@ title: Publications citing DeepModeling's work
 ## Classified by Project (in progress)
 
 - [DeePMD-kit](deepmd-kit/)
-- DP-GEN
+- [DP-GEN](dpgen/)
 - DeePKS-kit
 - RiD-kit
 - ABACUS
