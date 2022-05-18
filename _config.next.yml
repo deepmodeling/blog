@@ -6,6 +6,9 @@ footer:
   since: 2021
   icon:
     animated: true
+  beian:
+    enable: true
+    icp: "京ICP备20010051号-8"
 scheme: Gemini
 menu:
   home: https://deepmodeling.org || fa fa-home
