@@ -11,11 +11,11 @@ footer:
     icp: "京ICP备20010051号-8"
 scheme: Gemini
 menu:
-  home: https://deepmodeling.org || fa fa-home
+  home: https://deepmodeling.com || fa fa-home
   Blog: / || fa fa-blog
   Tutorial:
-    default: https://tutorials.deepmodeling.org/ || fa fa-book
-  Docs: https://docs.deepmodeling.org || fa fa-book
+    default: https://tutorials.deepmodeling.com/ || fa fa-book
+  Docs: https://docs.deepmodeling.com || fa fa-book
   Publications:
     default: /papers || fas fa-university
     Reviews: /reviews.html

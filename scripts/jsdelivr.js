@@ -1,5 +1,4 @@
-const crypto = require('crypto');
-const { gh_url } = require("jsdelivr_url");
+const { npm_url } = require("unpkg_url");
 
 hexo.extend.filter.register('after_generate', () => {
   // remove all images
@@ -11,7 +10,7 @@ hexo.extend.filter.register('after_generate', () => {
 hexo.on('generateBefore', function () {
 
   // icons
-  const avatar_url = "https://avatars.githubusercontent.com/u/32671488?s=200&v=4";
+  const avatar_url = npm_url("@njzjz/icons", "0.0.4", "logos/deepmodeling.png");
   hexo.theme.config.avatar.url = avatar_url;
   hexo.theme.config.favicon.small = avatar_url;
   hexo.theme.config.favicon.medium = avatar_url;
