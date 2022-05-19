@@ -80,8 +80,8 @@ links_settings:
 links:
 
 vendors:
-  internal: jsdelivr
-  plugins: jsdelivr
+  internal: cdnjs
+  plugins: cdnjs
 preconnect: true
 mermaid:
   enable: true
