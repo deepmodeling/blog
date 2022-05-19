@@ -1059,10 +1059,10 @@ hexo-word-counter@0.0.3:
   dependencies:
     hexo-util "2.4.0"
 
-hexo-yam@6.0.0:
-  version "6.0.0"
-  resolved "https://registry.yarnpkg.com/hexo-yam/-/hexo-yam-6.0.0.tgz#b76de7d4520fd48d2fbc186f77b76c2fb25b3162"
-  integrity sha512-vy2wF+ApASNmk6UZhQbHoMnBXk9USohCGeE9ApHhqDahiYbLJ/b4kBOkLRfRKPyCqdrA9RGNEtAp8gg0NL/jpw==
+hexo-yam@7.0.0:
+  version "7.0.0"
+  resolved "https://registry.yarnpkg.com/hexo-yam/-/hexo-yam-7.0.0.tgz#d638f63ee91bc29f59df6356159cd94c754b2261"
+  integrity sha512-BWMDCzPOQbgYOIJJPgwBoyXCkrrb3j6cfpBr7e9zrNfNuuRsHPuOh2MaFWODDZu898XrLGM3B8SZSeKlqs+mYA==
   dependencies:
     clean-css "^5.1.2"
     html-minifier "^4.0.0"
