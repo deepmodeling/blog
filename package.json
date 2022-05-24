@@ -24,7 +24,7 @@
     "hexo-renderer-marked": "^5.0.0",
     "hexo-renderer-stylus": "2.1.0",
     "hexo-server": "3.0.0",
-    "hexo-tag-publications": "0.2.7",
+    "hexo-tag-publications": "0.3.1",
     "hexo-theme-next": "^8.11.1",
     "hexo-word-counter": "0.0.3",
     "unpkg_url": "^0.0.1"
