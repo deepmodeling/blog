@@ -9,6 +9,11 @@ The following publications have used the DeePMD-kit software. Publications that 
 
 ## 2022
 {% publications %}
+delaPuente_JAmChemSoc_2022_vNone_pNone,
+Gupta_AdvancedEnergyMaterials_2022_vNone_p2200596,
+Balyakin_DoklPhysChem_2022_v502_p11,
+McGilvryJames_MRSAdvances_2022_v7_p468,
+Mo_npjComputMater_2022_v8_p107,
 Zhang_NatCommun_2022_v13_p822,
 Yang_Chemphyschem_2022_v23_pe202100841,
 He_PhysRevB_2022_v105_p064104,
