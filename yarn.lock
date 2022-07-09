@@ -190,6 +190,11 @@ bibtex-parse@^2.1.0:
   resolved "https://registry.yarnpkg.com/bibtex-parse/-/bibtex-parse-2.1.0.tgz#576d2c61a95b1612928d5e52c7dee64df13618e0"
   integrity sha512-Ej1vvnhfEfegd2WAeQ1dWJ/NkS3Cb84zRPeMMCFDcOSvAJFAmhm/sAr2oLpK/KQITlnHk0g6+zBokGvLe9+NaQ==
 
+bilitube@^0.0.2:
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/bilitube/-/bilitube-0.0.2.tgz#2ec71a39ea050246d476ba1a2009900b651a16ba"
+  integrity sha512-9gUePnXXOLZYqNmDR3JcdzoKzIpT4nQu26+JQaxHLtpLdXfT6M3EJcofY/6NWHByQF9eSIdRGn/rsAP4ax5puw==
+
 binary-extensions@^2.0.0:
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/binary-extensions/-/binary-extensions-2.2.0.tgz#75f502eeaf9ffde42fc98829645be4ea76bd9e2d"
@@ -991,6 +996,16 @@ hexo-server@3.0.0:
     open "^8.0.9"
     picocolors "^1.0.0"
     serve-static "^1.14.1"
+
+hexo-tag-bilitube@^0.1.11:
+  version "0.1.11"
+  resolved "https://registry.yarnpkg.com/hexo-tag-bilitube/-/hexo-tag-bilitube-0.1.11.tgz#42b0ec228004ea1f22624dbc6a12ab3c1c8471aa"
+  integrity sha512-DhVxinX2rhllOt8TG35g4Z00mjFUTx+1eqi/vvDlhrgn4V5g/XenT54KXdL1/xrziKc7dt1giLin7pe3XG4geA==
+  dependencies:
+    bilitube "^0.0.2"
+    hexo-tag-injector "^0.1.0"
+    hexo-util "^2.4.0"
+    unpkg_url "^0.0.1"
 
 hexo-tag-injector@^0.1.0:
   version "0.1.0"
