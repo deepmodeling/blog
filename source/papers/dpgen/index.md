@@ -9,6 +9,11 @@ The following publications have used the DP-GEN software. Publications that only
 
 ## 2022
 {% publications %}
+Liang_AdvcdTheoryandSims_2022_vNone_p2200206,
+Xie_JChemTheoryComput_2022_v18_p3795,
+Achar_JChemTheoryComput_2022_v18_p3593,
+Zeng_PhysRevB_2022_v105_p174109,
+Chu_JPhysChemLett_2022_v13_p4052,
 delaPuente_JAmChemSoc_2022_vNone_pNone,
 Zhang_NatCommun_2022_v13_p822,
 Pegolo_npjComputMater_2022_v8_p24,
