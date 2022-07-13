@@ -13,7 +13,7 @@ date: 2022-07-08
 
 ## Lecture 3: Towards a Realistic Description of H3O+ and OH- Transport, Robert A. DiStasio Jr.
 
-{% bilitube iwuHzPPNucU BV1Ma411n7Gz %}
+{% bilitube CDJTp1Ekn6I BV1Ma411n7Gz %}
 
 ## Lecture 4: Next Generation Quantum and Deep Learning Potentials, Darrin York
 
