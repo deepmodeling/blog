@@ -1,7 +1,7 @@
 ---
 title: Publications driven by DeePMD-kit
 date: 2022-05-01
-update: 2022-05-02
+update: 2022-09-09
 mathjax: true
 ---
 
