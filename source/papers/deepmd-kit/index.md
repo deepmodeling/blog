@@ -1,14 +1,33 @@
 ---
 title: Publications driven by DeePMD-kit
 date: 2022-05-01
-update: 2022-09-09
+update: 2022-10-25
 mathjax: true
 ---
 
 The following publications have used the DeePMD-kit software. Publications that only mentioned the DeePMD-kit will not be included below.
 
+## 2023
+{% publications %}
+Zhai_ComputationalMaterialsScience_2023_v216_p111843
+{% endpublications %}
+
 ## 2022
 {% publications %}
+Loose_JChemTheoryComput_2022_v18_p5856,
+Liu_NanoLett_2022_v22_p7791,
+Raman_JPhysChemA_2022_v126_p7283,
+Ye_FaradayDiscuss_2022_v236_p352,
+Du_PhysChemChemPhys_2022_v24_p18361,
+Li_AIPAdvances_2022_v12_p085111,
+Wang_JChemPhys_2022_v157_p074304,
+Lai_AdvMaterialsInter_2022_v9_p2201346,
+Zhang_PhysRevB_2022_v106_p094107,
+Devergne_JChemTheoryComput_2022_v18_p5410,
+Fan_JChemPhys_2022_v157_p114801,
+Uporov_Intermetallics_2022_v151_p107678,
+Wang_NuclFusion_2022_v62_p126013,
+Zhang_JournalofMolecularLiquids_2022_v367_p120500,
 Lu_JChemTheoryComput_2022_vNone_pNone,
 Devergne_JChemTheoryComput_2022_vNone_pNone,
 Lai_AdvMaterialsInter_2022_vNone_p2201346,

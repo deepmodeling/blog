@@ -1,14 +1,24 @@
 ---
 title: Publications driven by DP-GEN
 date: 2022-05-11
-update: 2022-05-11
+update: 2022-10-25
 mathjax: true
 ---
 
 The following publications have used the DP-GEN software. Publications that only mentioned the DP-GEN will not be included below.
 
+## 2023
+{% publications %}
+Zhai_ComputationalMaterialsScience_2023_v216_p111843
+{% endpublications %}
+
 ## 2022
 {% publications %}
+Du_PhysChemChemPhys_2022_v24_p18361,
+Wang_JChemPhys_2022_v157_p074304,
+Tang_ActaMaterialia_2022_v238_p118217,
+Wang_NuclFusion_2022_v62_p126013,
+Zhang_JournalofMolecularLiquids_2022_v367_p120500,
 Giese_JChemTheoryComput_2022_v18_p4304,
 Liang_AdvcdTheoryandSims_2022_vNone_p2200206,
 Xie_JChemTheoryComput_2022_v18_p3795,

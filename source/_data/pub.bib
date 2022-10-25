@@ -3064,6 +3064,9 @@ abstract  ="The design of new solid electrolytes (SEs) hinges on identifying and
              Potential Models}},
     journal =  {J. Chem. Theory Comput.},
     year =     2022,
+    journal=18,
+    issue=9,
+    pages={5555--5567},
     annote =   {Machine-learning-based interatomic potential energy surface (PES)
              models are revolutionizing the field of molecular modeling. However,
              although much faster than electronic structure schemes, these models
@@ -3081,5 +3084,394 @@ abstract  ="The design of new solid electrolytes (SEs) hinges on identifying and
              properties of Cu, H2O, and Al-Cu-Mg systems. DP Compress applies to
              both CPU and GPU machines and is publicly available online.},
     doi =      {10.1021/acs.jctc.2c00102},
+}
+
+@Article{Zhang_JournalofMolecularLiquids_2022_v367_p120500,
+    author =   {Wei Zhang and Li Zhou and Bin Yang and Tinggui Yan},
+    title =    {{Molecular dynamics simulations of LiCl ion pairs in high temperature
+             aqueous solutions by deep learning potential}},
+    journal =  {Journal of Molecular Liquids},
+    year =     2022,
+    volume =   367,
+    pages =    120500,
+    doi =      {10.1016/j.molliq.2022.120500},
+}
+
+@Article{Wang_NuclFusion_2022_v62_p126013,
+    author =   {Xiaoyang Wang and Yinan Wang and Linfeng Zhang and Fuzhi Dai and Han
+             Wang},
+    title =    {{A tungsten deep neural-network potential for simulating mechanical
+             property degradation under fusion service environment}},
+    journal =  {Nucl. Fusion},
+    year =     2022,
+    volume =   62,
+    issue =    12,
+    pages =    126013,
+    annote =   {<jats:title>Abstract</jats:title>                <jats:p>Tungsten is a
+             promising candidate material in fusion energy facilities. Molecular
+             dynamics (MD) simulations reveal the atomistic scale mechanisms, so
+             they are crucial for the understanding of the macroscopic property
+             deterioration of tungsten under harsh and complex service
+             environments. The interatomic potential used in the MD simulations is
+             required to accurately describe a wide spectrum of relevant defect
+             properties, which is by far challenging to the existing interatomic
+             potentials. In this paper, we propose a new three-body embedding
+             descriptor and hybridize it into the deep-potential (DP) framework, an
+             end-to-end deep learning interatomic potential model. The potential
+             model for tungsten, named DP-HYB, is trained with a database
+             constructed by the concurrent learning method. The DP-HYB model is
+             able to accurately predict elastic constants, stacking fault energy,
+             the formation energies of free surfaces, and point defects, which are
+             considered in the training dataset. It also accurately evaluates the
+             formation energies of grain boundaries and prismatic loops, the core
+             structure of screw dislocation, the Peierls barrier, and the
+             transition path of the screw dislocation migration, which do not
+             explicitly present in the training dataset. The DP-HYB is a good
+             candidate for the atomistic simulations of tungsten property
+             deterioration, especially those involving the mechanical property
+             degradation under the harsh fusion service environment.</jats:p>},
+    doi =      {10.1088/1741-4326/ac888b},
+}
+
+@Article{Uporov_Intermetallics_2022_v151_p107678,
+    author =   {S.A. Uporov and S. Kh Estemirova and E.V. Sterkhov and I.A. Balyakin
+             and A.A. Rempel},
+    title =    {{Magnetocaloric effect in ScGdTbDyHo high-entropy alloy: Impact of
+             synthesis route}},
+    journal =  {Intermetallics},
+    year =     2022,
+    volume =   151,
+    pages =    107678,
+    doi =      {10.1016/j.intermet.2022.107678},
+}
+
+@Article{Fan_JChemPhys_2022_v157_p114801,
+    author =   {Zheyong Fan and Yanzhou Wang and Penghua Ying and Keke Song and Junjie
+             Wang and Yong Wang and Zezhu Zeng and Ke Xu and Eric Lindgren and J
+             Magnus Rahm and Alexander J Gabourie and Jiahui Liu and Haikuan Dong
+             and Jianyang Wu and Yue Chen and Zheng Zhong and Jian Sun and Paul
+             Erhart and Yanjing Su and Tapio Ala-Nissila},
+    title =    {{GPUMD: A package for constructing accurate machine-learned potentials
+             and performing highly efficient atomistic simulations}},
+    journal =  {J. Chem. Phys.},
+    year =     2022,
+    volume =   157,
+    issue =    11,
+    pages =    114801,
+    annote =   {We present our latest advancements of machine-learned potentials
+             (MLPs) based on the neuroevolution potential (NEP) framework
+             introduced in Fan et al. [Phys. Rev. B 104, 104309 (2021)] and their
+             implementation in the open-source package gpumd. We increase the
+             accuracy of NEP models both by improving the radial functions in the
+             atomic-environment descriptor using a linear combination of Chebyshev
+             basis functions and by extending the angular descriptor with some
+             four-body and five-body contributions as in the atomic cluster
+             expansion approach. We also detail our efficient implementation of the
+             NEP approach in graphics processing units as well as our workflow for
+             the construction of NEP models and demonstrate their application in
+             large-scale atomistic simulations. By comparing to state-of-the-art
+             MLPs, we show that the NEP approach not only achieves above-average
+             accuracy but also is far more computationally efficient. These results
+             demonstrate that the gpumd package is a promising tool for solving
+             challenging problems requiring highly accurate, large-scale atomistic
+             simulations. To enable the construction of MLPs using a minimal
+             training set, we propose an active-learning scheme based on the latent
+             space of a pre-trained NEP model. Finally, we introduce three separate
+             Python packages, viz., gpyumd, calorine, and pynep, that enable the
+             integration of gpumd into Python workflows.},
+    doi =      {10.1063/5.0106617},
+}
+
+@Article{Devergne_JChemTheoryComput_2022_v18_p5410,
+    author =   {Timoth{\'e}e Devergne and Th{\'e}o Magrino and Fabio Pietrucci and A
+             Marco Saitta},
+    title =    {{Combining Machine Learning Approaches and Accurate <i>Ab Initio</i>
+             Enhanced Sampling Methods for Prebiotic Chemical Reactions in Solution}},
+    journal =  {J. Chem. Theory Comput.},
+    year =     2022,
+    volume =   18,
+    issue =    9,
+    pages =    {5410--5421},
+    annote =   {The study of the thermodynamics, kinetics, and microscopic mechanisms
+             of chemical reactions in solution requires the use of advanced free-
+             energy methods for predictions to be quantitative. This task is
+             however a formidable one for atomistic simulation methods, as the cost
+             of quantum-based ab initio approaches, to obtain statistically
+             meaningful samplings of the relevant chemical spaces and networks,
+             becomes exceedingly heavy. In this work, we critically assess the
+             optimal structure and minimal size of an ab initio training set able
+             to lead to accurate free-energy profiles sampled with neural network
+             potentials. The results allow one to propose an ab initio protocol
+             where the ad hoc inclusion of a machine-learning (ML)-based task can
+             significantly increase the computational efficiency, while keeping the
+             ab initio accuracy and, at the same time, avoiding some of the
+             notorious extrapolation risks in typical atomistic ML approaches. We
+             focus on two representative, and computationally challenging, reaction
+             steps of the classic Strecker-cyanohydrin mechanism for glycine
+             synthesis in water solution, where the main precursors are
+             formaldehyde and hydrogen cyanide. We demonstrate that
+             indistinguishable ab initio quality results are obtained, thanks to
+             the ML subprotocol, at about 1 order of magnitude less of
+             computational load.},
+    doi =      {10.1021/acs.jctc.2c00400},
+}
+
+@Article{Zhang_PhysRevB_2022_v106_p094107,
+    author =   {Zhipeng Zhang and Liuqing Chen and Junyi Guo and Xianyin Duan and Bin
+             Shan and Xianbao Duan},
+    title =    {{Strategy to consider element distribution when constructing training
+             datasets for developing machine learning potentials of alloys based on
+             a Monte-Carlo-like method}},
+    journal =  {Phys. Rev. B},
+    year =     2022,
+    volume =   106,
+    issue =    9,
+    pages =    094107,
+    doi =      {10.1103/PhysRevB.106.094107},
+}
+
+@Article{Lai_AdvMaterialsInter_2022_v9_p2201346,
+    author =   {Genming Lai and Junyu Jiao and Chi Fang and Ruiqi Zhang and Xianqi Xu
+             and Liyuan Sheng and Yao Jiang and Chuying Ouyang and Jiaxin Zheng},
+    title =    {{A Deep Neural Network Interface Potential for Li{-}Cu Systems}},
+    journal =  {Adv Materials Inter},
+    year =     2022,
+    volume =   9,
+    issue =    27,
+    pages =    2201346,
+    doi =      {10.1002/admi.202201346},
+}
+
+@Article{Wang_JChemPhys_2022_v157_p074304,
+    author =   {Xiaoning Wang and Haidi Wang and Qiquan Luo and Jinlong Yang},
+    title =    {{Structural and electrocatalytic properties of copper clusters: A study
+             via deep learning and first principles}},
+    journal =  {J. Chem. Phys.},
+    year =     2022,
+    volume =   157,
+    issue =    7,
+    pages =    074304,
+    annote =   {Determining the atomic structure of clusters has been a long-term
+             challenge in theoretical calculations due to the high computational
+             cost of density-functional theory (DFT). Deep learning potential (DP),
+             as an alternative way, has been demonstrated to be able to conduct
+             cluster simulations with close-to DFT accuracy but at a much lower
+             computational cost. In this work, we update 34 structures of the 41 Cu
+             clusters with atomic numbers ranging from 10 to 50 by combining global
+             optimization and the DP model. The calculations show that the
+             configuration of small Cun clusters (n = 10-15) tends to be oblate and
+             it gradually transforms into a cage-like configuration as the size
+             increases (n > 15). Based on the updated structures, their relative
+             stability and electronic properties are extensively studied. In
+             addition, we select three different clusters (Cu13, Cu38, and Cu49) to
+             study their electrocatalytic ability of CO2 reduction. The simulation
+             indicates that the main product is CO for these three clusters, while
+             the selectivity of hydrocarbons is inhibited. This work is expected to
+             clarify the ground-state structures and fundamental properties of Cun
+             clusters, and to guide experiments for the design of Cu-based
+             catalysts.},
+    doi =      {10.1063/5.0100505},
+}
+
+@Article{Li_AIPAdvances_2022_v12_p085111,
+    author =   {Wentao Li and Chenxiu Yang},
+    title =    {{Thermal transport properties of monolayer GeS and SnS: A comparative
+             study based on machine learning and SW interatomic potential models}},
+    journal =  {AIP Advances},
+    year =     2022,
+    volume =   12,
+    issue =    8,
+    pages =    085111,
+    annote =   {<jats:p> Phonon transport properties of two-dimensional materials can
+             play a crucial role in the thermal management of low-dimensional
+             electronic devices and thermoelectric applications. In this study,
+             both the empirical Stillinger{\textendash}Weber (SW) and machine
+             learning interatomic potentials are employed to investigate the
+             lattice thermal conductivity of monolayer GeS and SnS through solving
+             the phonon Boltzmann transport equation. The accuracy of the two types
+             of interatomic potentials and their performance for the evaluation of
+             thermal conductivity are verified by analyzing phonon harmonic and
+             anharmonic properties. Our results indicate that the thermal
+             conductivity can be predicted more accurately with a machine learning
+             approach, while the SW potential gives rise to an overestimated value
+             for both monolayers. In addition, the in-plane anisotropy of thermal
+             transport properties existing in these monolayers can be confirmed by
+             both potential models. Moreover, the origins of the deviation existing
+             in calculated thermal conductivities, including both the effects of
+             interatomic potential models and monolayer compositions, are
+             elucidated through uncovering the underlying phonon transport
+             mechanisms. This study highlights that in contrast to the machine
+             learning approach, more careful verification is required for the
+             simulation of thermal transport properties when empirical interatomic
+             potential models are employed. </jats:p>},
+    doi =      {10.1063/5.0099448},
+}
+
+
+@Article{Du_PhysChemChemPhys_2022_v24_p18361,
+    author =   {Yunzhen Du and Zhaocang Meng and Qiang Yan and Canglong Wang and Yuan
+             Tian and Wenshan Duan and Sheng Zhang and Ping Lin},
+    title =    {{Deep potential for a face-centered cubic Cu system at finite
+             temperatures}},
+    journal =  {Phys. Chem. Chem. Phys.},
+    year =     2022,
+    volume =   24,
+    issue =    30,
+    pages =    {18361--18369},
+    annote =   {The state-of-the-art method generating potential functions used in
+             molecular dynamics is based on machine learning with neural networks,
+             which is critical for molecular dynamics simulation. This method
+             provides an efficient way for fitting multi-variable nonlinear
+             functions, attracting extensive attention in recent years. Generally,
+             the quality of potentials fitted by neural networks is heavily
+             affected by training datasets and the training process and could be
+             ensured by comprehensively verificating the model accuracy. In this
+             study, we obtained the neural network potential of face-centered cubic
+             (FCC) Cu with the most accurate and adequate training datasets from
+             first-principle calculations and the training process performed by
+             Deep Potential Molecular Dynamics (DeePMD). This potential could not
+             only succeed in reproductions of the variety of properties of Cu at 0
+             K, but also have a good performance at finite temperatures, such as
+             predicting elastic constants and the melting point. Moreover, our
+             potential has a better generalization capacity to predict the grain
+             boundary energy without including extra datasets about grain boundary
+             structures. These results support the applicability of the method
+             under more practical conditions.},
+    doi =      {10.1039/D2CP02758E},
+}
+@Article{Ye_FaradayDiscuss_2022_v236_p352,
+    author =   {Zifan Ye and Cunzhi Zhang and Giulia Galli},
+    title =    {{Photoelectron spectra of water and simple aqueous solutions at extreme
+             conditions}},
+    journal =  {Faraday Discuss.},
+    year =     2022,
+    volume =   236,
+    issue =    0,
+    pages =    {352--363},
+    annote =   {Determining the electronic structure of aqueous solutions at extreme
+             conditions is an important step towards understanding chemical bonding
+             and reactions in water under pressure (P) and at high temperature (T).
+             We present calculations of the photoelectron spectra of water and a
+             simple solution of NaCl under pressure at conditions relevant to the
+             Earth's interior (11 GPa and 1000 K). We combine first-principles and
+             deep-potential molecular dynamics with electronic structure
+             calculations with dielectric-dependent hybrid functionals. These
+             functionals are defined with a fraction of exact exchange determined
+             from the dielectric constant of the liquid computed in extreme
+             conditions. We find a broadening of the spectra relative to ambient
+             conditions, particularly prominent in the merging of the two main
+             peaks below the onset of the spectra. Furthermore we find an overall
+             red shift at high pressure and temperature, which is however not
+             constant over the whole energy range and varies between 1.1 and 2.4
+             eV. Our results also show that the anion energy levels are closer to
+             the valence band maximum of the liquid than at ambient conditions,
+             indicating that as P and T are increased, the defect levels of Cl- and
+             OH- in water may eventually lie below the valence band maximum of
+             water. Finally, we characterize the ionization potential of hydrated
+             species deriving from rapid water dissociation, e.g. hydrated
+             hydroxide and hydronium, and we elucidate the electronic states
+             associated with proton transfer events at high pressure. Our results
+             represent a first, important step in predicting the electronic
+             properties of solutions in super-critical conditions.},
+    doi =      {10.1039/d2fd00003b},
+}
+
+@Article{Raman_JPhysChemA_2022_v126_p7283,
+    author =   {Abhinav S Raman and Annabella Selloni},
+    title =    {{Modeling the Solvation and Acidity of Carboxylic Acids Using an <i>Ab
+             Initio</i> Deep Neural Network Potential}},
+    journal =  {J. Phys. Chem. A},
+    year =     2022,
+    volume =   126,
+    issue =    40,
+    pages =    {7283--7290},
+    annote =   {Formic and acetic acid constitute the simplest of carboxylic acids,
+             yet they exhibit fascinating chemistry in the condensed phase such as
+             proton transfer and dimerization. The go-to method of choice for
+             modeling these rare events have been accurate but expensive ab initio
+             molecular dynamics simulations. In this study, we present a deep
+             neural network potential trained using accurate ab initio data that
+             can be used in tandem with enhanced-sampling methods to perform an
+             efficient exploration of the free-energy surface of aqueous solutions
+             of weak carboxylic acids. In particular, we show that our model
+             captures proton dissociation and provides a good estimate of the pKa,
+             as well as the dimerization of formic and acetic acid. This provides a
+             suitable starting point for applications in different research areas
+             where computational efficiency coupled with the accuracy of ab initio
+             methods is required.},
+    doi =      {10.1021/acs.jpca.2c06252},
+}
+
+@Article{Liu_NanoLett_2022_v22_p7791,
+    author =   {Xiaoqian Liu and Ran Peng and Zhaoru Sun and Jianpeng Liu},
+    title =    {{Moir{\'e} Phonons in Magic-Angle Twisted Bilayer Graphene}},
+    journal =  {Nano Lett.},
+    year =     2022,
+    volume =   22,
+    issue =    19,
+    pages =    {7791--7797},
+    annote =   {Magic-angle twisted bilayer graphene (TBG) has attracted significant
+             interest recently due to the discoveries of diverse correlated and
+             topological states. In this work, we study the phonon properties in
+             magic-angle TBG based on many-body classical potential and interatomic
+             forces generated by a deep neural network trained with data from ab
+             initio calculations. We have discovered a number of soft modes which
+             can exhibit dipolar, quadrupolar, and octupolar vibrational patterns
+             in real space, as well as some time-reversal breaking chiral phonon
+             modes. We have further studied the phonon effects on the electronic
+             structures by freezing certain soft phonon modes. We find that if a
+             soft quadrupolar phonon mode is assumed to be frozen, the system would
+             exhibit a charge order which is perfectly consistent with recent
+             experiments. Moreover, once some low-frequency C2z-breaking modes get
+             frozen, the Dirac points at the charge neutrality point would be
+             gapped out, which provides an alternative perspective to the origin of
+             correlated insulator state at charge neutrality point.},
+    PMCID =    {PMC9562463},
+    doi =      {10.1021/acs.nanolett.2c02010},
+}
+
+@Article{Loose_JChemTheoryComput_2022_v18_p5856,
+    author =   {Timothy D Loose and Patrick G Sahrmann and Gregory A Voth},
+    title =    {{Centroid Molecular Dynamics Can Be Greatly Accelerated through Neural
+             Network Learned Centroid Forces Derived from Path Integral Molecular
+             Dynamics}},
+    journal =  {J. Chem. Theory Comput.},
+    year =     2022,
+    volume =   18,
+    issue =    10,
+    pages =    {5856--5863},
+    annote =   {For nearly the past 30 years, centroid molecular dynamics (CMD) has
+             proven to be a viable classical-like phase space formulation for the
+             calculation of quantum dynamical properties. However, calculation of
+             the centroid effective force remains a significant computational cost
+             and limits the ability of CMD to be an efficient approach to study
+             condensed phase quantum dynamics. In this paper, we introduce a neural
+             network-based methodology for first learning the centroid effective
+             force from path integral molecular dynamics data, which is
+             subsequently used as an effective force field to evolve the centroids
+             directly with the CMD algorithm. This method, called machine-learned
+             centroid molecular dynamics (ML-CMD), is faster and far less costly
+             than both standard "on the fly" CMD and ring polymer molecular
+             dynamics (RPMD). The training aspect of ML-CMD is also
+             straightforwardly implemented utilizing the DeepMD software kit. ML-
+             CMD is then applied to two model systems to illustrate the approach:
+             liquid para-hydrogen and water. The results show comparable accuracy
+             to both CMD and RPMD in the estimation of quantum dynamical
+             properties, including the self-diffusion constant and velocity time
+             correlation function, but with significantly reduced overall
+             computational cost.},
+    PMCID =    {PMC9558744},
+    doi =      {10.1021/acs.jctc.2c00706},
+}
+
+@Article{Zhai_ComputationalMaterialsScience_2023_v216_p111843,
+    author =   {B. Zhai and H.P. Wang},
+    title =    {{Accurate interatomic potential for the nucleation in liquid Ti-Al
+             binary alloy developed by deep neural network learning method}},
+    journal =  {Computational Materials Science},
+    year =     2023,
+    volume =   216,
+    pages =    111843,
+    doi =      {10.1016/j.commatsci.2022.111843},
 }
 
