@@ -31,7 +31,7 @@
     "unpkg_url": "^0.0.1"
   },
   "devDependencies": {
-    "hexo-yam": "7.0.0"
+    "hexo-yam": "8.0.0"
   },
   "resolutions": {
     "hexo-util": "2.5.0",
