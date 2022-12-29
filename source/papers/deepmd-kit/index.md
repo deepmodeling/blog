@@ -21,13 +21,13 @@ Zhai_ComputationalMaterialsScience_2023_v216_p111843
 ## 2022
 {% publications %}
 Mondal_JChemTheoryComput_2022_vNone_pNone,
-Kobayashi_ChemCommun(Camb)_2022_v58_p13939,
+Kobayashi_ChemCommun_2022_v58_p13939,
 Wu_ACSApplMaterInterfaces_2022_v14_p55753,
 Urata_JPhysChemC_2022_v126_p21507,
 Yang_ChinesePhysLett_2022_v39_p116301,
 Li_SciAdv_2022_v8_peabq2900,
 Zhuang_JChemPhys_2022_v157_p164701,
-Fronzi_Nanomaterials(Basel)_2022_v12_p3891,
+Fronzi_Nanomaterials_2022_v12_p3891,
 Wan_NewJPhys_2022_v24_p113012,
 He_PhysRevB_2022_v106_p174101,
 McMichael_PhysRevAppl_2022_v18_p054022,
