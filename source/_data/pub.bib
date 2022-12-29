@@ -3475,3 +3475,625 @@ abstract  ="The design of new solid electrolytes (SEs) hinges on identifying and
     doi =      {10.1016/j.commatsci.2022.111843},
 }
 
+@Article{Han_BriefBioinform_2021_v22_pNone,
+    author =   {Yanqiang Han and Zhilong Wang and Zhiyun Wei and Jinyun Liu and Jinjin
+             Li},
+    title =    {{Machine learning builds full-QM precision protein force fields in
+             seconds}},
+    journal =  {Brief. Bioinform.},
+    year =     2021,
+    volume =   22,
+    issue =    6,
+    annote =   {Full-quantum mechanics (QM) calculations are extraordinarily precise
+             but difficult to apply to large systems, such as biomolecules.
+             Motivated by the massive demand for efficient calculations for large
+             systems at the full-QM level and by the significant advances in
+             machine learning, we have designed a neural network-based two-body
+             molecular fractionation with conjugate caps (NN-TMFCC) approach to
+             accelerate the energy and atomic force calculations of proteins. The
+             results show very high precision for the proposed NN potential energy
+             surface models of residue-based fragments, with energy root-mean-
+             squared errors (RMSEs) less than 1.0{~}kcal/mol and force RMSEs less
+             than 1.3{~}kcal/mol/{\r{A}} for both training and testing sets. The
+             proposed NN-TMFCC method calculates the energies and atomic forces of
+             15 representative proteins with full-QM precision in 10-100{~}s, which
+             is thousands of times faster than the full-QM calculations. The
+             computational complexity of the NN-TMFCC method is independent of the
+             protein size and only depends on the number of residue species, which
+             makes this method particularly suitable for rapid prediction of large
+             systems with tens of thousands or even hundreds of thousands of times
+             acceleration. This highly precise and efficient NN-TMFCC approach
+             exhibits considerable potential for performing energy and force
+             calculations, structure predictions and molecular dynamics simulations
+             of proteins with full-QM precision.},
+    doi =      {10.1093/bib/bbab158},
+}
+
+@Article{Li_JPhysChemA_2022_v126_p9154,
+    author =   {Wenfei Li and Qi Ou and Yixiao Chen and Yu Cao and Renxi Liu and
+             Chunyi Zhang and Daye Zheng and Chun Cai and Xifan Wu and Han Wang and
+             Mohan Chen and Linfeng Zhang},
+    title =    {{DeePKS + ABACUS as a Bridge between Expensive Quantum Mechanical
+             Models and Machine Learning Potentials}},
+    journal =  {J. Phys. Chem. A},
+    year =     2022,
+    volume =   126,
+    issue =    49,
+    pages =    {9154--9164},
+    annote =   {Recently, the development of machine learning (ML) potentials has made
+             it possible to perform large-scale and long-time molecular simulations
+             with the accuracy of quantum mechanical (QM) models. However, for
+             different levels of QM methods, such as density functional theory
+             (DFT) at the meta-GGA level and/or with exact exchange, quantum Monte
+             Carlo, etc., generating a sufficient amount of data for training an ML
+             potential has remained computationally challenging due to their high
+             cost. In this work, we demonstrate that this issue can be largely
+             alleviated with Deep Kohn-Sham (DeePKS), an ML-based DFT model. DeePKS
+             employs a computationally efficient neural network-based functional
+             model to construct a correction term added upon a cheap DFT model.
+             Upon training, DeePKS offers closely matched energies and forces
+             compared with high-level QM method, but the number of training data
+             required is orders of magnitude less than that required for training a
+             reliable ML potential. As such, DeePKS can serve as a bridge between
+             expensive QM models and ML potentials: one can generate a decent
+             amount of high-accuracy QM data to train a DeePKS model and then use
+             the DeePKS model to label a much larger amount of configurations to
+             train an ML potential. This scheme for periodic systems is implemented
+             in a DFT package ABACUS, which is open source and ready for use in
+             various applications.},
+    doi =      {10.1021/acs.jpca.2c05000},
+}
+
+@Article{Wang_GeophysicalResearchLetters_2022_v49_pNone,
+    author =   {Dong Wang and Zhongqing Wu and Xin Deng},
+    title =    {{Thermal Conductivity of Hydrous Wadsleyite Determined by
+             Non{-}Equilibrium Molecular Dynamics Based on Machine Learning}},
+    journal =  {Geophysical Research Letters},
+    year =     2022,
+    volume =   49,
+    issue =    22,
+    doi =      {10.1029/2022GL100337},
+}
+
+@Article{Giese_JPhysChemA_2022_v126_p8519,
+    author =   {Timothy J Giese and Jinzhe Zeng and Darrin M York},
+    title =    {{Multireference Generalization of the Weighted Thermodynamic
+             Perturbation Method}},
+    journal =  {J. Phys. Chem. A},
+    year =     2022,
+    volume =   126,
+    issue =    45,
+    pages =    {8519--8533},
+    annote =   {We describe the generalized weighted thermodynamic perturbation (gwTP)
+             method for estimating the free energy surface of an expensive "high-
+             level" potential energy function from the umbrella sampling performed
+             with multiple inexpensive "low-level" reference potentials. The gwTP
+             method is a generalization of the weighted thermodynamic perturbation
+             (wTP) method developed by Li and co-workers [J. Chem. Theory Comput.
+             2018, 14, 5583-5596] that uses a single "low-level" reference
+             potential. The gwTP method offers new possibilities in model design
+             whereby the sampling generated from several low-level potentials may
+             be combined (e.g., specific reaction parameter models that might have
+             variable accuracy at different stages of a multistep reaction). The
+             gwTP method is especially well suited for use with machine learning
+             potentials (MLPs) that are trained against computationally expensive
+             ab initio quantum mechanical/molecular mechanical (QM/MM) energies and
+             forces using active learning procedures that naturally produce
+             multiple distinct neural network potentials. Simulations can be
+             performed with greater sampling using the fast MLPs and then corrected
+             to the ab initio level using gwTP. The capabilities of the gwTP method
+             are demonstrated by creating reference potentials based on the MNDO/d
+             and DFTB2/MIO semiempirical models supplemented with the "range-
+             corrected deep potential" (DPRc). The DPRc parameters are trained to
+             ab initio QM/MM data, and the potentials are used to calculate the
+             free energy surface of stepwise mechanisms for nonenzymatic RNA
+             2'-O-transesterification model reactions. The extended sampling made
+             possible by the reference potentials allows one to identify
+             unequilibrated portions of the simulations that are not always evident
+             from the short time scale commonly used with ab initio QM/MM
+             potentials. We show that the reference potential approach can yield
+             more accurate ab initio free energy predictions than the wTP method or
+             what can be reasonably afforded from explicit ab initio QM/MM
+             sampling.},
+    PMCID =    {PMC9771595},
+    doi =      {10.1021/acs.jpca.2c06201},
+}
+
+@Article{Liu_JAmChemSoc_2022_v144_p20601,
+    author =   {Jin-Cheng Liu and Langli Luo and Hai Xiao and Junfa Zhu and Yang He
+             and Jun Li},
+    title =    {{Metal Affinity of Support Dictates Sintering of Gold Catalysts}},
+    journal =  {J. Am. Chem. Soc.},
+    year =     2022,
+    volume =   144,
+    issue =    45,
+    pages =    {20601--20609},
+    annote =   {Sintering during heterogeneous catalytic reactions is one of the most
+             notorious deactivation channels in catalysts of supported metal
+             nanoparticles. It is therefore critical to understand the effect of
+             support on the sintering behavior. Here, by using in situ aberration-
+             corrected transmission electron microscopy and computational modeling,
+             the atomic-scale dynamic interactions are revealed between Au
+             nanoparticles and various supports. It is found that Au nanoparticles
+             on ceria have a smaller contact angle and are apparently less mobile,
+             especially at surface steps when compared with those on the amorphous
+             silica. Analogous to hydrophilicity, we attribute the origin of
+             mobility of small nanoparticles to metal affinity, which determines
+             the interaction between metal and support material. Ab initio
+             molecular dynamics (AIMD) and machine learning-based deep potential
+             molecular dynamics (DPMD) simulations directly capture a coalescence
+             process on the silica surface and the strong pinning of gold on ceria.
+             The joint experimental and theoretical results on the atomic scale
+             demonstrate the metal affinity of active and inert supports as the key
+             descriptor pertinent to sintering and deactivation of heterogeneous
+             catalysts.},
+    doi =      {10.1021/jacs.2c06785},
+}
+
+@Article{Matusalem_ProcNatlAcadSciUSA_2022_v119_pe2203397119,
+    author =   {Filipe Matusalem and J{\'e}ssica {Santos Rego} and Maurice {de Koning}},
+    title =    {{Plastic deformation of superionic water ices}},
+    journal =  {Proc. Natl. Acad. Sci. U. S. A.},
+    year =     2022,
+    volume =   119,
+    issue =    45,
+    pages =    {e2203397119},
+    annote =   {Due to their potential role in the peculiar geophysical properties of
+             the ice giants Neptune and Uranus, there has been a growing interest
+             in superionic (SI) phases of water ice. So far, however, little
+             attention has been given to their mechanical properties, even though
+             plastic deformation processes in the interiors of planets are known to
+             affect long-term processes, such as plate tectonics and mantle
+             convection. Here, using density functional theory calculations and
+             machine learning techniques, we assess the mechanical response of
+             high-pressure/temperature solid phases of water in terms of their
+             ideal shear strength (ISS) and dislocation behavior. The ISS results
+             are well described by the renormalized Frenkel model of ideal strength
+             and indicate that the SI ices are expected to be highly ductile. This
+             is further supported by deep neural network molecular dynamics
+             simulations for the behavior of lattice dislocations for the SI face-
+             centered cubic (fcc) phase. Dislocation velocity data indicate
+             effective shear viscosities that are orders of magnitude smaller than
+             that of Earth's lower mantle, suggesting that the plastic flow of the
+             internal icy layers in Neptune and Uranus may be significantly faster
+             than previously foreseen.},
+    PMCID =    {PMC9659364},
+    doi =      {10.1073/pnas.2203397119},
+}
+
+@Article{Li_JChemPhys_2022_v157_p174303,
+    author =   {Gen Li and Bing-Zhong Hu and Wen-Hao Mao and Nuo Yang and Jing-Tao
+             L{\"u}},
+    title =    {{Order of magnitude reduction in Joule heating of single molecular
+             junctions between graphene electrodes}},
+    journal =  {J. Chem. Phys.},
+    year =     2022,
+    volume =   157,
+    issue =    17,
+    pages =    174303,
+    annote =   {Maintaining stability of single-molecular junctions (SMJs) in the
+             presence of current flow is a prerequisite for their potential device
+             applications. However, theoretical understanding of nonequilibrium
+             heat transport in current-carrying SMJs is a challenging problem due
+             to the different kinds of nonlinear interactions involved, including
+             electron-vibration and anharmonic vibrational coupling. Here, we
+             overcome this challenge by accelerating Langevin-type current-induced
+             molecular dynamics using machine-learning potential derived from
+             density functional theory. We show that SMJs with graphene electrodes
+             generate an order of magnitude less heating than those with gold
+             electrodes. This is rooted in the better phonon spectral overlap of
+             graphene with molecular vibrations, rendering harmonic phonon heat
+             transport being dominant. In contrast, in a spectrally mismatched
+             junction with gold electrodes, anharmonic coupling becomes important
+             to transport heat away from the molecule to surrounding electrodes.
+             Our work paves the way for studying current-induced heat transport and
+             energy redistribution in realistic SMJs.},
+    doi =      {10.1063/5.0118952},
+}
+
+@Article{Wang_PhysRevMaterials_2022_v6_p113603,
+    author =   {Rui Wang and Xiaoxiao Ma and Linfeng Zhang and Han Wang and David J.
+             Srolovitz and Tongqi Wen and Zhaoxuan Wu},
+    title =    {{Classical and machine learning interatomic potentials for BCC vanadium}},
+    journal =  {Phys. Rev. Materials},
+    year =     2022,
+    volume =   6,
+    issue =    11,
+    pages =    113603,
+    doi =      {10.1103/PhysRevMaterials.6.113603},
+}
+
+@Article{McMichael_PhysRevAppl_2022_v18_p054066,
+    author =   {Robert D McMichael and Sean M Blakley},
+    title =    {{Piezo- and Pyroelectricity in Zirconia: A Study with Machine-Learned
+             Force Fields}},
+    journal =  {Phys. Rev. Appl.},
+    year =     2022,
+    volume =   18,
+    issue =    5,
+    pages =    054066,
+    annote =   {Measurements to estimate parameters of a model are commonplace in the
+             physical sciences, where the traditional approach to automation is to
+             use a sequence of preselected settings followed by least-squares
+             fitting of a model function to the data. This measure-then-fit
+             approach is simple and effective and entirely appropriate for many
+             applications but when measurement resources are limited, efficiency
+             becomes more important. To increase efficiency, Bayesian experiment
+             design allows measurement settings to be chosen adaptively based on
+             accumulated data and utility, the predicted improvement in results as
+             a function of settings. However, the calculation of utility has been
+             judged too impractical for most applications. In this paper, we
+             introduce computational methods and simplified algorithms that
+             accelerate utility calculations by over an order of magnitude, with
+             only slight degradation in measurement efficiency. The methods
+             eliminate utility calculation as a barrier to practical application of
+             efficient adaptive measurement.},
+    PMCID =    {PMC9791979},
+    doi =      {10.1103/PhysRevApplied.18.054066},
+}
+
+@Article{McMichael_PhysRevAppl_2022_v18_p054022,
+    author =   {Robert D McMichael and Sean M Blakley},
+    title =    {{Phonon Thermal Transport in  <mml:math
+             xmlns:mml="http://www.w3.org/1998/Math/MathML" display="inline" overfl
+             ow="scroll"><mml:msub><mml:mi>Bi</mml:mi><mml:mn>2</mml:mn></mml:msub>
+             <mml:msub><mml:mi>Te</mml:mi><mml:mn>3</mml:mn></mml:msub></mml:math>
+             from a Deep-Neural-Network Interatomic Potential}},
+    journal =  {Phys. Rev. Appl.},
+    year =     2022,
+    volume =   18,
+    issue =    5,
+    pages =    054022,
+    annote =   {Measurements to estimate parameters of a model are commonplace in the
+             physical sciences, where the traditional approach to automation is to
+             use a sequence of preselected settings followed by least-squares
+             fitting of a model function to the data. This measure-then-fit
+             approach is simple and effective and entirely appropriate for many
+             applications but when measurement resources are limited, efficiency
+             becomes more important. To increase efficiency, Bayesian experiment
+             design allows measurement settings to be chosen adaptively based on
+             accumulated data and utility, the predicted improvement in results as
+             a function of settings. However, the calculation of utility has been
+             judged too impractical for most applications. In this paper, we
+             introduce computational methods and simplified algorithms that
+             accelerate utility calculations by over an order of magnitude, with
+             only slight degradation in measurement efficiency. The methods
+             eliminate utility calculation as a barrier to practical application of
+             efficient adaptive measurement.},
+    PMCID =    {PMC9791979},
+    doi =      {10.1103/PhysRevApplied.18.054022},
+}
+
+@Article{He_PhysRevB_2022_v106_p174101,
+    author =   {Ri He and Hongyu Wu and Yi Lu and Zhicheng Zhong},
+    title =    {{Origin of negative thermal expansion and pressure-induced
+             amorphization in zirconium tungstate from a machine-learning potential}},
+    journal =  {Phys. Rev. B},
+    year =     2022,
+    volume =   106,
+    issue =    17,
+    pages =    174101,
+    doi =      {10.1103/PhysRevB.106.174101},
+}
+
+@Article{Wan_NewJPhys_2022_v24_p113012,
+    author =   {Zhongyu Wan and Chao Zhang and Tianyi Yang and Wenjun Xu and Ruiqin
+             Zhang},
+    title =    {{Predicted superconductivity and superionic state in the electride
+             Li<sub>5</sub>N under high pressure}},
+    journal =  {New J. Phys.},
+    year =     2022,
+    volume =   24,
+    issue =    11,
+    pages =    113012,
+    annote =   {<jats:title>Abstract</jats:title>                <jats:p>Recently,
+             electrides have received increasing attention due to their
+             multifunctional properties as superconducting, catalytic, insulating,
+             and electrode materials, with potential to offer other performance and
+             possess novel physical states. This work uncovers that
+             Li<jats:sub>5</jats:sub>N as an electride possess four novel physical
+             states simultaneously: electride state, super-coordinated state,
+             superconducting state, and superionic state. By obtaining high-
+             pressure phase diagrams of the Li{\textendash}N system at
+             150{\textendash}350{~}GPa using a crystal structure search algorithm,
+             we find that Li<jats:sub>5</jats:sub>N can remain stable as
+             <jats:italic>P</jats:italic>6/<jats:italic>mmm</jats:italic> structure
+             and has a 14-fold super-coordination number, as verified by Bader
+             charge and electron localization function analysis. Its
+             superconducting transition temperature reaches the highest at
+             150{~}GPa (<jats:italic>T</jats:italic>
+             <jats:sub>c</jats:sub> = 48.97{~}K). Besides,
+             Li<jats:sub>5</jats:sub>N exhibits the superionic state at 3000{~}K,
+             in which N atoms act like solid, while some Li atoms flow like liquid.
+             The above results are further verified at a macroscopic level by using
+             deep learning potential molecular dynamics simulations.</jats:p>},
+    doi =      {10.1088/1367-2630/ac9cff},
+}
+
+@Article{Fronzi_Nanomaterials(Basel)_2022_v12_p3891,
+    author =   {Marco Fronzi and Roger D Amos and Rika Kobayashi and Naoki Matsumura
+             and Kenta Watanabe and Rafael K Morizawa},
+    title =    {{Evaluation of Machine Learning Interatomic Potentials for the
+             Properties of Gold Nanoparticles}},
+    journal =  {Nanomaterials (Basel).},
+    year =     2022,
+    volume =   12,
+    issue =    21,
+    pages =    3891,
+    annote =   {We have investigated Machine Learning Interatomic Potentials in
+             application to the properties of gold nanoparticles through the DeePMD
+             package, using data generated with the ab-initio VASP program.
+             Benchmarking was carried out on Au20 nanoclusters against ab-initio
+             molecular dynamics simulations and show we can achieve similar
+             accuracy with the machine learned potential at far reduced cost using
+             LAMMPS. We have been able to reproduce structures and heat capacities
+             of several isomeric forms. Comparison of our workflow with similar ML-
+             IP studies is discussed and has identified areas for future
+             improvement.},
+    PMCID =    {PMC9655512},
+    doi =      {10.3390/nano12213891},
+}
+
+@Article{Zhuang_JChemPhys_2022_v157_p164701,
+    author =   {Yong-Bin Zhuang and Rui-Hao Bi and Jun Cheng},
+    title =    {{Resolving the odd{\textendash}even oscillation of water dissociation
+             at rutile TiO<sub>2</sub>(110){\textendash}water interface by machine
+             learning accelerated molecular dynamics}},
+    journal =  {J. Chem. Phys.},
+    year =     2022,
+    volume =   157,
+    issue =    16,
+    pages =    164701,
+    annote =   {Aqueous rutile TiO2(110) is the most widely studied water-oxide
+             interface, and yet questions about water dissociation are still
+             controversial. Theoretical studies have systematically investigated
+             the influence of the slab thickness on water dissociation energy
+             (Ediss) at 1 monolayer coverage using static density functional theory
+             calculation and found that Ediss exhibits odd-even oscillation with
+             respect to the TiO2 slab thickness. However, less studies have
+             accounted for the full solvation of an aqueous phase using ab initio
+             molecular dynamics due to high computational costs in which only
+             three, four, and five trilayer models of rutile(110)-water interfaces
+             have been simulated. Here, we report Machine Learning accelerated
+             Molecular Dynamics (MLMD) simulations of defect-free rutile(110)-water
+             interfaces, which allows for a systematic study of the slab thickness
+             ranging from 3 to 17 trilayers with much lower costs while keeping ab
+             initio accuracy. Our MLMD simulations show that the dissociation
+             degree of surface water ({\ensuremath{\alpha}}) oscillates with the
+             slab thickness and converges to {\ensuremath{\sim}}2% as the TiO2 slab
+             becomes thicker. Converting {\ensuremath{\alpha}} into dissociation
+             free energy ({\ensuremath{\Delta}}Adiss) and comparing with
+             dissociation total energy Ediss calculated with a single monolayer of
+             water, we find that the full solvation of the interfaces suppresses
+             surface water from dissociating. It is interesting to note that the
+             machine learning potential trained from the dataset containing
+             exclusively the five trilayer TiO2 model exhibits excellent
+             transferability to other slab thicknesses and further captures the
+             oscillating behavior of surface water dissociation. Detailed analyses
+             indicate that the central plane in odd trilayer slabs modulates the
+             interaction between double trilayers and, thus, the bonding strength
+             between terminal Ti and water, which affects pKa of surface water and
+             water dissociation degree.},
+    doi =      {10.1063/5.0126333},
+}
+
+@Article{Li_SciAdv_2022_v8_peabq2900,
+    author =   {Pai Li and Feng Ding},
+    title =    {{Origin of the herringbone reconstruction of Au(111) surface at the
+             atomic scale}},
+    journal =  {Sci. Adv.},
+    year =     2022,
+    volume =   8,
+    issue =    40,
+    pages =    {eabq2900},
+    annote =   {The origin of the herringbone reconstruction on Au(111) surface has
+             never been explained properly at the atomic level because the large
+             periodic length (~30 nm) does not allow ab initio simulations of the
+             system and because of the lack of highly accurate empirical force
+             field. We trained a machine learning force field with high accuracy to
+             explore this reconstruction. Our study shows that the lattice
+             deformation in Au deeper layers, which allows the effective relaxation
+             of the densified and anisotropic top layer lattice, is critical for
+             the herringbone reconstruction. The herringbone reconstruction is
+             energetically more favorable than the stripe reconstruction only if
+             the slab thickness exceeds 12 atomic layers. Furthermore, we reveal
+             the high stability of herringbone reconstruction at high temperatures
+             and that a slight strain of about {\ensuremath{\pm}}0.2% can induce a
+             transition from the herringbone pattern to the stripe pattern, and
+             both agree well with the experimental observations.},
+    PMCID =    {PMC9534511},
+    doi =      {10.1126/sciadv.abq2900},
+}
+
+@Article{Yang_ChinesePhysLett_2022_v39_p116301,
+    author =   {Fenghu Yang and Qiyu Zeng and Bo Chen and Dongdong Kang and Shen Zhang
+             and Jianhua Wu and Xiaoxiang Yu and Jiayu Dai},
+    title =    {{Lattice Thermal Conductivity of MgSiO<sub>3</sub> Perovskite and Post-
+             Perovskite under Lower Mantle Conditions Calculated by Deep Potential
+             Molecular Dynamics}},
+    journal =  {Chinese Phys. Lett.},
+    year =     2022,
+    volume =   39,
+    issue =    11,
+    pages =    116301,
+    annote =   {<jats:p>Lattice thermal conductivity
+             (<jats:italic>{\ensuremath{\kappa}}</jats:italic>
+             <jats:sub>lat</jats:sub>) of MgSiO<jats:sub>3</jats:sub> perovskite
+             and post-perovskite is an important parameter for the thermal dynamics
+             in the Earth. Here, we develop a deep potential of density functional
+             theory quality under entire thermodynamic conditions in the lower
+             mantle, and calculate the
+             <jats:italic>{\ensuremath{\kappa}}</jats:italic>
+             <jats:sub>lat</jats:sub> by the Green{\textendash}Kubo relation. Deep
+             potential molecular dynamics captures full-order anharmonicity and
+             considers ill-defined phonons in
+             low-<jats:italic>{\ensuremath{\kappa}}</jats:italic>
+             <jats:sub>lat</jats:sub> materials ignored in the phonon gas model.
+             The <jats:italic>{\ensuremath{\kappa}}</jats:italic>
+             <jats:sub>lat</jats:sub> shows negative temperature dependence and
+             positive linear pressure dependence. Interestingly, the
+             <jats:italic>{\ensuremath{\kappa}}</jats:italic>
+             <jats:sub>lat</jats:sub> undergos an increase at the phase boundary
+             from perovskite to post-perovskite. We demonstrate that, along the
+             geotherm, the <jats:italic>{\ensuremath{\kappa}}</jats:italic>
+             <jats:sub>lat</jats:sub> increases by 18.2% at the phase boundary. Our
+             results would be helpful for evaluating Earth{\textquoteright}s
+             thermal dynamics and improving the Earth model.</jats:p>},
+    doi =      {10.1088/0256-307X/39/11/116301},
+}
+
+@Article{Liu_Nanoscale_2023_v15_p285,
+    author =   {Dongyu Liu and Yifan Wu and Andrey S Vasenko and Oleg V Prezhdo},
+    title =    {{Grain boundary sliding and distortion on a nanosecond timescale induce
+             trap states in CsPbBr<sub>3</sub>: <i>ab initio</i> investigation with
+             machine learning force field}},
+    journal =  {Nanoscale},
+    year =     2023,
+    volume =   15,
+    issue =    1,
+    pages =    {285--293},
+    annote =   {Grain boundaries (GBs) in perovskite solar cells and optoelectronic
+             devices are widely regarded as detrimental defects that accelerate
+             charge and energy losses through nonradiative carrier trapping and
+             recombination, but the mechanism is still under debate owing to the
+             diversity of GB configurations and behaviors. We combine ab initio
+             electronic structure and machine learning force field to investigate
+             evolution of the geometric and electronic structure of a CsPbBr3 GB on
+             a nanosecond timescale, which is comparable with the carrier
+             recombination time. We demonstrate that the GB slides spontaneously
+             within a few picoseconds increasing the band gap. Subsequent
+             structural oscillations dynamically produce midgap trap states through
+             Pb-Pb interactions across the GB. After several hundred picoseconds,
+             structural distortions start to occur, increasing the occurrence of
+             deep midgap states. We identify a distinct correlation of the average
+             Pb-Pb distance and fluctuations in the ion coordination numbers with
+             the appearance of the midgap states. Suppressing GB distortions
+             through annealing and breaking up Pb-Pb dimers by passivation can
+             efficiently alleviate the detrimental effects of GBs in perovskites.
+             The study provides new insights into passivation of the detrimental GB
+             defects, and demonstrates that structural and charge carrier dynamics
+             in perovskites are intimately coupled.},
+    doi =      {10.1039/d2nr05918e},
+}
+
+@Article{Liu_PhysChemChemPhys_2023_vNone_pNone,
+    author =   {Jianchuan Liu and Renxi Liu and Yu Cao and Mohan Chen},
+    title =    {{Solvation structures of calcium and magnesium ions in water with the
+             presence of hydroxide: a study by deep potential molecular dynamics}},
+    journal =  {Phys. Chem. Chem. Phys.},
+    year =     2023,
+    annote =   {The solvation structures of calcium (Ca2+) and magnesium (Mg2+) ions
+             with the presence of hydroxide (OH-) ion in water are essential for
+             understanding their roles in biological and chemical processes but
+             have not been fully explored. Ab initio molecular dynamics (AIMD) is
+             an important tool to address this issue, but two challenges exist.
+             First, an accurate description of OH- from AIMD needs an appropriate
+             exchange-correlation functional. Second, a long trajectory is needed
+             to reach an equilibrium state for the Ca2+-OH- and Mg2+-OH- ion pairs
+             in aqueous solutions. Herein, we adopt a deep potential molecular
+             dynamics (DPMD) method to simulate 1 ns trajectories for the Ca2+-OH-
+             and Mg2+-OH- ion pairs in water; the DPMD method provides efficient
+             machine-learning-based models that have the accuracy of the SCAN
+             exchange-correlation functional within the framework of density
+             functional theory. The solvation structures of the cations and the OH-
+             in terms of three different species have been systematically
+             investigated. On the one hand, we find that OH- have more significant
+             effects on the solvation structure of Ca2+ than that of Mg2+. We
+             observe that the OH- substantially affects the orientation angles of
+             water molecules surrounding the cation. Through the time correlation
+             functions, we conclude that the water molecules in the first solvation
+             shell of Ca2+ change their preferred orientation faster than those of
+             Mg2+. On the other hand, with the presence of the cation in the first
+             solvation shell of OH-, we find that the hydrogen bonds of OH- are
+             severely altered, and the adjacent water molecules of OH- are
+             squeezed. The two cations have substantially different effects on the
+             solvation structure of OH-. Our work provides new insight into the
+             solvation structures of Ca2+ and Mg2+ in water with the presence of
+             OH-.},
+    doi =      {10.1039/d2cp04105g},
+}
+
+@Article{Urata_JPhysChemC_2022_v126_p21507,
+    author =   {Shingo Urata},
+    title =    {{Modeling Short-Range and Three-Membered Ring Structures in Lithium
+             Borosilicate Glasses Using a Machine-Learning Potential}},
+    journal =  {J. Phys. Chem. C},
+    year =     2022,
+    volume =   126,
+    issue =    50,
+    pages =    {21507--21517},
+    doi =      {10.1021/acs.jpcc.2c07597},
+}
+
+@Article{Wu_ACSApplMaterInterfaces_2022_v14_p55753,
+    author =   {Yifan Wu and Dongyu Liu and Weibin Chu and Bipeng Wang and Andrey S
+             Vasenko and Oleg V Prezhdo},
+    title =    {{Fluctuations at Metal Halide Perovskite Grain Boundaries Create
+             Transient Trap States: Machine Learning Assisted Ab Initio Analysis}},
+    journal =  {ACS Appl. Mater. Interfaces},
+    year =     2022,
+    volume =   14,
+    issue =    50,
+    pages =    {55753--55761},
+    annote =   {All-inorganic perovskites are promising candidates for solar energy
+             and optoelectronic applications, despite their polycrystalline nature
+             with a large density of grain boundaries (GBs) due to facile solution-
+             processed fabrication. GBs exhibit complex atomistic structures
+             undergoing slow rearrangements. By studying evolution of the
+             {\ensuremath{\Sigma}}5(210) CsPbBr3 GB on a nanosecond time scale,
+             comparable to charge carrier lifetimes, we demonstrate that GB
+             deformations appear every {\ensuremath{\sim}}100 ps and increase
+             significantly the probability of deep charge traps. However, the deep
+             traps form only transiently for a few hundred femtoseconds. In
+             contrast, shallow traps appear continuously at the GB. Shallow traps
+             are localized in the GB layer, while deep traps are in a sublayer,
+             which is still distorted from the pristine structure and can be jammed
+             in unfavorable conformations. The GB electronic properties correlate
+             with bond angles, with notable exception of the Br-Br distance, which
+             provides a signature of halide migration along GBs. The transient
+             nature of trap states and localization of electrons and holes at
+             different parts of GBs indicate that charge carrier lifetimes should
+             be long. At the same time, charge mobility can be reduced. The
+             complex, multiscale evolution of geometric and electronic structures
+             of GBs rationalize the contradictory statements made in the literature
+             regarding both benign and detrimental roles of GBs in perovskite
+             performance and provide new atomistic insights into perovskite
+             properties.},
+    doi =      {10.1021/acsami.2c16203},
+}
+
+@Article{Mondal_JChemTheoryComput_2022_vNone_pNone,
+    author =   {Anirban Mondal and Dina Kussainova and Shuwen Yue and Athanassios Z
+             Panagiotopoulos},
+    title =    {{Modeling Chemical Reactions in Alkali Carbonate{\textendash}Hydroxide
+             Electrolytes with Deep Learning Potentials}},
+    journal =  {J. Chem. Theory Comput.},
+    year =     2022,
+    annote =   {We developed a deep potential machine learning model for simulations
+             of chemical reactions in molten alkali carbonate-hydroxide electrolyte
+             containing dissolved CO2, using an active learning procedure. We
+             tested the deep neural network (DNN) potential and training procedure
+             against reaction kinetics, chemical composition, and diffusion
+             coefficients obtained from density functional theory (DFT) molecular
+             dynamics calculations. The DNN potential was found to match DFT
+             results for the structural, transport, and short-time chemical
+             reactions in the melt. Using the DNN potential, we extended the time
+             scales of observation to 2 ns in systems containing thousands of
+             atoms, while preserving quantum chemical accuracy. This allowed us to
+             reach chemical equilibrium with respect to several chemical species in
+             the melt. The approach can be generalized for a broad spectrum of
+             chemically reactive systems.},
+    doi =      {10.1021/acs.jctc.2c00816},
+}
+
+@Article{Pitike_JournalofNuclearMaterials_2023_v574_p154183,
+    author =   {Krishna Chaitanya Pitike and Wahyu Setyawan},
+    title =    {{Accurate Fe{\textendash}He machine learning potential for studying He
+             effects in BCC-Fe}},
+    journal =  {Journal of Nuclear Materials},
+    year =     2023,
+    volume =   574,
+    pages =    154183,
+    doi =      {10.1016/j.jnucmat.2022.154183},
+}
+

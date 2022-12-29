@@ -9,11 +9,21 @@ The following publications have used the DP-GEN software. Publications that only
 
 ## 2023
 {% publications %}
+Ling_JournalofPowerSources_2023_v555_p232350,
+Liu_PhysChemChemPhys_2023_vNone_pNone,
 Zhai_ComputationalMaterialsScience_2023_v216_p111843
 {% endpublications %}
 
 ## 2022
 {% publications %}
+Mondal_JChemTheoryComput_2022_vNone_pNone,
+Yang_ChinesePhysLett_2022_v39_p116301,
+Zhuang_JChemPhys_2022_v157_p164701,
+He_PhysRevB_2022_v106_p174101,
+Wang_PhysRevMaterials_2022_v6_p113603,
+Liu_JAmChemSoc_2022_v144_p20601,
+Giese_JPhysChemA_2022_v126_p8519,
+Wang_GeophysicalResearchLetters_2022_v49_pNone,
 Du_PhysChemChemPhys_2022_v24_p18361,
 Wang_JChemPhys_2022_v157_p074304,
 Tang_ActaMaterialia_2022_v238_p118217,

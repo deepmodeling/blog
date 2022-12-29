@@ -9,11 +9,36 @@ The following publications have used the DeePMD-kit software. Publications that 
 
 ## 2023
 {% publications %}
+Huang_EnergyandAI_2023_v11_p100210,
+Ling_JournalofPowerSources_2023_v555_p232350,
+Li_JournaloftheEuropeanCeramicSociety_2023_v43_p208,
+Pitike_JournalofNuclearMaterials_2023_v574_p154183,
+Liu_PhysChemChemPhys_2023_vNone_pNone,
+Liu_Nanoscale_2023_v15_p285,
 Zhai_ComputationalMaterialsScience_2023_v216_p111843
 {% endpublications %}
 
 ## 2022
 {% publications %}
+Mondal_JChemTheoryComput_2022_vNone_pNone,
+Kobayashi_ChemCommun(Camb)_2022_v58_p13939,
+Wu_ACSApplMaterInterfaces_2022_v14_p55753,
+Urata_JPhysChemC_2022_v126_p21507,
+Yang_ChinesePhysLett_2022_v39_p116301,
+Li_SciAdv_2022_v8_peabq2900,
+Zhuang_JChemPhys_2022_v157_p164701,
+Fronzi_Nanomaterials(Basel)_2022_v12_p3891,
+Wan_NewJPhys_2022_v24_p113012,
+He_PhysRevB_2022_v106_p174101,
+McMichael_PhysRevAppl_2022_v18_p054022,
+McMichael_PhysRevAppl_2022_v18_p054066,
+Wang_PhysRevMaterials_2022_v6_p113603,
+Li_JChemPhys_2022_v157_p174303,
+Matusalem_ProcNatlAcadSciUSA_2022_v119_pe2203397119,
+Liu_JAmChemSoc_2022_v144_p20601,
+Giese_JPhysChemA_2022_v126_p8519,
+Wang_GeophysicalResearchLetters_2022_v49_pNone,
+Li_JPhysChemA_2022_v126_p9154,
 Loose_JChemTheoryComput_2022_v18_p5856,
 Liu_NanoLett_2022_v22_p7791,
 Raman_JPhysChemA_2022_v126_p7283,
@@ -83,6 +108,7 @@ Gu_ScienceBulletin_2022_v67_p29
 
 ## 2021
 {% publications %}
+Han_BriefBioinform_2021_v22_pNone,
 Achar_JPhysChemC_2021_v125_p14874,
 Chen_ACSNano_2021_v15_p12418,
 Huang_JChemPhys_2021_v154_p094703,
