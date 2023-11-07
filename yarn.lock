@@ -1031,13 +1031,13 @@ hexo-renderer-ejs@2.0.0:
   dependencies:
     ejs "^3.1.6"
 
-hexo-renderer-marked@^6.1.0:
-  version "6.1.0"
-  resolved "https://registry.yarnpkg.com/hexo-renderer-marked/-/hexo-renderer-marked-6.1.0.tgz#c76c69e586f3446b40e972e41bfe8d6fd7618211"
-  integrity sha512-KuVuaYFyKfbJj5dtwoWMwTNbe7rk+UuVR/tGzLXbQ05AWO5ob6xpFHbfeSyzSDt4ccYLzaKJBRduDWHd2f6bSQ==
+hexo-renderer-marked@^6.1.1:
+  version "6.1.1"
+  resolved "https://registry.yarnpkg.com/hexo-renderer-marked/-/hexo-renderer-marked-6.1.1.tgz#0db5e2b07d6e71e5edaa8a3fc43a06965a4e90f5"
+  integrity sha512-vllmRFwl9A1NP/llQW2TbDnyvqaQKgktxXw7c+tK7XVQJmfIUnl32dr8M4jRYqYe5m9972eYm09kBXV8rBtA/A==
   dependencies:
     dompurify "^3.0.3"
-    hexo-util "^3.0.1"
+    hexo-util "^3.1.0"
     jsdom "^20.0.1"
     marked "^4.3.0"
 
@@ -1096,7 +1096,7 @@ hexo-theme-next@^8.17.0:
   resolved "https://registry.yarnpkg.com/hexo-theme-next/-/hexo-theme-next-8.17.0.tgz#c679dcf9cf59a754f1b00f7b0df8d8a92a4ce52b"
   integrity sha512-J51XPF6wlxxgJ6MW7MXi7LweIhR7i/57CwFk7GHIncju4GHYcD78D678p2UAc9MQc8MFQuyz2pgGopnUEXZ9BQ==
 
-hexo-util@2.5.0, hexo-util@2.7.0, hexo-util@^0.6.3, hexo-util@^2.0.0, hexo-util@^2.1.0, hexo-util@^2.4.0, hexo-util@^2.7.0, hexo-util@^3.0.0, hexo-util@^3.0.1:
+hexo-util@2.5.0, hexo-util@2.7.0, hexo-util@^0.6.3, hexo-util@^2.0.0, hexo-util@^2.1.0, hexo-util@^2.4.0, hexo-util@^2.7.0, hexo-util@^3.0.0, hexo-util@^3.1.0:
   version "2.5.0"
   resolved "https://registry.yarnpkg.com/hexo-util/-/hexo-util-2.5.0.tgz#de5635341116ba2563a789a0ebceb55a875221ad"
   integrity sha512-l0zkqcg2524KPO84HQe0JROpPlCM/dEnCJaJrZ1qsq+3+/YxhDa0zxiGtUVY1dtrWzOK/V11Zj+UEklhGP8Jeg==
