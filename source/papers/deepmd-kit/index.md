@@ -11,6 +11,13 @@ We encourage explicitly mentioning DeePMD-kit with proper citations in your publ
 
 Last update date: Nov 28, 2023
 
+## 2024
+{% publications %}
+He_ActaMaterialia_2024_v262_p119416,
+Shang_Fuel_2024_v357_p129909,
+Li_JournaloftheEuropeanCeramicSociety_2024_v44_p659
+{% endpublications %}
+
 ## 2023
 {% publications %}
 Thong_PhysRevB_2023_v107_p014101,
