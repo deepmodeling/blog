@@ -90,9 +90,8 @@ To join the "OpenLAM Initiative", visit [AISSquare](https://www.aissquare.com/op
 
   - Seven new datasets in equilibrium state for unsupervised denoising
 
-|       |                     |                                                                                                                                                                                                                                                                                                                  |
-| ----- | ------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Index | Dataset name        | Contributors/Link                                                                                                                                                                                                                                                                                                |
+| ----- | ------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 1     | AFLOW_MP            | [AFLOW](https://www.aflowlib.org/), [MP](https://next-gen.materialsproject.org/)                                                                                                                                                                                                                                     |
 | 2     | MC2D| Davide Campi, Nicolas Mounet, Marco Gibertini, Giovanni Pizzi, Nicola Marzari, _The Materials Cloud 2D database (MC2D)_, Materials Cloud Archive 2022.84 (2022), doi: [10.24435/materialscloud:36-nd](https://doi.org/10.24435/materialscloud:36-nd).                                                            |
 | 3     | MC3D                | Sebastiaan Huber, Marnik Bercx, Nicolas Hörmann, Martin Uhrin, Giovanni Pizzi, Nicola Marzari, _Materials Cloud three-dimensional crystals database (MC3D)_, Materials Cloud Archive 2022.38 (2022), doi: [10.24435/materialscloud:rw-t0](https://doi.org/10.24435/materialscloud:rw-t0).                        |
@@ -103,8 +102,8 @@ To join the "OpenLAM Initiative", visit [AISSquare](https://www.aissquare.com/op
 
   - Latest Performance of the Multi-task Pretrained Model (22 energy force systems + 7 unsupervised denoise systems)
 
-|                        | Weight | DPA2 (multi-task 18 heads for 1m steps) | DPA2 (multi-task 29 heads for 1.84m steps) |
-| ---------------------- | ------------ | --------------------------------------------- | ------------------------------------------------ |
+|                        | Weight | DPA2 (multi-task 18 heads for 1m steps) | | DPA2 (multi-task 29 heads for 1.84m steps) | |
+| ---------------------- | ------------ | --------------------------------------------- | ------------------------------------------------ | ------- | ----- |
 |                        |              | Energy                                        | Force                                            | Energy | Force |
 | Alloy                  | 2.0          | 36.5                                          | 169.5                                            | 32.2 | 160.5 |
 | Cluster                | 1.0          | 34.4                                          | 162.5                                            | 40.6 | 171.0 |
