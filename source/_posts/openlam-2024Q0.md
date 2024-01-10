@@ -102,30 +102,213 @@ To join the "OpenLAM Initiative", visit [AISSquare](https://www.aissquare.com/op
 
   - Latest Performance of the Multi-task Pretrained Model (22 energy force systems + 7 unsupervised denoise systems)
 
-|                        | Weight | DPA2 (multi-task 18 heads for 1m steps) | | DPA2 (multi-task 29 heads for 1.84m steps) | |
-| ---------------------- | ------------ | --------------------------------------------- | ------------------------------------------------ | ------- | ----- |
-|                        |              | Energy                                        | Force                                            | Energy | Force |
-| Alloy                  | 2.0          | 36.5                                          | 169.5                                            | 32.2 | 160.5 |
-| Cluster                | 1.0          | 34.4                                          | 162.5                                            | 40.6 | 171.0 |
-| Anode                  | 1.0          | 3.3                                           | 39.8                                             | 2.5 | 45.0 |
-| FerroEle               | 1.0          | 4.4                                           | 44.2                                             | 1.7 | 47.2 |
-| AgAu-PBE               | 0.2          | 9.4                                           | 28.2                                             | 10.9 | 31.2 |
-| Cu                     | 0.1          | 3.6                                           | 18.2                                             | 6.8 | 21.2 |
-| Sn                     | 0.1          | 24.8                                          | 69.7                                             | 17.3 | 76.7 |
-| Ti                     | 0.1          | 16.3                                          | 112.4                                            | 26.8 | 133.7 |
-| AlMgCu                 | 0.3          | 4.9                                           | 23.4                                             | 10.6 | 28.6 |
-| V                      | 0.1          | 13.9                                          | 110.2                                            | 16.7 | 121.3 |
-| W                      | 0.1          | 24.6                                          | 157.9                                            | 45.8 | 174.0 |
-| C12H26                 | 0.1          | 62.5                                          | 710.6                                            | 75.3 | 1486.7 |
-| SSE-PBE                | 1.0          | 2.1                                           | 64.0                                             | 2.2 | 75.7 |
-| HfO2                   | 0.1          | 3.9                                           | 102.8                                            | 5.0 | 108.4 |
-| SemiCond               | 1.0          | 6.5                                           | 131.9                                            | 7.2 | 139.8 |
-| Drug                   | 2.0          | 20.6                                          | 128.9                                            | 21.8 | 140.6 |
-| OC2M                   | 2.0          | 29.3                                          | 157.6                                            | 26.7 | 138.7 |
-| H2O-PD                 | 1.0          | 3.2                                           | 39.7                                             | 1.0 | 45.6 |
-| **Weighted sum** |              | **18.6**                               | **116.3**                                        | **18.3** | **123.6** |
-|                        |              |                                               |                                                  |  |  |
-| Electrolyte            | 1.0          | /                                             | /                                                | 2.9 | 64.3 |
-| SSE_new                | 1.0          | /                                             | /                                                | 3.2 | 72.4 |
-| Organic_reactions      | 1.0          | /                                             | /                                                | 15.1 | 97.7 |
-| Methane-combustion     | 1.0          | /                                       | /                                          | 147.2 | 251.4 |
+<table>
+  <thead>
+    <tr>
+      <th rowspan=2></th>
+      <th rowspan=2>Weight</th>
+      <th colspan=2>DPA2 (multi-task 18 heads for 1m steps)</th>
+      <th colspan=2>DPA2 (multi-task 29 heads for 1.84m steps)</th>
+    </tr>
+    <tr>
+      <th>Energy</td>
+      <th>Force</td>
+      <th>Energy</td>
+      <th>Force</td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Alloy</td>
+      <td>2.0</td>
+      <td>36.5</td>
+      <td>169.5</td>
+      <td>32.2</td>
+      <td>160.5</td>
+    </tr>
+    <tr>
+      <td>Cluster</td>
+      <td>1.0</td>
+      <td>34.4</td>
+      <td>162.5</td>
+      <td>40.6</td>
+      <td>171.0</td>
+    </tr>
+    <tr>
+      <td>Anode</td>
+      <td>1.0</td>
+      <td>3.3</td>
+      <td>39.8</td>
+      <td>2.5</td>
+      <td>45.0</td>
+    </tr>
+    <tr>
+      <td>FerroEle</td>
+      <td>1.0</td>
+      <td>4.4</td>
+      <td>44.2</td>
+      <td>1.7</td>
+      <td>47.2</td>
+    </tr>
+    <tr>
+      <td>AgAu-PBE</td>
+      <td>0.2</td>
+      <td>9.4</td>
+      <td>28.2</td>
+      <td>10.9</td>
+      <td>31.2</td>
+    </tr>
+    <tr>
+      <td>Cu</td>
+      <td>0.1</td>
+      <td>3.6</td>
+      <td>18.2</td>
+      <td>6.8</td>
+      <td>21.2</td>
+    </tr>
+    <tr>
+      <td>Sn</td>
+      <td>0.1</td>
+      <td>24.8</td>
+      <td>69.7</td>
+      <td>17.3</td>
+      <td>76.7</td>
+    </tr>
+    <tr>
+      <td>Ti</td>
+      <td>0.1</td>
+      <td>16.3</td>
+      <td>112.4</td>
+      <td>26.8</td>
+      <td>133.7</td>
+    </tr>
+    <tr>
+      <td>AlMgCu</td>
+      <td>0.3</td>
+      <td>4.9</td>
+      <td>23.4</td>
+      <td>10.6</td>
+      <td>28.6</td>
+    </tr>
+    <tr>
+      <td>V</td>
+      <td>0.1</td>
+      <td>13.9</td>
+      <td>110.2</td>
+      <td>16.7</td>
+      <td>121.3</td>
+    </tr>
+    <tr>
+      <td>W</td>
+      <td>0.1</td>
+      <td>24.6</td>
+      <td>157.9</td>
+      <td>45.8</td>
+      <td>174.0</td>
+    </tr>
+    <tr>
+      <td>C12H26</td>
+      <td>0.1</td>
+      <td>62.5</td>
+      <td>710.6</td>
+      <td>75.3</td>
+      <td>1486.7</td>
+    </tr>
+    <tr>
+      <td>SSE-PBE</td>
+      <td>1.0</td>
+      <td>2.1</td>
+      <td>64.0</td>
+      <td>2.2</td>
+      <td>75.7</td>
+    </tr>
+    <tr>
+      <td>HfO2</td>
+      <td>0.1</td>
+      <td>3.9</td>
+      <td>102.8</td>
+      <td>5.0</td>
+      <td>108.4</td>
+    </tr>
+    <tr>
+      <td>SemiCond</td>
+      <td>1.0</td>
+      <td>6.5</td>
+      <td>131.9</td>
+      <td>7.2</td>
+      <td>139.8</td>
+    </tr>
+    <tr>
+      <td>Drug</td>
+      <td>2.0</td>
+      <td>20.6</td>
+      <td>128.9</td>
+      <td>21.8</td>
+      <td>140.6</td>
+    </tr>
+    <tr>
+      <td>OC2M</td>
+      <td>2.0</td>
+      <td>29.3</td>
+      <td>157.6</td>
+      <td>26.7</td>
+      <td>138.7</td>
+    </tr>
+    <tr>
+      <td>H2O-PD</td>
+      <td>1.0</td>
+      <td>3.2</td>
+      <td>39.7</td>
+      <td>1.0</td>
+      <td>45.6</td>
+    </tr>
+    <tr>
+      <td><strong>Weighted sum</strong></td>
+      <td></td>
+      <td><strong>18.6</strong></td>
+      <td><strong>116.3</strong></td>
+      <td><strong>18.3</strong></td>
+      <td><strong>123.6</strong></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Electrolyte</td>
+      <td>1.0</td>
+      <td>/</td>
+      <td>/</td>
+      <td>2.9</td>
+      <td>64.3</td>
+    </tr>
+    <tr>
+      <td>SSE_new</td>
+      <td>1.0</td>
+      <td>/</td>
+      <td>/</td>
+      <td>3.2</td>
+      <td>72.4</td>
+    </tr>
+    <tr>
+      <td>Organic_reactions</td>
+      <td>1.0</td>
+      <td>/</td>
+      <td>/</td>
+      <td>15.1</td>
+      <td>97.7</td>
+    </tr>
+    <tr>
+      <td>Methane-combustion</td>
+      <td>1.0</td>
+      <td>/</td>
+      <td>/</td>
+      <td>147.2</td>
+      <td>251.4</td>
+    </tr>
+  </tbody>
+</table>
