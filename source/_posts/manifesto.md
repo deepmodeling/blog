@@ -1,7 +1,6 @@
 ---
 title: The DeepModeling Manifesto
 date: 2021-06-10
-sticky: 100
 ---
  
 The integration of machine learning and physical modeling is changing the paradigm of scientific research. Those who hope to extend the frontier of science and solve challenging practical problems through computational modeling are coming together in new ways never seen before. This calls for a new infrastructure--new platforms for collaboration, new coding
