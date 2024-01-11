@@ -1,6 +1,8 @@
 ---
 title: The OpenLAM Initiative
 date: 2023-12-01
+categories:
+- OpenLAM
 ---
 
 Peter Thiel once said, "We wanted flying cars, instead we got 140 characters (Twitter)." Over the past decade, we have made great strides at the bit level (internet), but progress at the atomic level (cutting-edge technology) has been relatively slow.
