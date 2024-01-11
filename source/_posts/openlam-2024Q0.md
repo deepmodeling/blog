@@ -100,7 +100,7 @@ To join the "OpenLAM Initiative", visit [AISSquare](https://www.aissquare.com/op
 | 6     | MolecularCrystal    | Rose Cersonsky, Maria Pakhnova, Edgar Engel, Michele Ceriotti, _Lattice energies and relaxed geometries for 2'707 organic molecular crystals and their 3'242 molecular components._, Materials Cloud Archive 2023.5 (2023), doi: [10.24435/materialscloud:71-21](https://doi.org/10.24435/materialscloud:71-21). |
 | 7     | CALYPSO_database    | Zhenyu Wang, Xiaoshan Luo                                                                                                                                                                                                                                                                                        |
 
-  - Latest Performance of the Multi-task Pretrained Model (22 energy force systems + 7 unsupervised denoise systems)
+  - Latest Performance (root mean squared error, RMSE) of the Multi-task Pretrained Model (22 energy force systems + 7 unsupervised denoise systems)
 
 <table>
   <thead>
@@ -111,10 +111,10 @@ To join the "OpenLAM Initiative", visit [AISSquare](https://www.aissquare.com/op
       <th colspan=2>DPA2 (multi-task 29 heads for 1.84m steps)</th>
     </tr>
     <tr>
-      <th>Energy</td>
-      <th>Force</td>
-      <th>Energy</td>
-      <th>Force</td>
+      <th>Energy (meV/atom)</td>
+      <th>Force  (meV/Å)</td>
+      <th>Energy (meV/atom)</td>
+      <th>Force (meV/Å)</td>
     </tr>
   </thead>
   <tbody>
