@@ -12,10 +12,10 @@ See [AIS Square](https://www.aissquare.com/openlam) for more details.
 ## Model Structure
 
 - The DPA-2 model structure (PyTorch based) has been released, showing a significant increase in fitting and transferability compared to the DPA-1 ([arxiv:2312.15492](https://arxiv.org/abs/2312.15492)).
-- A new capability for unsupervised denoise pretraining has been added (a code branch package file and usage Readme are provided).
+- A new capability for unsupervised denoise pretraining has been added ([DOI:10.5281/zenodo.10483908](https://doi.org/10.5281/zenodo.10483908)).
 
 ## Data
-- The DPA-2 paper includes pretrained data for 18 systems and downstream data for 10 systems, covering over ten million frames and 73 elements (for detailed data inventory, see below; data can also be directly downloaded from [DOI:10.5281/zenodo.10428497](https://doi.org/10.5281/zenodo.10428497)).
+- The DPA-2 paper includes pretrained data for 18 systems and downstream data for 10 systems, covering over ten million frames and 73 elements (for detailed data inventory, see below; data can also be directly downloaded from [DOI:10.5281/zenodo.10483908](https://doi.org/10.5281/zenodo.10483908)).
 - Four new datasets have been added for energy&force data related to electrolytes, solid-state electrolytes, chemical reactions, and methane combustion (for details, see the data inventory below).
 - Seven new datasets in equilibrium state for unsupervised denoising tasks have been added, including AFLOW, MC2D/3D, CALYPSO, etc. (for details, see the data inventory below).
 
