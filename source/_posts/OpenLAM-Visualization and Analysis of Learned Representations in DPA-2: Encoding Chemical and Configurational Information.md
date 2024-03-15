@@ -1,4 +1,3 @@
-
 ---
 title: "OpenLAM | Visualization and Analysis of Learned Representations in DPA-2: Encoding Chemical and Configurational Informationt"
 date: 2024-03-14
