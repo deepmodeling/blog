@@ -32,9 +32,5 @@
   },
   "devDependencies": {
     "hexo-yam": "8.0.0"
-  },
-  "resolutions": {
-    "hexo-util": "2.5.0",
-    "css-select": "4.1.3"
   }
 }
