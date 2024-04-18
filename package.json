@@ -6,9 +6,9 @@
     "version": "6.1.0"
   },
   "scripts": {
-    "build": "hexo g",
-    "clean": "hexo clean",
-    "serve": "hexo serve"
+    "build": "hexo --safe g",
+    "clean": "hexo --safe clean",
+    "serve": "hexo --safe serve"
   },
   "dependencies": {
     "hexo": "7.2.0",
