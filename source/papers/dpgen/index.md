@@ -1,7 +1,7 @@
 ---
 title: Publications driven by DP-GEN
 date: 2022-05-11
-update: 2023-11-28
+update: 2024-06-30
 mathjax: true
 ---
 
@@ -9,16 +9,26 @@ The following publications have used the DP-GEN software. Publications that only
 
 We encourage explicitly mentioning DP-GEN with proper citations in your publications, so we can more easily find and list these publications.
 
-Last update date: Nov 28, 2023
+Last update date: June 30, 2024
 
 ## 2024
 {% publications %}
+Bhullar_ChemphyschemEurJChemPhysPhysChem_2024_pe202400090,
+Shi_ExtremMechLett_2024_v68_p102151,
+Shi_PhysRevB_2024_v109_p174104,
+Galvani_JPhysMater_2024_v7_p35003,
+Zhang_AcsPhysChemAu_2024,
 He_ActaMaterialia_2024_v262_p119416,
 Shang_Fuel_2024_v357_p129909
 {% endpublications %}
 
 ## 2023
 {% publications %}
+Liu_PhysRevE_2023_v108_p55310,
+Wu_PhysRevB_2023_v108_pL180104,
+Shayestehpour_JChemTheoryComput_2023_v19_p8732,
+Bai_NanoLett_2023_v23_p10922,
+Xu_JPhysChemC_2023_v127_p24106,
 Thong_PhysRevB_2023_v107_p014101,
 Zhang_PhysChemChemPhys_2023_v25_p13297,
 Ding_Tungsten_2023_vNone_pNone,
