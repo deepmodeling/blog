@@ -13,8 +13,8 @@ timezone: Asia/Shanghai
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://deepmodeling.com/blog
-root: /blog/
+url: https://blogs.deepmodeling.com/
+root: /
 permalink: :title/
 permalink_defaults:
 
