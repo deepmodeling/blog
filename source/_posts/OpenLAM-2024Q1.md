@@ -27,7 +27,7 @@ The pre-trained model OpenLAM_2.1.0_27heads_20224Q1.pt, compatible with the late
 
 The system was updated with usage guides for zero-shot, single-task fine-tuning, and multi-task fine-tuning with pre-trained models. For any questions on model usage, community members can connect with developers in the GitHub discussion forum: https://github.com/deepmodeling/deepmd-kit/discussions/3772.
 
-<center><img src=https://dp-public.oss-cn-beijing.aliyuncs.com/community/20241104-135645.jpg# pic_center width="100%" height="100%" /></center>
+<center><img src=https://dp-public.oss-cn-beijing.aliyuncs.com/community/20241104-135649.jpg# pic_center width="100%" height="100%" /></center>
 
 
 ## Infrastructure
@@ -40,7 +40,7 @@ The system was updated with usage guides for zero-shot, single-task fine-tuning,
 - By combining the crystal structure prediction algorithm CALYPSO with DP-GEN, a model construction scheme suited for high-throughput structure prediction has been designed. Additionally, dpgen2 is integrated into the structure search software Calypso as an optional configuration space exploration engine.
     - Article link: https://journals.aps.org/prb/abstract/10.1103/PhysRevB.109.094117
 
-<center><img src=https://dp-public.oss-cn-beijing.aliyuncs.com/community/20241104-135649.jpg# pic_center width="100%" height="100%" /></center>
+<center><img src=https://dp-public.oss-cn-beijing.aliyuncs.com/community/20241104-135645.jpg# pic_center width="100%" height="100%" /></center>
 
 - The open-source cloud-native alloy property calculation workflow APEX V1.2.0 has been released, effectively supporting the evaluation of the OpenLAM Large Atomic Model.
     - Project repository: https://github.com/deepmodeling/apex
