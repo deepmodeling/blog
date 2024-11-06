@@ -7,6 +7,8 @@ categories:
 
 On the journey toward developing a Large Atomic Model (LAM), the core Deep Potential development team has launched the OpenLAM initiative for the community. OpenLAM’s slogan is "Conquer the Periodic Table!" The project aims to create an open-source ecosystem centered on microscale large models, providing new infrastructure for microscopic scientific research and driving transformative advancements in microscale industrial design across fields such as materials, energy, and biopharmaceuticals.
 
+<!-- more -->
+
 ## Codes
 The code underwent a large-scale restructuring, and the DeePMD-kit v3 alpha version was successfully released in early March. Compared to v2, DeePMD-kit v3 allows users to train and run deep potential models on either the TensorFlow or PyTorch framework, facilitating broader compatibility across downstream applications. DeePMD-kit v3 also adds support for the DPA-2 model, marking a new chapter for Large Atomic Models (LAM). For a more detailed report, see: https://github.com/deepmodeling/deepmd-kit/discussions/3401.
 
