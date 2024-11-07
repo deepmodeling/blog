@@ -1,6 +1,6 @@
 ---
 title: "2024 Q2 OpenLAM Report｜More Stable Code, Richer Domain Models"
-date: 2024-11-06
+date: 2024-07-29
 categories:
 - OpenLAM
 ---
