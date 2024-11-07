@@ -1,6 +1,6 @@
 ---
 title: "OpenLAM | 2024 Q1 Report Infrastructure Upgrade and Release of Pre-trained Models Compatible with DeePMD-kit v3"
-date: 2024-11-02
+date: 2024-05-11
 categories:
 - OpenLAM
 ---
