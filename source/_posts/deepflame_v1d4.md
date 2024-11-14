@@ -1,5 +1,5 @@
 ---
-title: DeepFlame 1.4 Released, Introducing Full-Speed Range Multiphase Reactive Flow Solver"
+title: "DeepFlame 1.4 Released, Introducing Full-Speed Range Multiphase Reactive Flow Solver"
 date: 2024-08-23
 categories:
 - DeepFlame
