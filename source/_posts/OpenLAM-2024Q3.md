@@ -67,7 +67,7 @@ Table 3.
 | Python inference speed (s/100 times) | **3.7**          | 6.3      |
 
 **2. Alloy Domain Model:** 
-   - A property-driven fine-tuning workflow has been developed for large models, supporting fine-tuning across multiple properties to create customized potential models for specific applications. The corresponding Bohrium Notebook, *Finetune Alloy Property using APEX + DPGen2*, is available. See DPA-1&2 alloy large model details at: [Alloy Multi-task Model](https://www.aissquare.com/models/detail?pageType=models&name=DPA-1%262-53-alloy-multitask-400w&id=280).
+   - A property-driven fine-tuning workflow has been developed for large models, supporting fine-tuning across multiple properties to create customized potential models for specific applications. The corresponding Bohrium Notebook, *Finetune Alloy Property using APEX + DPGen2*, is available. See DPA-1&2 alloy large model details at: [Alloy Multi-task Model](https://www.aissquare.com/models/detail?pageType=models&name=DPA-1%25262-53-alloy-multitask-400w%255BEN%255D&id=283).
 
 ## Community
 **OpenLAM Crystal Structure Competition:**
