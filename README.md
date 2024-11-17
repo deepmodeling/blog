@@ -1,11 +1,8 @@
-# The Deep Modeling Blog
-
-[![jsDelivr hits](https://data.jsdelivr.com/v1/package/gh/deepmodeling/blog/badge/all?style=rounded)](https://www.jsdelivr.com/package/gh/deepmodeling/blog)
-[![jsDelivr monthly hits](https://data.jsdelivr.com/v1/package/gh/deepmodeling/blog/badge?style=rounded)](https://www.jsdelivr.com/package/gh/deepmodeling/blog)
+# The DeepModeling Blog
 
 ## For readers
 
-Visit our blog at https://deepmodeling.org/blog!
+Visit our blog at https://blogs.deepmodeling.com/!
 
 ## For editors
 ### Add a post
