@@ -1,4 +1,4 @@
-# The Deep Modeling Blog
+# The DeepModeling Blog
 
 ## For readers
 
