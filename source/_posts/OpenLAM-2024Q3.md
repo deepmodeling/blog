@@ -50,7 +50,7 @@ For detailed release notes, visit: [DeePMD-kit v3.0.0 beta4 release notes](https
 ## Data
 
 **New Materials Project Trajectory Dataset (MPtraj) in DeepMD Mixed Type Format:**
-- **Dataset Link:** [MPtraj Dataset](https://www.aissquare.com/datasets/detail?pageType=datasets&name=MPtraj&id=2781)
+- **Dataset Link:** [MPtraj Dataset](https://www.aissquare.com/datasets/detail?pageType=datasets&name=MPtraj&id=278)
 
 ## Models
 **1. Pre-trained Model:**
