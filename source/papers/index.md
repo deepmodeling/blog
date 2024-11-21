@@ -9,7 +9,5 @@ title: Publications citing DeepModeling's work
 
 - [DeePMD-kit](deepmd-kit/)
 - [DP-GEN](dpgen/)
-- DeePKS-kit
-- RiD-kit
-- ABACUS
-- FEALPy
+- [ABACUS](abacus/)
+- [Uni-Mol](unimol/)
