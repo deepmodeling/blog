@@ -54,3 +54,7 @@ DeePTB is currently open-sourced in the DeepModeling community. We welcome you t
 DeePTB Project Link: (https://github.com/deepmodeling/DeePTB)
 
 The dftio project is in the process of applying to be hosted in the DeepModeling community, so stay tuned for more details.
+
+Reference:
+[1] Q. Gu, Z. Zhouyin, S. K. Pandey, P. Zhang, L. Zhang, and W. E, Deep Learning Tight-Binding Approach for Large-Scale Electronic Simulations at Finite Temperatures with Ab Initio Accuracy, Nat Commun 15, 6772 (2024).
+[2] Z. Zhouyin, Z. Gan, S. K. Pandey, L. Zhang, and Q. Gu, Learning Local Equivariant Representations for Quantum Operators, arXiv:2407.06053.
