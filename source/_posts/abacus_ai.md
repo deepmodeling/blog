@@ -3,7 +3,7 @@ title: "What Can ABAUCS Do too? | Using AI to describe the kinetic energy of ele
 date: 2024-11-18
 categories:
 - ABACUS
-- mathjax: true
+mathjax: true
 ---
 
 Recently, doctoral student Sun Liang and researcher Chen Mohan from the Center for Applied Physics and Technology at Peking University implemented a machine learning-based kinetic energy density functional (multi-channel ML-based Physically-constrained Non-local KEDF, or CPN KEDF) in the domestically developed open-source density functional theory software ABACUS (Atomic-based Ab initio Computation at UStc). This functional employs a multi-channel architecture, extending the previously developed MPN KEDF (ML-based Physical-constrained Non-local KEDF) [1], which was designed for simple metallic systems, to semiconductors. The method achieved promising results in tests on ground-state energy and ground-state charge density, laying the groundwork for the development of machine learning-based kinetic energy density functionals with broader applicability. The article, titled “Multi-channel machine learning-based nonlocal kinetic energy density functional for semiconductors,” has been published in the journal Electronic Structure (DOI: 10.1088/2516-1075/ad8b8c) [2].
