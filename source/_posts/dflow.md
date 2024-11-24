@@ -10,7 +10,7 @@ From the development of software ecosystems in fields such as electronic structu
 
 AI advancements are driving a paradigm shift in scientific research, but the integration of scientific computing and AI faces challenges, such as the complex processes of efficient data generation and model training, and the management and scheduling of large-scale tasks. Traditional manual task management is inefficient, and script-based automation lacks reusability and maintainability. The rapid scalability of cloud computing offers new opportunities for scientific research, necessitating a new, user-friendly workflow framework that can effectively utilize cloud and high-performance computing resources, enabling seamless integration of algorithm design and practical application.
 
-In this context, the DeepModeling community initiated and gradually improved Dflow[1,2], a Python toolkit designed to help scientists build workflows. The core features of Dflow include:
+In this context, the DeepModeling community initiated and gradually improved Dflow, a Python toolkit designed to help scientists build workflows. The core features of Dflow include:
 
 1. Enabling complex process control and task scheduling. Dflow integrates Argo Workflows for reliable scheduling and task management, uses container technology to ensure environmental consistency and reproducibility, and employs Kubernetes technology to enhance workflow stability and observability, capable of handling workflows with thousands of concurrent nodes.
 
