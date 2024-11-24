@@ -7,12 +7,11 @@ mathjax: true
 ---
 
 ## 1. Multi-backend framework: Powered by TensorFlow, PyTorch, and JAX
+<!-- more -->
 
 <center><img src=https://dp-public.oss-cn-beijing.aliyuncs.com/community/dpv3/dp1.png# pic_center width="100%" height="100%" /></center>
 
 DeePMD-kit v3 implements a flexible and pluggable backend framework, providing a consistent training and inference experience across multiple backends. Version 3.0.0 includes the following backends:
-
-<!-- more -->
 
 - **TensorFlow Backend**: Static graph for efficient computation.  
 - **PyTorch Backend**: Dynamic graph, simplifying model extension and development.  
