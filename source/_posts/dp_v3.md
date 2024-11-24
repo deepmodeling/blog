@@ -12,6 +12,8 @@ mathjax: true
 
 DeePMD-kit v3 implements a flexible and pluggable backend framework, providing a consistent training and inference experience across multiple backends. Version 3.0.0 includes the following backends:
 
+<!-- more -->
+
 - **TensorFlow Backend**: Static graph for efficient computation.  
 - **PyTorch Backend**: Dynamic graph, simplifying model extension and development.  
 - **DP Backend**: Reference backend implemented with NumPy and Array API.  
