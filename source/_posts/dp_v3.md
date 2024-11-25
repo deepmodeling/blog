@@ -20,28 +20,28 @@ DeePMD-kit v3 implements a flexible and pluggable backend framework, providing a
 
 | Function                     | TensorFlow | PyTorch | JAX  | DP   |
 |------------------------------|------------|---------|------|------|
-| Local frame descriptor       | ✅          | ✅       | ✅    | ✅    |
+| Local frame descriptor       | ✅          |        |     |     |
 | se_e2_a descriptor           | ✅          | ✅       | ✅    | ✅    |
 | se_e2_r descriptor           | ✅          | ✅       | ✅    | ✅    |
 | se_e3 descriptor             | ✅          | ✅       | ✅    | ✅    |
-| se_e3_tebd descriptor        | ✅          | ✅       | ✅    | ✅    |
+| se_e3_tebd descriptor        |           | ✅       | ✅    | ✅    |
 | DPA-1 descriptor             | ✅          | ✅       | ✅    | ✅    |
-| DPA-2 descriptor             | ✅          | ✅       | ✅    | ✅    |
+| DPA-2 descriptor             |           | ✅       | ✅    | ✅    |
 | Hybrid descriptor            | ✅          | ✅       | ✅    | ✅    |
 | Fit energy                   | ✅          | ✅       | ✅    | ✅    |
 | Fit dipole                   | ✅          | ✅       | ✅    | ✅    |
 | Fit polar                    | ✅          | ✅       | ✅    | ✅    |
 | Fit DOS                      | ✅          | ✅       | ✅    | ✅    |
-| Fit properties               | ✅          | ✅       | ✅    | ✅    |
+| Fit properties               |           | ✅       | ✅    | ✅    |
 | ZBL                          | ✅          | ✅       | ✅    | ✅    |
-| DPLR                         | ✅          | ✅       | ✅    | ✅    |
+| DPLR                         | ✅          |        |     |    |
 | DPRc                         | ✅          | ✅       | ✅    | ✅    |
-| Spin                         | ✅          | ✅       | ✅    | ✅    |
-| Ladder calculation           | ✅          | ✅       | ✅    | ✅    |
-| Model training               | ✅          | ✅       | ✅    | ✅    |
-| Model compression            | ✅          | ✅       | ✅    | ✅    |
+| Spin                         | ✅          | ✅       |     | ✅    |
+| Ladder calculation           | ✅          | ✅       | ✅    |     |
+| Model training               | ✅          | ✅       |     |     |
+| Model compression            | ✅          | ✅       |     |     |
 | Python inference             | ✅          | ✅       | ✅    | ✅    |
-| C++ inference                | ✅          | ✅       | ✅    | ✅    |
+| C++ inference                | ✅          | ✅       | ✅    |     |
 
 
 The main features of the multi-backend framework include:
