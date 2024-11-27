@@ -29,5 +29,10 @@ Comajuncosa-Creus_JCheminformatics_2024_v16_p70,
 Chang_JChemInfModel_2024_v64_p3149,
 Luo_JacsAu_2024_v4_p3451,
 Wang_NatCommun_2024_v15_p1904,
-Xiao_arXiv_2024_p2411.10821
+Xiao_arXiv_2024_p2411.10821,
+Cheng_AdvOptMater_2023_v11,
+Yao_JacsAu_2024_v4_p992,
+Lu_arXiv_2023_p2303.16982,
+Gao_arXiv_2023_p2304.12239,
+Wang_arXiv_2024_p2406.04727
 {% endpublications %}
