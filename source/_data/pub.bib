@@ -13078,3 +13078,154 @@ abstract  ="The design of new solid electrolytes (SEs) hinges on identifying and
              collected dataset are available at
              {\textbackslash}url{\{}https://github.com/xiaocui3737/GeomCLIP{\}}},
 }
+@Article{Cheng_AdvOptMater_2023_v11,
+    author =   {Zheng Cheng and Jiapeng Liu and Tong Jiang and Mohan Chen and Fuzhi
+             Dai and Zhifeng Gao and Guolin Ke and Zifeng Zhao and Qi Ou},
+    title =    {{Automatic Screen{-}out of Ir(III) Complex Emitters by Combined Machine
+             Learning and Computational Analysis}},
+    journal =  {Adv. Opt. Mater.},
+    year =     2023,
+    volume =   11,
+    number =   18,
+    doi =      {10.1002/adom.202301093},
+    abstract = {AbstractThe organic light{-}emitting diode (OLED) has gained
+             widespread commercial use, yet there is a continuous need to identify
+             innovative emitters that offer higher efficiency and a broader color
+             gamut. To effectively screen out promising OLED molecules that are yet
+             to be synthesized, representation learning aided high throughput
+             virtual screening (HTVS) over millions of Ir(III) complexes, which are
+             prototypical types of phosphorescent OLED material constructed via a
+             random combination of 278 reported ligands. This study successfully
+             screens out a decent amount of promising candidates for both display
+             and lighting purposes, which are worth further experimental
+             investigation. The high efficiency and accuracy of this model are
+             largely attributed to the pioneering attempt of using representation
+             learning to organic luminescent molecules, which is initiated by a
+             pre{-}training procedure with over 1.6 million 3D molecular structures
+             and frontier orbital energies predicted via semi{-}empirical methods,
+             followed by a fine{-}tuning scheme via the quantum mechanical computed
+             properties over around 1500 candidates. Such workflow enables an
+             effective model construction process that is otherwise hindered by the
+             scarcity of labeled data and can be straightforwardly extended to the
+             discovery of other novel materials.},
+}
+@Article{Yao_JacsAu_2024_v4_p992,
+    author =   {Lin Yao and Wentao Guo and Zhen Wang and Shang Xiang and Wentan Liu
+             and Guolin Ke},
+    title =    {{Node-Aligned Graph-to-Graph: Elevating Template-free Deep Learning
+             Approaches in Single-Step Retrosynthesis}},
+    journal =  {Jacs Au},
+    year =     2024,
+    volume =   4,
+    number =   3,
+    pages =    {992--1003},
+    doi =      {10.1021/jacsau.3c00737},
+    abstract = {Single-step retrosynthesis in organic chemistry increasingly benefits
+             from deep learning (DL) techniques in computer-aided synthesis design.
+             While template-free DL models are flexible and promising for
+             retrosynthesis prediction, they often ignore vital 2D molecular
+             information and struggle with atom alignment for node generation,
+             resulting in lower performance compared to the template-based and
+             semi-template-based methods. To address these issues, we introduce
+             node-aligned graph-to-graph (NAG2G), a transformer-based template-free
+             DL model. NAG2G combines 2D molecular graphs and 3D conformations to
+             retain comprehensive molecular details and incorporates product-
+             reactant atom mapping through node alignment, which determines the
+             order of the node-by-node graph outputs process in an autoregressive
+             manner. Through rigorous benchmarking and detailed case studies, we
+             have demonstrated that NAG2G stands out with its remarkable predictive
+             accuracy on the expansive data sets of USPTO-50k and USPTO-FULL.
+             Moreover, the model's practical utility is underscored by its
+             successful prediction of synthesis pathways for multiple drug
+             candidate molecules. This proves not only NAG2G's robustness but also
+             its potential to revolutionize the prediction of complex chemical
+             synthesis processes for future synthetic route design tasks.},
+}
+@Article{Lu_arXiv_2023_p2303.16982,
+    author =   {Shuqi Lu and Zhifeng Gao and Di He and Linfeng Zhang and Guolin Ke},
+    title =    {{Highly Accurate Quantum Chemical Property Prediction with Uni-Mol+}},
+    journal =  {arXiv},
+    year =     2023,
+    pages =    {2303.16982},
+    doi =      {10.48550/arXiv.2303.16982},
+    abstract = {Recent developments in deep learning have made remarkable progress in
+             speeding up the prediction of quantum chemical (QC) properties by
+             removing the need for expensive electronic structure calculations like
+             density functional theory. However, previous methods learned from 1D
+             SMILES sequences or 2D molecular graphs failed to achieve high
+             accuracy as QC properties primarily depend on the 3D equilibrium
+             conformations optimized by electronic structure methods, far different
+             from the sequence-type and graph-type data. In this paper, we propose
+             a novel approach called Uni-Mol+ to tackle this challenge. Uni-Mol+
+             first generates a raw 3D molecule conformation from inexpensive
+             methods such as RDKit. Then, the raw conformation is iteratively
+             updated to its target DFT equilibrium conformation using neural
+             networks, and the learned conformation will be used to predict the QC
+             properties. To effectively learn this update process towards the
+             equilibrium conformation, we introduce a two-track Transformer model
+             backbone and train it with the QC property prediction task. We also
+             design a novel approach to guide the model's training process. Our
+             extensive benchmarking results demonstrate that the proposed Uni-Mol+
+             significantly improves the accuracy of QC property prediction in
+             various datasets. We have made the code and model publicly available
+             at {\textbackslash}url{\{}https://github.com/dptech-corp/Uni-Mol{\}}.},
+}
+@Article{Gao_arXiv_2023_p2304.12239,
+    author =   {Zhifeng Gao and Xiaohong Ji and Guojiang Zhao and Hongshuai Wang and
+             Hang Zheng and Guolin Ke and Linfeng Zhang},
+    title =    {{Uni-QSAR: an Auto-ML Tool for Molecular Property Prediction}},
+    journal =  {arXiv},
+    year =     2023,
+    pages =    {2304.12239},
+    doi =      {10.48550/arXiv.2304.12239},
+    abstract = {Recently deep learning based quantitative structure-activity
+             relationship (QSAR) models has shown surpassing performance than
+             traditional methods for property prediction tasks in drug discovery.
+             However, most DL based QSAR models are restricted to limited labeled
+             data to achieve better performance, and also are sensitive to model
+             scale and hyper-parameters. In this paper, we propose Uni-QSAR, a
+             powerful Auto-ML tool for molecule property prediction tasks. Uni-QSAR
+             combines molecular representation learning (MRL) of 1D sequential
+             tokens, 2D topology graphs, and 3D conformers with pretraining models
+             to leverage rich representation from large-scale unlabeled data.
+             Without any manual fine-tuning or model selection, Uni-QSAR
+             outperforms SOTA in 21/22 tasks of the Therapeutic Data Commons (TDC)
+             benchmark under designed parallel workflow, with an average
+             performance improvement of 6.09{\textbackslash}{\%}. Furthermore, we
+             demonstrate the practical usefulness of Uni-QSAR in drug discovery
+             domains.},
+}
+@Article{Wang_arXiv_2024_p2406.04727,
+    author =   {Fanmeng Wang and Wentao Guo and Minjie Cheng and Shen Yuan and
+             Hongteng Xu and Zhifeng Gao},
+    title =    {{MMPolymer: A Multimodal Multitask Pretraining Framework for Polymer
+             Property Prediction}},
+    journal =  {arXiv},
+    year =     2024,
+    pages =    {2406.04727},
+    doi =      {10.48550/arXiv.2406.04727},
+    abstract = {Polymers are high-molecular-weight compounds constructed by the
+             covalent bonding of numerous identical or similar monomers so that
+             their 3D structures are complex yet exhibit unignorable regularity.
+             Typically, the properties of a polymer, such as plasticity,
+             conductivity, bio-compatibility, and so on, are highly correlated with
+             its 3D structure. However, existing polymer property prediction
+             methods heavily rely on the information learned from polymer SMILES
+             sequences (P-SMILES strings) while ignoring crucial 3D structural
+             information, resulting in sub-optimal performance. In this work, we
+             propose MMPolymer, a novel multimodal multitask pretraining framework
+             incorporating polymer 1D sequential and 3D structural information to
+             encourage downstream polymer property prediction tasks. Besides,
+             considering the scarcity of polymer 3D data, we further introduce the
+             {''}Star Substitution{''} strategy to extract 3D structural
+             information effectively. During pretraining, in addition to predicting
+             masked tokens and recovering clear 3D coordinates, MMPolymer achieves
+             the cross-modal alignment of latent representations. Then we further
+             fine-tune the pretrained MMPolymer for downstream polymer property
+             prediction tasks in the supervised learning paradigm. Experiments show
+             that MMPolymer achieves state-of-the-art performance in downstream
+             property prediction tasks. Moreover, given the pretrained MMPolymer,
+             utilizing merely a single modality in the fine-tuning phase can also
+             outperform existing methods, showcasing the exceptional capability of
+             MMPolymer in polymer feature extraction and utilization.},
+}
