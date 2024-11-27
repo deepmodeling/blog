@@ -26,5 +26,8 @@ Feng_arXiv_2023_p2311.16160,
 Gao_arXiv_2024_p2310.07229,
 Zhang_GreenChem_2024_v26_p4181,
 Comajuncosa-Creus_JCheminformatics_2024_v16_p70,
-Chang_JChemInfModel_2024_v64_p3149
+Chang_JChemInfModel_2024_v64_p3149,
+Luo_JacsAu_2024_v4_p3451,
+Wang_NatCommun_2024_v15_p1904,
+Xiao_arXiv_2024_p2411.10821
 {% endpublications %}
