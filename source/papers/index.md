@@ -7,4 +7,4 @@ title: Publications citing DeepModeling's work
 - [DeePMD-kit](deepmd-kit/)
 - [DP-GEN](dpgen/)
 - [Uni-Mol](uni-mol/)
-- ABACUS
+- [ABACUS](ABACUS/)
