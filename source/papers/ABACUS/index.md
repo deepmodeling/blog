@@ -78,6 +78,10 @@ Li_PhysRevB_2017_v96_p165417,
 Liu_JChemPhys_2017_v147_p64505
 {% endpublications %}
 
+## 2016
+{% publications %}
+Li_ComputMaterSci_2016_v112_p503
+{% endpublications %}
 
 ## 2013
 {% publications %}
