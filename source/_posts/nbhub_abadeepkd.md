@@ -14,6 +14,8 @@ This Notebook will approach DeePKS from an application perspective, using the **
 
 Check out here: https://bohrium.dp.tech/collections/6242632852/
 
+<!-- more -->
+
 **Tutorial Structure**
 
 Following a progression from simple to complex, this tutorial series is designed to guide readers step by step in learning DeePKS:  
