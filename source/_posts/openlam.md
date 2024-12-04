@@ -11,6 +11,8 @@ The accumulation of linguistic data has propelled the development of machine lea
 
 The accumulation of quantum mechanical data is gradually covering the entire periodic table, and the Deep Potential team has also begun the practice of the [DPA pre-training model](https://arxiv.org/abs/2208.08236). Analogous to the progress of LLMs, we are on the eve of the emergence of a general Large Atom Model (LAM). At the same time, we believe that open-source and openness will play an increasingly important role in the development of LAM.
 
+<!-- more -->
+
 Against this backdrop, the core developer team of Deep Potential is launching the OpenLAM Initiative to the community. This plan is still in the draft stage and is set to officially start on January 1, 2024. We warmly and openly welcome opinions and support from all parties.
 
 The slogan for OpenLAM is "Conquer the Periodic Table!" We hope to provide a new infrastructure for microscale scientific research and drive the transformation of microscale industrial design in fields such as materials, energy, and biopharmaceuticals by establishing an open-source ecosystem around large microscale models. Relevant models, data, and workflows will be consolidated around the [AIS Square](https://www.aissquare.com/); related software development will take place in the DeepModeling open-source community. At the same time, we welcome open interaction from different communities in model development, data sharing, evaluation, and testing.
