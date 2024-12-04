@@ -2,8 +2,7 @@
 title: "NBHub | ABACUS+DeePKS Step-by-Step Practical Tutorial: Using the Perovskite System as an Example"
 date: 2024-10-17
 categories:
-- Notebooks
-- ABACUS
+- Tutorials@Notebooks
 mathjax: true
 ---
 
