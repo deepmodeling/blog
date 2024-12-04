@@ -8,6 +8,8 @@ mathjax: true
 
 On June 17, 2024, researchers Xi Cheng and Liuqing Wen from the Shanghai Institute of Materia Medica, Chinese Academy of Sciences, in collaboration with Dingyan Wang from Lingang Laboratory, published a study titled *"Highly accurate carbohydrate-binding site prediction with DeepGlycanSite"* in *Nature Communications* [1]. This research introduces DeepGlycanSite, a deep learning-based algorithm for predicting carbohydrate-binding sites on protein structures with high precision. By leveraging Uni-Mol, DeepGlycanSite achieves exceptional accuracy in identifying carbohydrate-binding sites, providing a powerful tool for studying carbohydrate-protein interactions.
 
+<!-- more -->
+
 ## 1. Research Background
 Carbohydrates are widely present on the surface of all living cells, interacting with various protein families, including lectins, antibodies, enzymes, and transport proteins. These interactions regulate diverse biological processes, such as immune responses, cell differentiation, and neural development. Understanding carbohydrate-protein interactions is therefore fundamental to developing carbohydrate-based therapeutics.
 
