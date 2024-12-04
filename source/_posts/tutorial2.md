@@ -8,6 +8,8 @@ tags:
 ---
 Do you prepare to read a long article before clicking the tutorial? Since we can teach you how to setup a DeePMD-kit training in 5 minutes, we can also teach you how to install DeePMD-kit in 5 minutes. The installation manual will be introduced as follows:
 
+<!-- more -->
+
 ## Install with conda
 
 After you install `conda`, you can install the CPU version with the following command:
