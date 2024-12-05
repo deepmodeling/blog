@@ -16677,3 +16677,89 @@ doi = http://www.cjcu.jlu.edu.cn/CN/10.7503/cjcu20210834
     pages =    132982,
     doi =      {10.1016/j.fuel.2024.132982},
 }
+@Article{Mao_ComputPhysCommun_2023_v291_p108842,
+    author =   {Runze Mao and Minqi Lin and Yan Zhang and Tianhan Zhang and Zhi-Qin
+             John Xu and Zhi X. Chen},
+    title =    {{DeepFlame: A deep learning empowered open-source platform for reacting
+             flow simulations}},
+    journal =  {Comput. Phys. Commun.},
+    year =     2023,
+    volume =   291,
+    pages =    108842,
+    doi =      {10.1016/j.cpc.2023.108842},
+}
+
+@Article{Chen_PhysFluids_2024_v36,
+    author =   {Huangwei Chen and MingHao Zhao and Hua Qiu and Yuejin Zhu},
+    title =    {{Implementation and verification of an OpenFOAM solver for gas-droplet
+             two-phase detonation combustion}},
+    journal =  {Phys. Fluids},
+    year =     2024,
+    volume =   36,
+    number =   8,
+    doi =      {10.1063/5.0221308},
+    abstract = {Due to the complexity and short timescale of detonation, it is usually
+             difficult to capture its transient characteristics experimentally.
+             Advanced numerical methods are essential for enhancing the
+             understanding of the flow field structure and combustion mechanism of
+             detonation. In this study, a density-based compressible reactive flow
+             solver called CDSFoam is developed for simulating gas-droplet two-
+             phase detonation combustion based on OpenFOAM. The primary feature of
+             this solver is its implementation of two-way coupling between gas and
+             liquid phases, utilizing the Eulerian{\textendash}Lagrangian method.
+             The key enhancement is an improved approximate Riemann solver used to
+             solve the convective flux, reducing dissipation while ensuring
+             robustness. Time integration is achieved through the third-order
+             strong stability preserving Runge{\textendash}Kutta method.
+             Additionally, CDSFoam incorporates dynamic load balancing and adaptive
+             mesh refinement techniques to mitigate computational costs while
+             achieving high-resolution flow fields dynamically. To validate the
+             reliability and accuracy of the solver, a series of benchmark cases
+             are examined, including the multi-component inert and reactive shock
+             tube, the stable diffusion process, the Riemann problem, the one-
+             dimensional detonation, the two-dimensional detonation and oblique
+             detonation, the droplet phase model, the two-dimensional
+             gas{\textendash}liquid two-phase detonation, and the two-phase
+             rotating detonation. The results show that CDSFoam can well predict
+             the shock wave discontinuity, shock wave induced ignition, molecular
+             diffusion, detonation key parameters, detonation cell size, and the
+             main characteristics of gas{\textendash}liquid two-phase detonation.},
+}
+
+@Article{Zhang_PhysFluids_2024_v36,
+    author =   {Min Zhang and Runze Mao and Han Li and Zhenhua An and Zhi X. Chen},
+    title =    {{Graphics processing unit/artificial neural network-accelerated large-
+             eddy simulation of swirling premixed flames}},
+    journal =  {Phys. Fluids},
+    year =     2024,
+    volume =   36,
+    number =   5,
+    doi =      {10.1063/5.0202321},
+    abstract = {Within the scope of reacting flow simulations, the real-time direct
+             integration (DI) of stiff ordinary differential equations for the
+             computation of chemical kinetics stands as the primary demand on
+             computational resources. Meanwhile, as the number of transport
+             equations that need to be solved increases, the computational cost
+             grows more substantially, particularly for those combustion models
+             involving direct coupling of chemistry and flow such as the
+             transported probability density function model. In the current study,
+             an integrated graphics processing unit-artificial neural network (GPU-
+             ANN) framework is introduced to comply with heavy computational costs
+             while maintaining high fidelity. Within this framework, a GPU-based
+             solver is employed to solve partial differential equations and compute
+             thermal and transport properties, and an ANN is utilized to replace
+             the calculation of reaction rates. Large eddy simulations of two
+             swirling flames provide a robust validation, affirming and extending
+             the GPU-ANN approach's applicability to challenging scenarios. The
+             simulation results demonstrate a strong correlation in the macro flame
+             structure and statistical characteristics between the GPU-ANN approach
+             and the traditional central processing unit (CPU)-based solver with
+             DI. This comparison indicates that the GPU-ANN approach is capable of
+             attaining the same degree of precision as the conventional CPU-DI
+             solver, even in more complex scenarios. In addition, the overall
+             speed-up factor for the GPU-ANN approach is over two orders of
+             magnitude. This study establishes the potential groundwork for
+             widespread application of the proposed GPU-ANN approach in combustion
+             simulations, addressing various and complex scenarios based on
+             detailed chemistry, while significantly reducing computational costs.},
+}
