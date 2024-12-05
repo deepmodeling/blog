@@ -9,3 +9,4 @@ title: Publications citing DeepModeling's work
 - [DP-GEN](dpgen/)
 - [Uni-Mol](uni-mol/)
 - [ReacNetGenerator](ReacNetGenerator/)
+- [DeepFlame](DeepFlame/)
