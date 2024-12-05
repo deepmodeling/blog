@@ -16763,3 +16763,245 @@ doi = http://www.cjcu.jlu.edu.cn/CN/10.7503/cjcu20210834
              simulations, addressing various and complex scenarios based on
              detailed chemistry, while significantly reducing computational costs.},
 }
+@Article{Wang_NatCommun_2024_v15_p1904,
+    author =   {Jingqi Wang and Jiapeng Liu and Hongshuai Wang and Musen Zhou and
+             Guolin Ke and Linfeng Zhang and Jianzhong Wu and Zhifeng Gao and
+             Diannan Lu},
+    title =    {{A comprehensive transformer-based approach for high-accuracy gas
+             adsorption predictions in metal-organic frameworks}},
+    journal =  {Nat. Commun.},
+    year =     2024,
+    volume =   15,
+    number =   1,
+    pages =    1904,
+    doi =      {10.1038/s41467-024-46276-x},
+    abstract = {Gas separation is crucial for industrial production and environmental
+             protection, with metal-organic frameworks (MOFs) offering a promising
+             solution due to their tunable structural properties and chemical
+             compositions. Traditional simulation approaches, such as molecular
+             dynamics, are complex and computationally demanding. Although feature
+             engineering-based machine learning methods perform better, they are
+             susceptible to overfitting because of limited labeled data.
+             Furthermore, these methods are typically designed for single tasks,
+             such as predicting gas adsorption capacity under specific conditions,
+             which restricts the utilization of comprehensive datasets including
+             all adsorption capacities. To address these challenges, we propose
+             Uni-MOF, an innovative framework for large-scale, three-dimensional
+             MOF representation learning, designed for multi-purpose gas
+             prediction. Specifically, Uni-MOF serves as a versatile gas adsorption
+             estimator for MOF materials, employing pure three-dimensional
+             representations learned from over 631,000 collected MOF and COF
+             structures. Our experimental results show that Uni-MOF can
+             automatically extract structural representations and predict
+             adsorption capacities under various operating conditions using a
+             single model. For simulated data, Uni-MOF exhibits remarkably high
+             predictive accuracy across all datasets. Additionally, the values
+             predicted by Uni-MOF correspond with the outcomes of adsorption
+             experiments. Furthermore, Uni-MOF demonstrates considerable potential
+             for broad applicability in predicting a wide array of other
+             properties.},
+}
+
+
+@Article{Luo_JacsAu_2024_v4_p3451,
+    author =   {Weiliang Luo and Gengmo Zhou and Zhengdan Zhu and Yannan Yuan and
+             Guolin Ke and Zhewei Wei and Zhifeng Gao and Hang Zheng},
+    title =    {{Bridging Machine Learning and Thermodynamics for Accurate pK a
+             Prediction}},
+    journal =  {Jacs Au},
+    year =     2024,
+    volume =   4,
+    number =   9,
+    pages =    {3451--3465},
+    doi =      {10.1021/jacsau.4c00271},
+    abstract = {Integrating scientific principles into machine learning models to
+             enhance their predictive performance and generalizability is a central
+             challenge in the development of AI for Science. Herein, we introduce
+             Uni-pK a, a novel framework that successfully incorporates
+             thermodynamic principles into machine learning modeling, achieving
+             high-precision predictions of acid dissociation constants (pK a), a
+             crucial task in the rational design of drugs and catalysts, as well as
+             a modeling challenge in computational physical chemistry for small
+             organic molecules. Uni-pK a utilizes a comprehensive free energy model
+             to represent molecular protonation equilibria accurately. It features
+             a structure enumerator that reconstructs molecular configurations from
+             pK a data, coupled with a neural network that functions as a free
+             energy predictor, ensuring high-throughput, data-driven prediction
+             while preserving thermodynamic consistency. Employing a pretraining-
+             finetuning strategy with both predicted and experimental pK a data,
+             Uni-pK a not only achieves state-of-the-art accuracy in
+             chemoinformatics but also shows comparable precision to quantum
+             mechanics-based methods.},
+}
+
+@Article{Fan_JChemInfModel_2024_v64_p8414,
+    author =   {Jiahao Fan and Ziyao Li and Eric Alcaide and Guolin Ke and Huaqing
+             Huang and Weinan E},
+    title =    {{Accurate Conformation Sampling via Protein Structural Diffusion}},
+    journal =  {J. Chem. Inf. Model.},
+    year =     2024,
+    volume =   64,
+    number =   22,
+    pages =    {8414--8426},
+    doi =      {10.1021/acs.jcim.4c00928},
+    abstract = {Accurate sampling of protein conformations is pivotal for advances in
+             biology and medicine. Although there has been tremendous progress in
+             protein structure prediction in recent years due to deep learning,
+             models that can predict the different stable conformations of proteins
+             with high accuracy and structural validity are still lacking. Here, we
+             introduce UFConf, a cutting-edge approach designed for robust sampling
+             of diverse protein conformations based solely on amino acid sequences.
+             This method transforms AlphaFold2 into a diffusion model by
+             implementing a conformation-based diffusion process and adapting the
+             architecture to process diffused inputs effectively. To counteract the
+             inherent conformational bias in the Protein Data Bank, we developed a
+             novel hierarchical reweighting protocol based on structural
+             clustering. Our evaluations demonstrate that UFConf outperforms
+             existing methods in terms of successful sampling and structural
+             validity. The comparisons with long-time molecular dynamics show that
+             UFConf can overcome the energy barrier existing in molecular dynamics
+             simulations and perform more efficient sampling. Furthermore, We
+             showcase UFConf's utility in drug discovery through its application in
+             neural protein-ligand docking. In a blind test, it accurately
+             predicted a novel protein-ligand complex, underscoring its potential
+             to impact real-world biological research. Additionally, we present
+             other modes of sampling using UFConf, including partial sampling with
+             fixed motif, Langevin dynamics, and structural interpolation.},
+}
+
+@Article{He_NatCommun_2024_v15_p5163,
+    author =   {Xinheng He and Lifen Zhao and Yinping Tian and Rui Li and Qinyu Chu
+             and Zhiyong Gu and Mingyue Zheng and Yusong Wang and Shaoning Li and
+             Hualiang Jiang and Yi Jiang and Liuqing Wen and Dingyan Wang and Xi
+             Cheng},
+    title =    {{Highly accurate carbohydrate-binding site prediction with
+             DeepGlycanSite}},
+    journal =  {Nat. Commun.},
+    year =     2024,
+    volume =   15,
+    number =   1,
+    pages =    5163,
+    doi =      {10.1038/s41467-024-49516-2},
+    abstract = {As the most abundant organic substances in nature, carbohydrates are
+             essential for life. Understanding how carbohydrates regulate proteins
+             in the physiological and pathological processes presents opportunities
+             to address crucial biological problems and develop new therapeutics.
+             However, the diversity and complexity of carbohydrates pose a
+             challenge in experimentally identifying the sites where carbohydrates
+             bind to and act on proteins. Here, we introduce a deep learning model,
+             DeepGlycanSite, capable of accurately predicting carbohydrate-binding
+             sites on a given protein structure. Incorporating geometric and
+             evolutionary features of proteins into a deep equivariant graph neural
+             network with the transformer architecture, DeepGlycanSite remarkably
+             outperforms previous state-of-the-art methods and effectively predicts
+             binding sites for diverse carbohydrates. Integrating with a
+             mutagenesis study, DeepGlycanSite reveals the
+             guanosine-5'-diphosphate-sugar-recognition site of an important
+             G-protein coupled receptor. These findings demonstrate DeepGlycanSite
+             is invaluable for carbohydrate-binding site prediction and could
+             provide insights into molecular mechanisms underlying carbohydrate-
+             regulation of therapeutically important proteins.},
+}
+
+@Article{Comajuncosa-Creus_JCheminformatics_2024_v16_p70,
+    author =   {Arnau Comajuncosa-Creus and Aksel Lenes and Miguel S{\'a}nchez-
+             Palomino and Dylan Dalton and Patrick Aloy},
+    title =    {{Stereochemically-aware bioactivity descriptors for uncharacterized
+             chemical compounds}},
+    journal =  {J. Cheminformatics},
+    year =     2024,
+    volume =   16,
+    number =   1,
+    pages =    70,
+    doi =      {10.1186/s13321-024-00867-4},
+    abstract = {Stereochemistry plays a fundamental role in pharmacology. Here, we
+             systematically investigate the relationship between stereoisomerism
+             and bioactivity on over 1{~}M compounds, finding that a very
+             significant fraction ({\textasciitilde}{\,}40{\%}) of spatial isomer
+             pairs show, to some extent, distinct bioactivities. We then use the 3D
+             representation of these molecules to train a collection of deep neural
+             networks (Signaturizers3D) to generate bioactivity descriptors
+             associated to small molecules, that capture their effects at
+             increasing levels of biological complexity (i.e. from protein targets
+             to clinical outcomes). Further, we assess the ability of the
+             descriptors to distinguish between stereoisomers and to recapitulate
+             their different target binding profiles. Overall, we show how these
+             new stereochemically-aware descriptors provide an even more faithful
+             description of complex small molecule bioactivity properties,
+             capturing key differences in the activity of stereoisomers.Scientific
+             contributionWe systematically assess the relationship between
+             stereoisomerism and bioactivity on a large scale, focusing on
+             compound-target binding events, and use our findings to train novel
+             deep learning models to generate stereochemically-aware bioactivity
+             signatures for any compound of interest.},
+}
+
+@Article{Lu_NatCommun_2024_v15_p7104,
+    author =   {Shuqi Lu and Zhifeng Gao and Di He and Linfeng Zhang and Guolin Ke},
+    title =    {{Data-driven quantum chemical property prediction leveraging 3D
+             conformations with Uni-Mol}},
+    journal =  {Nat. Commun.},
+    year =     2024,
+    volume =   15,
+    number =   1,
+    pages =    7104,
+    doi =      {10.1038/s41467-024-51321-w},
+    abstract = {Quantum chemical (QC) property prediction is crucial for computational
+             materials and drug design, but relies on expensive electronic
+             structure calculations like density functional theory (DFT). Recent
+             deep learning methods accelerate this process using 1D SMILES or 2D
+             graphs as inputs but struggle to achieve high accuracy as most QC
+             properties depend on refined 3D molecular equilibrium conformations.
+             We introduce Uni-Mol+, a deep learning approach that leverages 3D
+             conformations for accurate QC property prediction. Uni-Mol+ first
+             generates a raw 3D conformation using RDKit then iteratively refines
+             it towards DFT equilibrium conformation using neural networks, which
+             is finally used to predict the QC properties. To effectively learn
+             this conformation update process, we introduce a two-track Transformer
+             model backbone and a novel training approach. Our benchmarking results
+             demonstrate that the proposed Uni-Mol+ significantly improves the
+             accuracy of QC property prediction in various datasets.},
+}
+
+
+@Article{Ding_JChemInfModel_2024_v64_p2955,
+    author =   {Yuheng Ding and Bo Qiang and Qixuan Chen and Yiqiao Liu and Liangren
+             Zhang and Zhenming Liu},
+    title =    {{Exploring Chemical Reaction Space with Machine Learning Models:
+             Representation and Feature Perspective}},
+    journal =  {J. Chem. Inf. Model.},
+    year =     2024,
+    volume =   64,
+    number =   8,
+    pages =    {2955--2970},
+    doi =      {10.1021/acs.jcim.4c00004},
+    abstract = {Chemical reactions serve as foundational building blocks for organic
+             chemistry and drug design. In the era of large AI models, data-driven
+             approaches have emerged to innovate the design of novel reactions,
+             optimize existing ones for higher yields, and discover new pathways
+             for synthesizing chemical structures comprehensively. To effectively
+             address these challenges with machine learning models, it is
+             imperative to derive robust and informative representations or engage
+             in feature engineering using extensive data sets of reactions. This
+             work aims to provide a comprehensive review of established reaction
+             featurization approaches, offering insights into the selection of
+             representations and the design of features for a wide array of tasks.
+             The advantages and limitations of employing SMILES, molecular
+             fingerprints, molecular graphs, and physics-based properties are
+             meticulously elaborated. Solutions to bridge the gap between different
+             representations will also be critically evaluated. Additionally, we
+             introduce a new frontier in chemical reaction pretraining, holding
+             promise as an innovative yet unexplored avenue.},
+}
+
+@Article{Cui_NatMachIntell_2024_v6_p428,
+    author =   {Taoyong Cui and Chenyu Tang and Mao Su and Shufei Zhang and Yuqiang Li
+             and Lei Bai and Yuhan Dong and Xingao Gong and Wanli Ouyang},
+    title =    {{Geometry-enhanced pretraining on interatomic potentials}},
+    journal =  {Nat Mach Intell},
+    year =     2024,
+    volume =   6,
+    number =   4,
+    pages =    {428--436},
+    doi =      {10.1038/s42256-024-00818-6},
+}
