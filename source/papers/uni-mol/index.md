@@ -34,5 +34,13 @@ Cheng_AdvOptMater_2023_v11,
 Yao_JacsAu_2024_v4_p992,
 Lu_arXiv_2023_p2303.16982,
 Gao_arXiv_2023_p2304.12239,
-Wang_arXiv_2024_p2406.04727
+Wang_arXiv_2024_p2406.04727,
+Wang_NatCommun_2024_v15_p1904,
+Luo_JacsAu_2024_v4_p3451,
+Fan_JChemInfModel_2024_v64_p8414,
+He_NatCommun_2024_v15_p5163,
+Comajuncosa-Creus_JCheminformatics_2024_v16_p70,
+Lu_NatCommun_2024_v15_p7104,
+Ding_JChemInfModel_2024_v64_p2955,
+Cui_NatMachIntell_2024_v6_p428
 {% endpublications %}
