@@ -8,6 +8,8 @@ mathjax: true
 
 In the field of magnetic material science, many frontier challenges require considering the coupling between lattices and spins at the atomic scale. For example, areas such as ultrafast magnetization dynamics, terahertz spintronics, and magnetocaloric materials rely on simulations of energy transfer between lattice and spin subsystems. Additionally, the interplay between magnetism and the lattice directly impacts the performance of materials critical to high-voltage power transmission, the automotive industry, and high-performance batteries.
 
+<!-- more -->
+
 To address these challenges, researchers have employed various multi-scale simulation methods, such as first-principles calculations, spin dynamics, and micromagnetics. However, these methods exhibit significant limitations when describing material defects, polycrystalline and disordered materials, finite-temperature-related properties, and magnetic dynamic processes.
 
 To overcome these obstacles, the research group led by Xu Ben at the Graduate School of China Academy of Engineering Physics (GSCAEP) has developed an atomic-scale lattice-spin potential generation method called DeepSPIN. This tool supports atomic simulations of magnetic materials in the AI for Science era, enabling the exploration of uncharted territories in the world of magnetic materials.
@@ -33,22 +35,6 @@ DeepSPIN was initiated by  Ben Xu (GSCAEP),  Han Wang(Institute of Applied Physi
 
 
 ### 1.1 **Challenges Addressed by DeepSPIN**  
-
-When simultaneously considering spin and lattice subsystems, it is necessary to address two dominant equations:  
-
-
-
-When considering both spin and lattice subsystems simultaneously, two main governing equations need to be addressed:
-
-\[
-m \frac{\partial \vec{v}}{\partial t} = \vec{F} = -\frac{\partial E}{\partial x}
-\]
-
-\[
-\frac{\partial \vec{S}}{\partial t} = \vec{\omega} \times \vec{S} = \frac{\partial E}{\partial \vec{S}} \times \vec{S}
-\]
-
-Unlike a pure lattice or pure spin system, the atomic force \(\vec{F}\) here is influenced by the magnetic structure, and the spin precession matrix \(\vec{\omega}\) is affected by the lattice structure. DeepSPIN can determine the total energy \(E\) of the system and provide the \(\vec{F}\) and \(\vec{\omega}\) for each atom based on different lattice and magnetic configurations.
 
 The **DeepSPIN project** aims to address the following challenges:
 
