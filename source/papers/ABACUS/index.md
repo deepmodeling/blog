@@ -9,10 +9,11 @@ The following publications have used the ABACUS software. Publications that only
 
 We encourage explicitly mentioning ABACUS with proper citations in your publications, so we can more easily find and list these publications.
 
-Last update date: December 13, 2024
+Last update date: December 16, 2024
 
 ## 2024
 {% publications %}
+Zhang_PhysRevB_2024_v110_p224419,
 Yang_PhysRevB_2024_v110_p235410,
 Sun_ElectronStruct_2024_v6_p45006,
 Liu_ActaMater_2024_v279_p120294,
