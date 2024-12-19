@@ -2,6 +2,7 @@
 title: Publications driven by ReacNetGenerator
 date: 2022-10-30
 updated: 2024-09-24
+mathjax: true
 ---
 
 The following publications have used the ReacNetGenerator software. Publications that only mentioned the ReacNetGenerator will not be included below.
