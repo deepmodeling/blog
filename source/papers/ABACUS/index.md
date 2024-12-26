@@ -13,9 +13,12 @@ Last update date: December 16, 2024
 
 ## 2024
 {% publications %}
+Zhang_npjComputMater_2024_v10_p293,
+Sun_NanoLett_2024_v24_p16283，
 Zhang_PhysRevB_2024_v110_p224419,
 Yang_PhysRevB_2024_v110_p235410,
 Sun_ElectronStruct_2024_v6_p45006,
+Zhang_AdvMaterDeerfieldBeachFla_2024_pe2411137，
 Liu_ActaMater_2024_v279_p120294,
 Tang_NatCommun_2024_v15_p8815,
 Zhong_NatComputSci_2024_v4_p615,
@@ -31,6 +34,7 @@ Zhao_NanoLett_2024_v24_p5513,
 Pang_PhysRevMater_2024_v8_p43403,
 Sun_PhysRevB_2024_v109_p115135,
 Chen_AcsNano_2024_v18_p13035,
+Bakhsh_BeilsteinJNanotechnol_2024_v15_p310，
 Li_PhysRevB_2024_v109_p85118,
 Jin_npjComputMater_2024_v10_p23,
 Lin_WiresComputMolSci_2024_v14,
@@ -42,8 +46,9 @@ Chen_MatterRadiatExtrem_2024_v9
 ## 2023
 {% publications %}
 Wu_PhysRevB_2023_v108_pL180104,
-Ou_JPhysChemC_2023_v127_p18755,
 Jin_ComputPhysCommun_2023_v291_p108844,
+Ou_JPhysChemC_2023_v127_p18755,
+Sun_PhysRevB_2023_v108_p75158,
 Dai_PhysRevB_2023_v108_p85112,
 Liu_JChemPhys_2023_v159_p074109
 {% endpublications %}
@@ -65,7 +70,6 @@ He_JPhysChemLett_2022_v13_p427
 {% publications %}
 Zheng_ComputPhysCommun_2021_v267_p108043,
 Wang_ChinPhysB_2021_v30_p107102,
-Yang_AdvMaterDeerfieldBeachFla_2021_v33_pe2106353,
 Lin_PhysRevB_2021_v103_p235131,
 Liu_JNuclMater_2021_v545_p152733,
 Bakhsh_JPhysChemA_2021_v125_p1424,
@@ -117,4 +121,9 @@ Chen_JPhysCondensMatterInstPhysJ_2011_v23_p325501
 ## 2010
 {% publications %}
 Chen_JPhysCondensMatterInstPhysJ_2010_v22_p445501
+{% endpublications %}
+
+## 2009
+{% publications %}
+Chen_PhysRevB_2009_v80_p165121
 {% endpublications %}
