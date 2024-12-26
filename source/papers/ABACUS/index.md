@@ -50,7 +50,8 @@ Jin_ComputPhysCommun_2023_v291_p108844,
 Ou_JPhysChemC_2023_v127_p18755,
 Sun_PhysRevB_2023_v108_p75158,
 Dai_PhysRevB_2023_v108_p85112,
-Liu_JChemPhys_2023_v159_p074109
+Liu_JChemPhys_2023_v159_p074109,
+Li_PhysRevB_2023_v107_p35433
 {% endpublications %}
 
 ## 2022
@@ -70,6 +71,7 @@ He_JPhysChemLett_2022_v13_p427
 {% publications %}
 Zheng_ComputPhysCommun_2021_v267_p108043,
 Wang_ChinPhysB_2021_v30_p107102,
+Jin_JPhysCondensMatterInstPhysJ_2021_v33_p325503,
 Lin_PhysRevB_2021_v103_p235131,
 Liu_JNuclMater_2021_v545_p152733,
 Bakhsh_JPhysChemA_2021_v125_p1424,
