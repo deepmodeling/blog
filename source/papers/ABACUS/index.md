@@ -1,7 +1,7 @@
 ---
 title: Publications driven by ABACUS
-date: 2024-11-28
-update: 2024-11-28
+date: 2024-12-26
+update: 2024-12-26
 mathjax: true
 ---
 
@@ -9,16 +9,16 @@ The following publications have used the ABACUS software. Publications that only
 
 We encourage explicitly mentioning ABACUS with proper citations in your publications, so we can more easily find and list these publications.
 
-Last update date: December 16, 2024
+Last update date: December 26, 2024
 
 ## 2024
 {% publications %}
 Zhang_npjComputMater_2024_v10_p293,
-Sun_NanoLett_2024_v24_p16283，
+Sun_NanoLett_2024_v24_p16283,
 Zhang_PhysRevB_2024_v110_p224419,
 Yang_PhysRevB_2024_v110_p235410,
 Sun_ElectronStruct_2024_v6_p45006,
-Zhang_AdvMaterDeerfieldBeachFla_2024_pe2411137，
+Zhang_AdvMaterDeerfieldBeachFla_2024_pe2411137,
 Liu_ActaMater_2024_v279_p120294,
 Tang_NatCommun_2024_v15_p8815,
 Zhong_NatComputSci_2024_v4_p615,
@@ -34,7 +34,7 @@ Zhao_NanoLett_2024_v24_p5513,
 Pang_PhysRevMater_2024_v8_p43403,
 Sun_PhysRevB_2024_v109_p115135,
 Chen_AcsNano_2024_v18_p13035,
-Bakhsh_BeilsteinJNanotechnol_2024_v15_p310，
+Bakhsh_BeilsteinJNanotechnol_2024_v15_p310,
 Li_PhysRevB_2024_v109_p85118,
 Jin_npjComputMater_2024_v10_p23,
 Lin_WiresComputMolSci_2024_v14,
