@@ -1,7 +1,7 @@
 ---
 title: Publications driven by ABACUS
-date: 2024-12-26
-update: 2024-12-26
+date: 2025-06-18
+update: 2025-06-18
 mathjax: true
 ---
 
@@ -9,7 +9,12 @@ The following publications have used the ABACUS software. Publications that only
 
 We encourage explicitly mentioning ABACUS with proper citations in your publications, so we can more easily find and list these publications.
 
-Last update date: December 26, 2024
+Last update date: June 18, 2025
+
+## 2025
+{% publications %}
+Luo_2DMater_2025_v12_p15022
+{% endpublications %}
 
 ## 2024
 {% publications %}
