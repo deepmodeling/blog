@@ -1,5 +1,5 @@
 ---
-titile : "AI4S-Agent Co-building Initiative | Local Setup and Contribution Cases of ABACUS-agent-tools"
+title : "AI4S-Agent Co-building Initiative | Local Setup and Contribution Cases of ABACUS-agent-tools"
 date : 2025-06-13
 categories : 
 - ABACUS
