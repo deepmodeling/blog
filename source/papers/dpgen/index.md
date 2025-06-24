@@ -1,7 +1,7 @@
 ---
 title: Publications driven by DP-GEN
 date: 2022-05-11
-update: 2024-06-30
+update: 2025-06-24
 mathjax: true
 ---
 
@@ -9,7 +9,12 @@ The following publications have used the DP-GEN software. Publications that only
 
 We encourage explicitly mentioning DP-GEN with proper citations in your publications, so we can more easily find and list these publications.
 
-Last update date: June 30, 2024
+Last update date: June 24, 2025
+
+## 2025
+{% publications %}
+Shi_arXiv_2025_p2503.06039
+{% endpublications %}
 
 ## 2024
 {% publications %}
