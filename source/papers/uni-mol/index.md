@@ -1,7 +1,7 @@
 ---
 title: Publications driven by Uni-Mol
 date: 2023-03-06
-update: 2024-12-05
+update: 2025-23-06
 mathjax: true
 ---
 
@@ -9,7 +9,12 @@ The following publications have used the Uni-Mol software. Publications that onl
 
 We encourage explicitly mentioning Uni-Mol with proper citations in your publications, so we can more easily find and list these publications.
 
-Last update date: 12/05/2024
+Last update date: 23/06/2025
+
+## 2025
+{% publications %}
+Chen_arXiv_2025_p2506.00880
+{% endpublications %}
 
 ## 2024
 {% publications %}
