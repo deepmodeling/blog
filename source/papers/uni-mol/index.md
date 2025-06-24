@@ -13,7 +13,8 @@ Last update date: 23/06/2025
 
 ## 2025
 {% publications %}
-Chen_arXiv_2025_p2506.00880
+Chen_arXiv_2025_p2506.00880,
+Pei_arXiv_2025_p2406.05797
 {% endpublications %}
 
 ## 2024
