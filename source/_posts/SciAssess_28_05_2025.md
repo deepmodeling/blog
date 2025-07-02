@@ -2,7 +2,7 @@
 title: "SciAssess: Focusing on Scientific Literature Analysis Benchmarks, Exploring the Field of AI Literature Reading with the DeepModeling Community"
 date: 2025-05-28
 categories:
-- DeePMD
+- SciAssess
 ---
 
 On May 6, 2025, the DeepModeling Community released Community Manifesto 2.0, planning to rapidly expand exploratory work in the field of "AI literature reading" in the near future. Today, the SciAssess project has officially joined the DeepModeling Community. Developed jointly by DeepSeek and the Beijing Academy of Scientific Intelligence, this system is a testing benchmark specifically designed to evaluate the scientific literature analysis capabilities of large language models (LLMs), aiming to advance the process of AI empowering scientific research. SciAssess will collaborate with the community to launch explorations in the field of AI for literature analysis.
