@@ -14,7 +14,8 @@ Last update date: 23/06/2025
 ## 2025
 {% publications %}
 Chen_arXiv_2025_p2506.00880,
-Pei_arXiv_2025_p2406.05797
+Pei_arXiv_2025_p2406.05797,
+Hui Zhu and Xuelian Li and Baoquan Chen and Niu Huang
 {% endpublications %}
 
 ## 2024
