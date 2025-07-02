@@ -1,17 +1,16 @@
 ---
 title: "DeepFlame 1.6 Released: \"Optimized Thermal Modeling, New Steady-State Solver, and Significantly Improved Engineering Performance\""
-
 date: 2025-06-26
-
 categories: 
 - DeepFlame
 ---
 
 DeepFlame is an open-source platform for combustion fluid computation developed in the era of AI for Science, aiming to promote the application of combustion fluid simulation technology in scientific research and industry [1–4]. Since its release, the platform has attracted extensive attention from academia and industry, and continues to attract outstanding developers and user communities to participate in its construction.
 
+<!-- more -->
+
 In this update, DeepFlame further expands the platform's engineering steady-state computing capabilities and the flexibility of thermochemical calculations. The new version of DeepFlame provides an option for sensible enthalpy (hs) in energy transport and computation, which can be selected during solver compilation. On this basis, DeepFlame has added temperature calculation capabilities independent of Cantera, supporting local thermodynamic state solving based on Newton iteration. Users can switch with one click through environment variables during compilation to meet the integration needs of different users. In addition, the DeepFlame 1.6 version introduces the steady-state solver dfSteadyFoam, which adds component transport and chemical reactions based on rhoSimpleFoam. It is suitable for calculating various subsonic reactive flow steady-state problems, broadening the engineering application scenarios of DeepFlame. Furthermore, we have optimized the build script, which can display system architecture information after the build is completed, improving the transparency of platform deployment. At the same time, DeepFlame has been adapted and optimized based on the domestic Kunpeng platform, achieving significant performance improvements in the inference and solving parts. The documentation system has also been upgraded to sphinx-book-theme, and with the new Python and operating system environments, the documentation interface is more modern and the organization is clearer. We have also added a 2D Riemann case as a test case for various flux splitting in dfHighSpeedFoam, further enriching the verification cases for high-speed reactive flow solvers.
 
-<!-- more -->
 
 ## Version Update Overview
 
