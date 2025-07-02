@@ -4,7 +4,7 @@ title: "DeepFlame 1.6 Released: \"Optimized Thermal Modeling, New Steady-State S
 date: 2025-06-26
 
 categories: 
-- DeePMD
+- DeepFlame
 ---
 
 DeepFlame is an open-source platform for combustion fluid computation developed in the era of AI for Science, aiming to promote the application of combustion fluid simulation technology in scientific research and industry [1–4]. Since its release, the platform has attracted extensive attention from academia and industry, and continues to attract outstanding developers and user communities to participate in its construction.
