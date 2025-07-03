@@ -1,5 +1,5 @@
 ---
-title: "DeepFlame 1.6 Released: \"Optimized Thermal Modeling, New Steady-State Solver, and Significantly Improved Engineering Performance\""
+title: "DeepFlame 1.6 Released: 'Optimized Thermal Modeling, New Steady-State Solver, and Significantly Improved Engineering Performance'"
 date: 2025-06-26
 categories: 
 - DeepFlame
