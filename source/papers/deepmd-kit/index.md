@@ -14,9 +14,7 @@ Last update date: June 23, 2025
 
 ## 2025
 {% publications %}
-Zeng_JChemTheoryComput_2025_v21_p4375,
-Zeng_JChemInfModel_2025_v65_p3154,
-Dai_AdvPhysRes_2025_v4
+Zeng_JChemTheoryComput_2025_v21_p4375
 {% endpublications %}
 
 ## 2024
