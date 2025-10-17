@@ -1,7 +1,7 @@
 ---
 title: Publications driven by DeePMD-kit
 date: 2022-05-01
-update: 2025-06-23
+update: 2024-06-30
 mathjax: true
 ---
 
@@ -9,15 +9,7 @@ The following publications have used the DeePMD-kit software. Publications that 
 
 We encourage explicitly mentioning DeePMD-kit with proper citations in your publications, so we can more easily find and list these publications.
 
-Last update date: June 23, 2025
-
-
-## 2025
-{% publications %}
-Zeng_JChemTheoryComput_2025_v21_p4375,
-Zeng_JChemInfModel_2025_v65_p3154,
-Dai_AdvPhysRes_2025_v4
-{% endpublications %}
+Last update date: June 30, 2024
 
 ## 2024
 {% publications %}
