@@ -11,8 +11,16 @@ We encourage explicitly mentioning DeePMD-kit with proper citations in your publ
 
 Last update date: June 30, 2024
 
+## 2025
+{% publications %}
+Guo2025DeepEMs25_DEEPMD,
+Infuso2025DeepPotentialDrivenMolecularDynamics_DEEPMD
+{% endpublications %}
+
 ## 2024
 {% publications %}
+Chandran2024ComparativeAnalysisTernaryTiAlNb_DEEPMD,
+Gu2024DeepLearningTightBinding_DEEPMD,
 Chen_MatterRadiatExtrem_2024_v9,
 Zhang_AcsPhysChemAu_2024,
 Zhang_NatCommun_2024_v15_p4223,
