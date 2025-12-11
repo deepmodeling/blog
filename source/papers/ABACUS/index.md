@@ -14,7 +14,28 @@ Last update date: June 18, 2025
 
 ## 2025
 {% publications %}
-Luo_2DMater_2025_v12_p15022
+Luo_2DMater_2025_v12_p15022,
+Zhang2025MnSe2EasyAxis_ABACUS,
+Ru2025MoS2TeTribology_ABACUS,
+Zhang2025NanotwinnedDiamond_ABACUS,
+Li2025Li6PS5ClConductivity_ABACUS,
+Zhao2025HybridGaugeRTTDDFT_ABACUS,
+Lin2025HybridForcesStress_ABACUS,
+Luo2025StiefelDFT_ABACUS,
+Zeng2025DeePMDGNN_ABACUS,
+Gillen2025DefectiveGraphenePSB_ABACUS,
+Sun2025NQEElectrocatalysis_ABACUS,
+Jing2025BilayerGrapheneSOCGap_ABACUS,
+Li2025PiPlasmonGraphene_ABACUS,
+Yang2025PlaneWaveMethods_ABACUS,
+Liu2025FT2DP_ABACUS,
+Liang2025WaterElectronicStructure_ABACUS,
+Zhang2025EFInterfaceReactions_ABACUS,
+Li2025NbIrradiationDP_ABACUS,
+Dong2025DenseHydrogenFreeEnergy_ABACUS,
+Chen2025ShockHugoniotSDFT_ABACUS,
+Hu2025LiDendriteML_ABACUS,
+Liu2025SnO2GrapheneNH3_ABACUS
 {% endpublications %}
 ## 2024
 {% publications %}
