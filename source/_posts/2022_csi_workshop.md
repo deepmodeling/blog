@@ -1,5 +1,5 @@
 ---
-title: "2022 CSI Workshop: Deep Modeling for Molecular Simulation"
+title: "2022 CSI Workshop: DeepModeling for Molecular Simulation"
 date: 2022-07-08
 ---
 
@@ -23,7 +23,7 @@ date: 2022-07-08
 
 {% bilitube jW5E70laCdQ BV1xe4y1R7y9 %}
 
-## Lecture 6: Deep Modeling with Long-Range Electrostatic Interactions, Chunyi Zhang
+## Lecture 6: DeepModeling with Long-Range Electrostatic Interactions, Chunyi Zhang
 
 {% bilitube ytLzXgO1N_M BV1Gt4y147rK %}
 
