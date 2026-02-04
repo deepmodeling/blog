@@ -29,8 +29,6 @@ To address this challenge, we collaborated with Shanghai Shuqian Technology to d
 
 The CoCo agent significantly lowers the barrier to high-performance computing development, allowing researchers to focus on high-level physical model design while delegating tedious code migration tasks to AI.
 
-Related video:  
-<https://www.bilibili.com/video/BV1bfiCBbECK>
 
 #### 2. FlamePilot: DeepFlame’s CFD Simulation Agent
 
@@ -76,12 +74,6 @@ https://github.com/deepflame-ai/DFODE-kit
 Based on the Kunpeng ecosystem, DeepFlame 2.0 has carried out multiple adaptation and optimization efforts, improving performance on domestically produced hardware.
 
 In terms of usability, the DeepFlame 2.0 software stack can be natively compiled for Kunpeng platforms and supports one-click deployment and execution via the Jarvis tool. In terms of performance, DeepFlame 2.0 achieves deep optimization for ARM architectures and full-stack performance breakthroughs: at the hardware level, fine-grained core binding and memory allocation strategies are introduced for the Kunpeng 920 Professional Edition’s many-core, multi-NUMA, on-chip memory architecture; at the software level, the codebase is refactored based on the BiSheng compiler, integrating the Kunpeng Math Library (KML) to accelerate GEMM computations while ensuring accuracy and robustness; at the algorithmic level, ARM-native mixed-precision solvers (FP64 sparse solving + FP16 inference) are designed to balance accuracy and speed. For AI–CFD integrated inference acceleration, lightweight neural network models are developed at the model layer to achieve high-accuracy inference and are adapted to the Kunpeng SME instruction set.
-
-Related report:  
-https://mp.weixin.qq.com/s/FHRABrwF0GjSMo1vLUlCtA
-
-Related video:  
-https://www.bilibili.com/video/BV1VfKAzwEQU
 
 ## 04 Quick Access to DeepFlame
 
