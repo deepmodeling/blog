@@ -4,9 +4,9 @@ title: Publications citing DeepModeling's work
 
 ## Classified by Project (in progress)
 
-- [ABACUS](ABACUS/)
-- [DeePMD-kit](deepmd-kit/)
-- [DP-GEN](dpgen/)
-- [Uni-Mol](uni-mol/)
-- [ReacNetGenerator](ReacNetGenerator/)
-- [DeepFlame](DeepFlame/)
+- [ABACUS](/papers/ABACUS/)
+- [DeePMD-kit](/papers/deepmd-kit/)
+- [DP-GEN](/papers/dpgen/)
+- [Uni-Mol](/papers/uni-mol/)
+- [ReacNetGenerator](/papers/ReacNetGenerator/)
+- [DeepFlame](/papers/DeepFlame/)
