@@ -17,7 +17,7 @@ menu:
     default: https://tutorials.deepmodeling.com/ || fa fa-book
   Docs: https://docs.deepmodeling.com || fa fa-book
   Publications:
-    default: /papers || fas fa-university
+    default: /papers/ || fas fa-university
     Reviews: /reviews.html
     Others: /others.html
   categories: /categories/ || fa fa-th
