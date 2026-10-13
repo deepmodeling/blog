@@ -57,4 +57,3 @@ Fig. 2 Structure–activity relationship and device performance enabled by bridg
 
 This work links the specific locations of surface hydroxyls to the water dissociation pathways in bipolar membranes: characterization shows that bridging sites can be enriched by synthesis conditions, constrained ab initio calculations indicate that their proton transfer in the alkaline pathway is more favorable, and device experiments test the performance of the material after regulation. The DeePMD-kit potential supports long-time dynamic simulations of the SnO₂/water interface, revealing water-assisted oxygen-vacancy healing and hydroxyl formation. Structural characterization, atomic-scale dynamics, reaction barriers, and membrane performance together support the active-site role of bridging hydroxyls.
 
-Article link: https://doi.org/10.1038/s41467-026-75170-x
