@@ -5,7 +5,7 @@ categories:
 - DeePMD-kit
 ---
 
-## Core–shell nanostructured alloys, with their tunable electronic structures and catalytic performance, show broad application prospects in fields such as fuel cells and electrocatalysis. Among them, the Pd@Ag system, with a lattice mismatch of about 4%, serves as an ideal model for studying strain-driven structural transformations. However, traditional empirical potentials cannot accurately describe the complex atomic processes of dislocation nucleation, stacking fault evolution, and twin boundary formation in bimetallic systems, limiting an in-depth understanding of the octahedral-to-icosahedral structural transformation mechanism.
+Core–shell nanostructured alloys, with their tunable electronic structures and catalytic performance, show broad application prospects in fields such as fuel cells and electrocatalysis. Among them, the Pd@Ag system, with a lattice mismatch of about 4%, serves as an ideal model for studying strain-driven structural transformations. However, traditional empirical potentials cannot accurately describe the complex atomic processes of dislocation nucleation, stacking fault evolution, and twin boundary formation in bimetallic systems, limiting an in-depth understanding of the octahedral-to-icosahedral structural transformation mechanism.
 
 To address this challenge, Professor Chen Fuyi's group at Northwestern Polytechnical University published the study “Deep learning potential reveals surface dislocation nucleation in AgPd Nanoalloy during atomic rearrangement” in Computational Materials Science. They used a deep learning potential to perform systematic molecular dynamics simulations of the structural reconstruction of the Pd309@Ag1106 core–shell nanocluster at 500 K. The DP model was constructed via active learning using the DP-GEN workflow, with training data covering bulk, surface, and deformed configurations of pure Pd, pure Ag, and various Pd–Ag alloy phases (L10, L11, L12). The final model achieves a root-mean-square error of 4.11 meV/atom for energy and 17.8 meV/Å for forces on the validation set, in excellent agreement with DFT calculations (see Figure 1) and significantly better than traditional EAM potentials.
 
@@ -13,7 +13,7 @@ To address this challenge, Professor Chen Fuyi's group at Northwestern Polytechn
 <!-- more -->
 <center><img src="https://dp-public.oss-cn-beijing.aliyuncs.com/community/Blog%20Files/DeePMD-kit_2026_10_10/pic2.png" pic_center width="100%" height="100%" /></center>
 
-Figure 1. he training error of the DP of the AgPd in comparison to DFT. (a) and (b) Training error toward potential energy and forces on the validation datasets. (c) and (d) Root-mean-square-error (RMSE) of potential energy and forces on the validation datasets, including AgPd (L10), Ag1Pd3, Ag3Pd1, AgPd (hcp and bcc) phases, surface structures.
+Figure 1. The training error of the DP of the AgPd in comparison to DFT. (a) and (b) Training error toward potential energy and forces on the validation datasets. (c) and (d) Root-mean-square-error (RMSE) of potential energy and forces on the validation datasets, including AgPd (L10), Ag1Pd3, Ag3Pd1, AgPd (hcp and bcc) phases, surface structures.
 
 ## Physical property prediction and model validation
 
