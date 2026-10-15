@@ -1,7 +1,7 @@
 ---
 title: Publications driven by DeePMD-kit
 date: 2022-05-01
-update: 2024-06-30
+update: 2026-10-15
 mathjax: true
 ---
 
@@ -13,6 +13,7 @@ Last update date: June 30, 2024
 
 ## 2025
 {% publications %}
+Zeng2025DeePMDKitV3_ABACUS,
 Guo2025DeepEMs25_DEEPMD,
 Infuso2025DeepPotentialDrivenMolecularDynamics_DEEPMD
 {% endpublications %}
@@ -20,6 +21,8 @@ Infuso2025DeepPotentialDrivenMolecularDynamics_DEEPMD
 ## 2024
 {% publications %}
 Chandran2024ComparativeAnalysisTernaryTiAlNb_DEEPMD,
+Giese_JPhysChemB_2024_v128_p6257,
+Tao_JChemPhys_2024_v160_p224104,
 Gu2024DeepLearningTightBinding_DEEPMD,
 Chen_MatterRadiatExtrem_2024_v9,
 Zhang_AcsPhysChemAu_2024,
