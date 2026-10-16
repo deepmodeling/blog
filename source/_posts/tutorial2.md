@@ -64,4 +64,4 @@ lmp -h
 
 GPU version has contained CUDA Toolkit. Note that different CUDA versions support different NVIDIA driver versions. See [NVIDIA documents](https://docs.nvidia.com/deploy/cuda-compatibility/) for details.
 
-Don't hurry up and try such a convenient installation process. But I still want to remind everyone that the above installation methods only support the official version released by DeePMD-kit. If you need to use the devel version, you still need to go through a long compilation process. Please refer to the [installation manual](https://docs.deepmodeling.org/projects/deepmd/).
+Don't hurry up and try such a convenient installation process. But I still want to remind everyone that the above installation methods only support the official version released by DeePMD-kit. If you need to use the devel version, you still need to go through a long compilation process. Please refer to the [installation manual](https://docs.deepmodeling.com/projects/deepmd/).
