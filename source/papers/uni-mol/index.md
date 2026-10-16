@@ -9,10 +9,11 @@ The following publications have used the Uni-Mol software. Publications that onl
 
 We encourage explicitly mentioning Uni-Mol with proper citations in your publications, so we can more easily find and list these publications.
 
-Last update date: 23/06/2025
+Last update date: 16/10/2026
 
 ## 2025
 {% publications %}
+Zhu_npjDrugDiscov_2025_v2_p1,
 Chen_arXiv_2025_p2506.00880,
 Pei_arXiv_2025_p2406.05797
 {% endpublications %}

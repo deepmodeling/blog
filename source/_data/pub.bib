@@ -351,37 +351,6 @@
              materials to simple and facile binary salts.},
 }
 
-@Article{Zeng_JChemInfModel_2025_v65_p3154,
-    author =   {Jinzhe Zeng and Timothy J. Giese and Duo Zhang and Han Wang and Darrin
-             M. York},
-    title =    {{DeePMD-GNN: A DeePMD-kit Plugin for External Graph Neural Network
-             Potentials}},
-    journal =  {J. Chem. Inf. Model.},
-    year =     2025,
-    volume =   65,
-    number =   7,
-    pages =    {3154--3160},
-    doi =      {10.1021/acs.jcim.4c02441},
-    abstract = {Machine learning potentials (MLPs) have revolutionized molecular
-             simulation by providing efficient and accurate models for predicting
-             atomic interactions. MLPs continue to advance and have had profound
-             impact in applications that include drug discovery, enzyme catalysis,
-             and materials design. The current landscape of MLP software presents
-             challenges due to the limited interoperability between packages, which
-             can lead to inconsistent benchmarking practices and necessitates
-             separate interfaces with molecular dynamics (MD) software. To address
-             these issues, we present DeePMD-GNN, a plugin for the DeePMD-kit
-             framework that extends its capabilities to support external graph
-             neural network (GNN) potentials.DeePMD-GNN enables the seamless
-             integration of popular GNN-based models, such as NequIP and MACE,
-             within the DeePMD-kit ecosystem. Furthermore, the new software
-             infrastructure allows GNN models to be used within combined quantum
-             mechanical/molecular mechanical (QM/MM) applications using the range
-             corrected {\ensuremath{\Delta}}MLP formalism.We demonstrate the
-             application of DeePMD-GNN by performing benchmark calculations of
-             NequIP, MACE, and DPA-2 models developed under consistent training
-             conditions to ensure fair comparison.},
-}
 
 @Article{Shi_arXiv_2025_p2503.06039,
     author =   {Guoyong Shi and Fenglin Deng and Ri He and Dachuan Chen and Xuejiao
@@ -480,46 +449,6 @@
              supporting LLM-based MRL tasks.},
 }
 
-@Article{Zeng_JChemTheoryComput_2025_v21_p4375,
-    author =   {Jinzhe Zeng and Duo Zhang and Anyang Peng and Xiangyu Zhang and Sensen
-             He and Yan Wang and Xinzijian Liu and Hangrui Bi and Yifan Li and Chun
-             Cai and Chengqian Zhang and Yiming Du and Jia-Xin Zhu and Pinghui Mo
-             and Zhengtao Huang and Qiyu Zeng and Shaochen Shi and Xuejian Qin and
-             Zhaoxi Yu and Chenxing Luo and Ye Ding and Yun-Pei Liu and Ruosong Shi
-             and Zhenyu Wang and Sigbj{\o}rn L{\o}land Bore and Junhan Chang and
-             Zhe Deng and Zhaohan Ding and Siyuan Han and Wanrun Jiang and Guolin
-             Ke and Zhaoqing Liu and Denghui Lu and Koki Muraoka and Hananeh Oliaei
-             and Anurag Kumar Singh and Haohui Que and Weihong Xu and Zhangmancang
-             Xu and Yong-Bin Zhuang and Jiayu Dai and Timothy J. Giese and Weile
-             Jia and Ben Xu and Darrin M. York and Linfeng Zhang and Han Wang},
-    title =    {{DeePMD-kit v3: A Multiple-Backend Framework for Machine Learning
-             Potentials}},
-    journal =  {J. Chem. Theory Comput.},
-    year =     2025,
-    volume =   21,
-    number =   9,
-    pages =    {4375--4385},
-    doi =      {10.1021/acs.jctc.5c00340},
-    abstract = {In recent years, machine learning potentials (MLPs) have become
-             indispensable tools in physics, chemistry, and materials science,
-             driving the development of software packages for molecular dynamics
-             (MD) simulations and related applications. These packages, typically
-             built on specific machine learning frameworks, such as TensorFlow,
-             PyTorch, or JAX, face integration challenges when advanced
-             applications demand communication across different frameworks. The
-             previous TensorFlow-based implementation of the DeePMD-kit exemplified
-             these limitations. In this work, we introduce DeePMD-kit version 3, a
-             significant update featuring a multibackend framework that supports
-             TensorFlow, PyTorch, JAX, and PaddlePaddle backends, and demonstrate
-             the versatility of this architecture through the integration of other
-             MLP packages and of differentiable molecular force fields. This
-             architecture allows seamless back-end switching with minimal
-             modifications, enabling users and developers to integrate DeePMD-kit
-             with other packages using different machine learning frameworks. This
-             innovation facilitates the development of more complex and
-             interoperable workflows, paving the way for broader applications of
-             MLPs in scientific research.},
-}
 
 @Article{Luo_2DMater_2025_v12_p15022,
     author =   {Jiangbo Luo and Xudong Zhu and Xu Lian and Yuntian Zheng and Reshmi
@@ -15743,57 +15672,6 @@ abstract  ="The design of new solid electrolytes (SEs) hinges on identifying and
     pdf = {https://scholarship.libraries.rutgers.edu/view/pdfCoverPage?instCode=01RUT_INST&filePid=13678688170004646&download=true}
 }
 
-@article{Zhang_ComputPhysCommun_2020_v253_p107206,
-    title = {{DP-GEN: A concurrent learning platform for the generation of
-            reliable deep learning based potential energy models}},
-    journal = {Computer Physics Communnications},
-    pages = 107206,
-    year = 2020,
-    volume = 253,
-    issn = {0010-4655},
-    doi = {10.1016/j.cpc.2020.107206},
-    url = {http://www.sciencedirect.com/science/article/pii/S001046552030045X},
-    author = {Yuzhi Zhang and Haidi Wang and Weijie Chen and Jinzhe Zeng and Linfeng Zhang* and Han Wang* and Weinan E*},
-    keywords = {Many-body potential energy, Deep learning, Concurrent learning},
-    abstract = {In recent years, promising deep learning based interatomic potential
-                energy surface (PES) models have been proposed that can potentially
-                allow us to perform molecular dynamics simulations for large scale
-                systems with quantum accuracy. However, making these models truly
-                reliable and practically useful is still a very non-trivial task. A
-                key component in this task is the generation of datasets used in model
-                training. In this paper, we introduce the Deep Potential GENerator
-                (DP-GEN), an open-source software platform that implements the recently
-                proposed on-the-fly learning procedure (Zhang et al. 2019) and is
-                capable of generating uniformly accurate deep learning based PES models
-                in a way that minimizes human intervention and the computational cost for
-                data generation and model training. DP-GEN automatically and iteratively
-                performs three steps: exploration, labeling, and training. It supports
-                various popular packages for these three steps: LAMMPS for exploration,
-                Quantum Espresso, VASP, CP2K, etc. for labeling, and DeePMD-kit for
-                training. It also allows automatic job submission and result collection
-                on different types of machines, such as high performance clusters and
-                cloud machines, and is adaptive to different job management tools,
-                including Slurm, PBS, and LSF. As a concrete example, we illustrate the
-                details of the process for generating a general-purpose PES model for Cu
-                using DP-GEN.
-                Program summary
-                Program Title: DP-GEN
-                Program Files doi: http://dx.doi.org/10.17632/sxybkgc5xc.1
-                Licensing provisions: LGPL
-                Programming language: Python
-                Nature of problem: Generating reliable deep learning based potential energy
-                models with minimal human intervention and computational cost.
-                Solution method: The concurrent learning scheme is implemented. Supports for
-                sampling configuration space with LAMMPS, generating ab initio data with
-                Quantum Espresso, VASP, CP2K and training potential models with DeePMD-kit                                                                                               are provided. Supports for different machines including workstations, high
-                performance clusters and cloud machines are provided. Supports for job
-                management tools including Slurm, PBS, LSF are provided.},
-    image = {https://ars.els-cdn.com/content/image/1-s2.0-S001046552030045X-gr1.jpg},
-    googlescholar = 2414728760719101194,
-    github = {deepmodeling/dpgen},
-    researchgate = 339191433,
-    pdf = {https://arxiv.org/pdf/1910.12690}
-}
 
 @article{Han_ACSAppliedMatInterface_2018_v10_p31725,
   author = {Xin-Yue Han and Zi-Han Chen and Jin-Zhe Zeng and Qian-Xi Fan and Zheng-Qi Fang and Guoyue Shi and Min Zhang*},
@@ -15865,20 +15743,6 @@ abstract  ="The design of new solid electrolytes (SEs) hinges on identifying and
   researchgate=351820137
 }
 
-@article{Zeng_ChemRxiv_2021,
-  title={{Development of Range-Corrected Deep Learning Potentials for Fast, Accurate Quantum Mechanical/molecular Mechanical Simulations of Chemical Reactions in Solution}},
-  author={Jinzhe Zeng and Timothy J. Giese and ̧Sölen Ekesan and Darrin M. York*},
-  year=2021,
-  volume=17,
-  number=11,
-  pages={6993--7009},
-  journal={Journal of Chemical Theory and Computation},
-  doi={10.1021/acs.jctc.1c00201},
-  pdf={https://chemrxiv.org/engage/api-gateway/chemrxiv/assets/orp/resource/item/60c7557dbdbb899a20a3a828/original/development-of-range-corrected-deep-learning-potentials-for-fast-accurate-quantum-mechanical-molecular-mechanical-simulations-of-chemical-reactions-in-solution.pdf},
-  googlescholar = 1262175988288864992,
-  researchgate = 355227015,
-  image={https://pubs.acs.org/na101/home/literatum/publisher/achs/journals/content/jctcce/2021/jctcce.2021.17.issue-11/acs.jctc.1c00201/20211102/images/medium/ct1c00201_0008.gif}
-}
 
 @article{Cao_PhysChemChemPhys_2022,
   title={{Ab Initio Neural Network MD Simulation of Thermal Decomposition of High Energy Material CL-20/TNT}},
@@ -15892,20 +15756,6 @@ abstract  ="The design of new solid electrolytes (SEs) hinges on identifying and
   researchgate = 360018447,
 }
 
-@article{Giese_2022_JChemTheoryComput,
-author = {Giese, Timothy J. and Zeng, Jinzhe and Ekesan, Şölen and Darrin M. York*},
-title = {Combined QM/MM, Machine Learning Path Integral Approach to Compute Free Energy Profiles and Kinetic Isotope Effects in RNA Cleavage Reactions},
-journal = {Journal of Chemical Theory and Computation},
-year = {2022},
-doi = {10.1021/acs.jctc.2c00151},
-volume=18,
-issue=7,
-pages={4304--4317},
-    note ={PMID: 35709391},
-    abstract = { We present a fast, accurate, and robust approach for determination of free energy profiles and kinetic isotope effects for RNA 2′-O-transphosphorylation reactions with inclusion of nuclear quantum effects. We apply a deep potential range correction (DPRc) for combined quantum mechanical/molecular mechanical (QM/MM) simulations of reactions in the condensed phase. The method uses the second-order density-functional tight-binding method (DFTB2) as a fast, approximate base QM model. The DPRc model modifies the DFTB2 QM interactions and applies short-range corrections to the QM/MM interactions to reproduce ab initio DFT (PBE0/6-31G*) QM/MM energies and forces. The DPRc thus enables both QM and QM/MM interactions to be tuned to high accuracy, and the QM/MM corrections are designed to smoothly vanish at a specified cutoff boundary (6 Å in the present work). The computational speed-up afforded by the QM/MM+DPRc model enables free energy profiles to be calculated that include rigorous long-range QM/MM interactions under periodic boundary conditions and nuclear quantum effects through a path integral approach using a new interface between the AMBER and i-PI software. The approach is demonstrated through the calculation of free energy profiles of a native RNA cleavage model reaction and reactions involving thio-substitutions, which are important experimental probes of the mechanism. The DFTB2+DPRc QM/MM free energy surfaces agree very closely with the PBE0/6-31G* QM/MM results, and it is vastly superior to the DFTB2 QM/MM surfaces with and without weighted thermodynamic perturbation corrections. 18O and 34S primary kinetic isotope effects are compared, and the influence of nuclear quantum effects on the free energy profiles is examined. },
-  image={https://pubs.acs.org/cms/10.1021/acs.jctc.2c00151/asset/images/medium/ct2c00151_0006.gif},
-  researchgate=361379553,
-}
 
 @incollection{Zeng_2022_Chapter,
   title = {Chapter 12 - Neural network potentials},
@@ -15924,49 +15774,6 @@ pages={4304--4317},
   researchgate = 363856260,
 }
 
-@Article{Giese_JPhysChemA_2022_vNone_pNone,
-    author =   {Timothy J Giese and Jinzhe Zeng and Darrin M York},
-    title =    {{Multireference Generalization of the Weighted Thermodynamic
-             Perturbation Method}},
-    journal =  {J. Phys. Chem. A},
-    year =     2022,
-    volumn = 126,
-    issue = 45,
-    pages = {8519--8533},
-    annote =   {We describe the generalized weighted thermodynamic perturbation (gwTP)
-             method for estimating the free energy surface of an expensive "high-
-             level" potential energy function from the umbrella sampling performed
-             with multiple inexpensive "low-level" reference potentials. The gwTP
-             method is a generalization of the weighted thermodynamic perturbation
-             (wTP) method developed by Li and co-workers [J. Chem. Theory Comput.
-             2018, 14, 5583-5596] that uses a single "low-level" reference
-             potential. The gwTP method offers new possibilities in model design
-             whereby the sampling generated from several low-level potentials may
-             be combined (e.g., specific reaction parameter models that might have
-             variable accuracy at different stages of a multistep reaction). The
-             gwTP method is especially well suited for use with machine learning
-             potentials (MLPs) that are trained against computationally expensive
-             ab initio quantum mechanical/molecular mechanical (QM/MM) energies and
-             forces using active learning procedures that naturally produce
-             multiple distinct neural network potentials. Simulations can be
-             performed with greater sampling using the fast MLPs and then corrected
-             to the ab initio level using gwTP. The capabilities of the gwTP method
-             are demonstrated by creating reference potentials based on the MNDO/d
-             and DFTB2/MIO semiempirical models supplemented with the "range-
-             corrected deep potential" (DPRc). The DPRc parameters are trained to
-             ab initio QM/MM data, and the potentials are used to calculate the
-             free energy surface of stepwise mechanisms for nonenzymatic RNA
-             2'-O-transesterification model reactions. The extended sampling made
-             possible by the reference potentials allows one to identify
-             unequilibrated portions of the simulations that are not always evident
-             from the short time scale commonly used with ab initio QM/MM
-             potentials. We show that the reference potential approach can yield
-             more accurate ab initio free energy predictions than the wTP method or
-             what can be reasonably afforded from explicit ab initio QM/MM
-             sampling.},
-    doi =      {10.1021/acs.jpca.2c06201},
-	researchgate = 364824210,
-}
 
 @Article{Bai_ChemCommun_2021_v57_p11633,
     author =   {Jiawei Bai and Xingchen Liu and Tingyu Lei and Botao Teng and Xiaodong
@@ -16247,39 +16054,6 @@ pages={4304--4317},
     doi =      {10.3390/molecules27238255},
 }
 
-@Article{Zeng_JChemTheoryComput_2023_vNone_pNone,
-    author =   {Jinzhe Zeng and Yujun Tao and Timothy J Giese and Darrin M York},
-    title =    {{QD{\ensuremath{\pi}}: A Quantum Deep Potential Interaction Model for
-             Drug Discovery}},
-    journal =  {J. Chem. Theory Comput.},
-    year =     2023,
-    annote =   {We report QD{\ensuremath{\pi}}-v1.0 for modeling the internal energy
-             of drug molecules containing H, C, N, and O atoms. The
-             QD{\ensuremath{\pi}} model is in the form of a quantum
-             mechanical/machine learning potential correction
-             (QM/{\ensuremath{\Delta}}-MLP) that uses a fast third-order self-
-             consistent density-functional tight-binding (DFTB3/3OB) model that is
-             corrected to a quantitatively high-level of accuracy through a deep-
-             learning potential (DeepPot-SE). The model has the advantage that it
-             is able to properly treat electrostatic interactions and handle
-             changes in charge/protonation states. The model is trained against
-             reference data computed at the {\ensuremath{\omega}}B97X/6-31G* level
-             (as in the ANI-1x data set) and compared to several other approximate
-             semiempirical and machine learning potentials (ANI-1x, ANI-2x, DFTB3,
-             MNDO/d, AM1, PM6, GFN1-xTB, and GFN2-xTB). The QD{\ensuremath{\pi}}
-             model is demonstrated to be accurate for a wide range of intra- and
-             intermolecular interactions (despite its intended use as an internal
-             energy model) and has shown to perform exceptionally well for relative
-             protonation/deprotonation energies and tautomers. An example
-             application to model reactions involved in RNA strand cleavage
-             catalyzed by protein and nucleic acid enzymes illustrates
-             QD{\ensuremath{\pi}} has average errors less than 0.5 kcal/mol,
-             whereas the other models compared have errors over an order of
-             magnitude greater. Taken together, this makes QD{\ensuremath{\pi}}
-             highly attractive as a potential force field model for drug discovery.},
-    doi =      {10.1021/acs.jctc.2c01172},
-    researchgate = 367433019,
-}
 
 @Article{Xu_PolymerDegradationandStability_2023_v208_p110249,
     author =   {Zhiheng Xu and Qiyuan Xie and Cheng Chen and Xi Jiang},
@@ -16344,45 +16118,6 @@ pages={4304--4317},
     researchgate = 369045636,
 }
 
-@article{Zeng_2023_deepmdkit,
-    title  = {{DeePMD-kit v2: A software package for deep potential models}},
-    author =   {Jinzhe Zeng and Duo Zhang and Denghui Lu and Pinghui Mo and Zeyu Li
-             and Yixiao Chen and Mari{\'a}n Rynik and Li'ang Huang and Ziyao Li and 
-             Shaochen Shi and Yingze Wang and Haotian Ye and Ping Tuo and Jiabin
-             Yang and Ye Ding and Yifan Li and Davide Tisi and Qiyu Zeng and Han 
-             Bao and Yu Xia and Jiameng Huang and Koki Muraoka and Yibo Wang and 
-             Junhan Chang and Fengbo Yuan and Sigbj{\o}rn L{\o}land Bore and Chun
-             Cai and Yinnian Lin and Bo Wang and Jiayan Xu and Jia-Xin Zhu and 
-             Chenxing Luo and Yuzhi Zhang and Rhys E A Goodall and Wenshuo Liang
-             and Anurag Kumar Singh and Sikai Yao and Jingchao Zhang and Renata
-             Wentzcovitch and Jiequn Han and Jie Liu and Weile Jia and Darrin M
-             York and Weinan E and Roberto Car and Linfeng Zhang and Han Wang},
-    journal =  {J. Chem. Phys.},
-    volume =   159,
-    issue =    5,  
-    year =    2023,
-    pages  =   054801,
-    annote =   {DeePMD-kit is a powerful open-source software package that facilitates
-             molecular dynamics simulations using machine learning potentials known
-             as Deep Potential (DP) models. This package, which was released in
-             2017, has been widely used in the fields of physics, chemistry,
-             biology, and material science for studying atomistic systems. The 
-             current version of DeePMD-kit offers numerous advanced features, such
-             as DeepPot-SE, attention-based and hybrid descriptors, the ability to
-             fit tensile properties, type embedding, model deviation, DP-range
-             correction, DP long range, graphics processing unit support for 
-             customized operators, model compression, non-von Neumann molecular
-             dynamics, and improved usability, including documentation, compiled
-             binary packages, graphical user interfaces, and application
-             programming interfaces. This article presents an overview of the 
-             current major version of the DeePMD-kit package, highlighting its 
-             features and technical details. Additionally, this article presents a
-             comprehensive procedure for conducting molecular dynamics as a
-             representative application, benchmarks the accuracy and efficiency of
-             different models, and discusses ongoing developments.},
-    doi =      {10.1063/5.0155600},
-
-}
 
 @article{Liu_Gaodengxuexiaohuaxuexuebao_2022_v43_p20210834,
 author = {[刘嘉欣, 闵杰, 许华杰, 任海生, 谈宁馨]},
