@@ -1,7 +1,7 @@
 ---
 title: Publications driven by DeePMD-kit
 date: 2022-05-01
-update: 2026-10-16
+update: 2026-11-06
 mathjax: true
 ---
 
@@ -9,10 +9,28 @@ The following publications have used the DeePMD-kit software. Publications that 
 
 We encourage explicitly mentioning DeePMD-kit with proper citations in your publications, so we can more easily find and list these publications.
 
-Last update date: 16/10/2026
+Last update date: 06/11/2026
 
 ## 2025
 {% publications %}
+Zhao_AdvSciWeinheimBadenWurttGer_2025_v12_pe06240,
+Szukalo_ProcNationalAcadSciUSA_2025_v122_pe2509609122,
+Li_NatCommun_2025_v16_p7574,
+Zhang_ProcNationalAcadSciUSA_2025_v122_pe2505929122,
+Ran_npjComputMater_2025_v11_p208,
+Guo_AcsApplEnergyMater_2025_v8_p14773,
+Bhatt_JPhysChemLett_2025_v16_p8850,
+Xu_AcsNano_2025_v19_p29242,
+Li_NatCommun_2025_v16_p6633,
+Wang_NatCommun_2025_v16_p7288,
+Tang_JChemPhys_2025_v163_p084109,
+Majumder_JPhysCondensMatter_2025_v37_p425401,
+Ito_CommunMater_2025_v6_p195,
+Cezar_npjComputMater_2025_v11_p200,
+Hu2025LiDendriteML_ABACUS,
+deMiranda_JChemPhys_2025_v163_p094503,
+Fan_npjComputMater_2025_v11_p286,
+Du_AcsMaterLett_2025_v7_p3403,
 Zeng2025DeePMDKitV3_ABACUS,
 Guo2025DeepEMs25_DEEPMD,
 Infuso2025DeepPotentialDrivenMolecularDynamics_DEEPMD
