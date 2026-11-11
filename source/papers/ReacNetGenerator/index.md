@@ -11,15 +11,27 @@ We encourage mentioning and citing ReacNetGenerator if it is used.
 
 Last updated: Sep 24, 2024
 
+## 2026
+{% publications %}
+Ding_JChemTheoryComput_2026_v22_p5919,
+Deng_RscAdv_2026_v16_p42002,
+Guan_MolBaselSwitz_2026_v31_p1549
+{% endpublications %}
+
 ## 2025
 
 {% publications %}
+Guo2025DeepEMs25_DEEPMD,
+Hu2025LiDendriteML_ABACUS,
+Wen_npjComputMater_2025_v11_p333,
+Mei_MolBaselSwitz_2025_v30_p3016,
 She_Fuel_2025_v379_p132982
 {% endpublications %}
 
 ## 2024
 
 {% publications %}
+Fan_AdvEngRes_2024_p13,
 Li_IntJGreenEnergy_2024_v21_p2117,
 Sun_ComputTheorChem_2024_v1231_p114446,
 Wen_PhysChemChemPhys_2024_v26_p9984,
