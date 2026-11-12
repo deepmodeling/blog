@@ -13,6 +13,31 @@ Last update date: June 24, 2025
 
 ## 2025
 {% publications %}
+Dong2025DenseHydrogenFreeEnergy_ABACUS,
+Zhao_SciAdv_2025_v11_peadu6525,
+Xu_JChemPhys_2025_v162_p234705,
+Qin_LangmuirAcsJSurfColloids_2025_v41_p11506,
+Ran_npjComputMater_2025_v11_p208,
+An_AcsNano_2025_v19_p14262,
+Sun2025NQEElectrocatalysis_ABACUS,
+Hu2025LiDendriteML_ABACUS,
+Zhou_JChemPhys_2025_v163_p192501,
+Zhang_ProcNationalAcadSciUSA_2025_v122_pe2516449122,
+Wen_npjComputMater_2025_v11_p333,
+Gao_NanomaterBaselSwitz_2025_v15_p769,
+Feng_AdvSciWeinheimBadenWurttGer_2026_v13_pe17897,
+Hong_PhysRevLett_2025_v135_p216802,
+Wen_npjComputMater_2025_v11_p343,
+Qin_ApplPhysLett_2025_v126_p104101,
+Yang_ResWashingtonDC_2025_v8_p837,
+Pabst_PhysRevE_2025_v111_pL023401,
+Li2025Li6PS5ClConductivity_ABACUS,
+Chen_Cmc_2025_v83_p685,
+Kounis-Melas_JVacSciTechnolA_2025_v43_p12603,
+Liang_npjComputMater_2025_v11_p32,
+Gao_NatCommun_2025_v16_p717,
+Liu_ComputMaterSci_2025_v253_p113825,
+Chen_NatCommun_2025_v16_p1057,
 Shi_arXiv_2025_p2503.06039
 {% endpublications %}
 
