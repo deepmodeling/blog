@@ -12,8 +12,45 @@ We encourage explicitly mentioning ABACUS with proper citations in your publicat
 Last update date: June 18, 2025
 
 
+## 2026
+{% publications %}
+Gong_PhysRevB_2026_v114_p175139,
+Peng_ActaPhysSin,
+LiuLiu_ChinPhysLett_2026_v43_p70501,
+Awol_SciRep_2026_v16_p30783,
+Ma_NatCommun_2026_v17_p9821,
+Long_PhysRevB_2026_v113_p174106,
+Xie_PhysRevB_2026_v113_p195203,
+Wang_npjComputMater_2026_v12_p318,
+Yang_npjComputMater_2026_v12_p268,
+Jin_npjComputMater_2026_v12_p245,
+Yu_AdvSciWeinheimBadenWurttGer_2026_pe24385,
+Yang_npjComputMater_2026_v12_p188,
+Ji_JChemTheoryComput_2026_v22_p4595,
+Bao_ComputPhysCommun_2026_v327_p110260,
+He_SciAdv_2026_v12_peaeb3006,
+Sun_PhysRevB_2026_v113_pL161107,
+Xie_PhysRevB_2026_v113_p64410,
+Wang_NationalSciRev_2026_v13_pnwag030,
+Zheng_npjComputMater_2026_v12_p52,
+Xu_NatCommun_2026_v17_p2503,
+Zhang_NatCommun_2026_v17_p1888
+{% endpublications %}
+
 ## 2025
 {% publications %}
+Zhang_JChemTheoryComput_2025_v21_p9620,
+Dai_PhysRevLett_2025_v135_p256401,
+ZHANG_Csd_2026_v11_p1,
+HouHou_ChinPhysB_2026_v35_p18701,
+Zhou_JChemPhys_2025_v163_p192501,
+Li_MaterBaselSwitz_2025_v18_p4824,
+Pang_PhysRevLett_2025_v135_p116402,
+Cao_JChemTheoryComput_2025_v21_p8086,
+Liao_ChemSci_2025_v16_p23174,
+WangWang_ChinPhysB_2025_v34_p46801,
+Liu_ApplPhysLett_2025_v126_p13101,
+Shi_ComputPhysCommun_2025_v309_p109496,
 Luo_2DMater_2025_v12_p15022,
 Zhang2025MnSe2EasyAxis_ABACUS,
 Ru2025MoS2TeTribology_ABACUS,
