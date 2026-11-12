@@ -11,6 +11,16 @@ We encourage explicitly mentioning DeepFlame with proper citations in your publi
 
 Last update date: December 5, 2024
 
+## 2026
+{% publications %}
+Xiao_Fuel_2026_v419_p138904
+{% endpublications %}
+
+## 2025
+{% publications %}
+Yao_ComputPhysCommun_2025_v316_p109802
+{% endpublications %}
+
 ## 2024
 {% publications %}
 Chen_PhysFluids_2024_v36,
