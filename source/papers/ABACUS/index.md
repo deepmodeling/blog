@@ -34,15 +34,15 @@ Xie_PhysRevB_2026_v113_p64410,
 Wang_NationalSciRev_2026_v13_pnwag030,
 Zheng_npjComputMater_2026_v12_p52,
 Xu_NatCommun_2026_v17_p2503,
-Zhang_NatCommun_2026_v17_p1888
+Zhang_NatCommun_2026_v17_p1888,
+ZHANG_Csd_2026_v11_p1,
+HouHou_ChinPhysB_2026_v35_p18701,
 {% endpublications %}
 
 ## 2025
 {% publications %}
 Zhang_JChemTheoryComput_2025_v21_p9620,
 Dai_PhysRevLett_2025_v135_p256401,
-ZHANG_Csd_2026_v11_p1,
-HouHou_ChinPhysB_2026_v35_p18701,
 Zhou_JChemPhys_2025_v163_p192501,
 Li_MaterBaselSwitz_2025_v18_p4824,
 Pang_PhysRevLett_2025_v135_p116402,
