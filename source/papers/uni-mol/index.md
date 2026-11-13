@@ -24,7 +24,12 @@ Zhao_BiorxivPreprServBiology_2026_p2026.09.22.753673,
 Qian_Biorxiv_2026,
 Yang_Biorxiv_2026,
 Chang_FrontChem_2026_v14_p1869559,
-Liu_Biorxiv_2026
+Liu_Biorxiv_2026,
+Pesce_JChemInfModel_2026_v66_p13084,
+Cai_BioinformOxfordEngl_2026_v42_pbtag764,
+Smbatyan_Biorxiv_2026,
+Cheng_Biorxiv_2026,
+Srivastava_Biorxiv_2026
 {% endpublications %}
 
 ## 2025
@@ -44,6 +49,7 @@ Hamakawa_JChemInfModel_2025_v65_p3388,
 Rong_ApplIntell_2025_v55_p819,
 Wu_EnvironSciTechnol_2025_v59_p21830,
 Feng_PatternsNewYorkNY_2025_v6_p101371,
+Yan_Arxiv_2025_p2506.13174,
 Zhu_npjDrugDiscov_2025_v2_p1,
 Chen_arXiv_2025_p2506.00880,
 Pei_arXiv_2025_p2406.05797
