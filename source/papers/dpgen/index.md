@@ -11,6 +11,33 @@ We encourage explicitly mentioning DP-GEN with proper citations in your publicat
 
 Last update date: June 24, 2025
 
+## 2026
+{% publications %}
+Zhang_MaterBaselSwitz_2026_v19_p2785,
+Liu_JAdvCeram_2026_v15_p9221368,
+Valiulin_JetpLett_2026_v124_p427,
+Xu_NatCommun_2026_v17_p9698,
+Li_NatCommun_2026_v17_p10455,
+Wang_AcsApplEnergyMater_2026_v9_p11989,
+Bian_JPhysChemLett_2026_v17_p11430,
+Long_PhysRevB_2026_v113_p174106,
+Hou_PhysRevB_2026_v113_p184103,
+Wang_npjComputMater_2026_v12_p318,
+Wang_npjComputMater_2026_v12_p270,
+Yang_npjComputMater_2026_v12_p268,
+Wei_AcsOmega_2026_v11_p29733,
+Bian_JChemTheoryComput_2026_v22_p5174,
+Yan_CommunMater_2026_v7_p80,
+Zhang_NationalSciRev_2026_v13_pnwag128,
+He_SciAdv_2026_v12_peaeb3006,
+Li_PhysRevB_2026_v113_p125417,
+Valiulin_JChemPhys_2026_v164_p054504,
+Li_SciRep_2026_v16_p12986,
+Jiang_npjComputMater_2026_v12_p82,
+Zheng_npjComputMater_2026_v12_p52,
+Chen_PhysRevMater_2026_v10_p23605
+{% endpublications %}
+
 ## 2025
 {% publications %}
 Shi_arXiv_2025_p2503.06039
