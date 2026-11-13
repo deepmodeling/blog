@@ -11,8 +11,18 @@ We encourage explicitly mentioning Uni-Mol with proper citations in your publica
 
 Last update date: 16/10/2026
 
+## 2026
+{% publications %}
+Pesce_JChemInfModel_2026_v66_p13084,
+Cai_BioinformOxfordEngl_2026_v42_pbtag764,
+Smbatyan_Biorxiv_2026,
+Cheng_Biorxiv_2026,
+Srivastava_Biorxiv_2026
+{% endpublications %}
+
 ## 2025
 {% publications %}
+Yan_Arxiv_2025,
 Zhu_npjDrugDiscov_2025_v2_p1,
 Chen_arXiv_2025_p2506.00880,
 Pei_arXiv_2025_p2406.05797
