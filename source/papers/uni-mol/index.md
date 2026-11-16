@@ -13,6 +13,7 @@ Last update date: 16/10/2026
 
 ## 2026
 {% publications %}
+Alcaide_LectNotesComputSci_2026_p34,
 Lv_NatCommun_2026_v17_p8511,
 MartinezGalindo_NatCommun_2026_v17_p8081,
 Iwasaki_JPhysChemA_2026_v130_p5016,
