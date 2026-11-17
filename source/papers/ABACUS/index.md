@@ -14,6 +14,7 @@ Last update date: June 18, 2025
 
 ## 2025
 {% publications %}
+Ni_npjQuantumMater_2025_v10_p17,
 Luo_2DMater_2025_v12_p15022,
 Zhang2025MnSe2EasyAxis_ABACUS,
 Ru2025MoS2TeTribology_ABACUS,
