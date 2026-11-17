@@ -11,8 +11,47 @@ We encourage explicitly mentioning Uni-Mol with proper citations in your publica
 
 Last update date: 16/10/2026
 
+## 2026
+{% publications %}
+Alcaide_LectNotesComputSci_2026_p34,
+Lv_NatCommun_2026_v17_p8511,
+MartinezGalindo_NatCommun_2026_v17_p8081,
+Iwasaki_JPhysChemA_2026_v130_p5016,
+Zhang_JCheminformatics_2026_v18_p93,
+Sun_IntJMolSci_2026_v27_p8500,
+Liu_BriefBioinform_2026_v27_pbbag069,
+Zhao_BiorxivPreprServBiology_2026_p2026.09.22.753673,
+Qian_Biorxiv_2026,
+Yang_Biorxiv_2026,
+Chang_FrontChem_2026_v14_p1869559,
+Liu_Biorxiv_2026,
+Sun_arXiv_2026_p2606.21002,
+Pesce_JChemInfModel_2026_v66_p13084,
+Cai_BioinformOxfordEngl_2026_v42_pbtag764,
+Smbatyan_Biorxiv_2026,
+Cheng_Biorxiv_2026,
+Srivastava_Biorxiv_2026
+{% endpublications %}
+
 ## 2025
 {% publications %}
+Chan_NatNanotechnol_2025_v20_p1491,
+Liu_NatCommun_2025_v16_p10177,
+Ou_npjComputMater_2025_v11_p224,
+Wang_BriefBioinform_2025_v26_pbbaf624,
+Xu_NatComputSci_2025_v5_p292,
+Wu_arXiv_2025_p2508.00920,
+Yan_Arxiv_2025,
+Liu_BmcBiology_2025_v23_p136,
+Xu_npjComputMater_2025_v11_p203,
+Li_NanoRes_2025_v18_p94908047,
+Zhang_ChemMater_2025_v37_p7002,
+Liu_JCheminformatics_2025_v17_p134,
+Hamakawa_JChemInfModel_2025_v65_p3388,
+Rong_ApplIntell_2025_v55_p819,
+Wu_EnvironSciTechnol_2025_v59_p21830,
+Feng_PatternsNewYorkNY_2025_v6_p101371,
+Yan_Arxiv_2025_p2506.13174,
 Zhu_npjDrugDiscov_2025_v2_p1,
 Chen_arXiv_2025_p2506.00880,
 Pei_arXiv_2025_p2406.05797
