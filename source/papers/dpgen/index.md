@@ -11,6 +11,11 @@ We encourage explicitly mentioning DP-GEN with proper citations in your publicat
 
 Last update date: June 24, 2025
 
+## 2026
+{% publications %}
+Feng_AdvSciWeinheimBadenWurttGer_2026_v13_pe17897,
+{% endpublications %}
+
 ## 2025
 {% publications %}
 Dong2025DenseHydrogenFreeEnergy_ABACUS,
@@ -25,7 +30,7 @@ Zhou_JChemPhys_2025_v163_p192501,
 Zhang_ProcNationalAcadSciUSA_2025_v122_pe2516449122,
 Wen_npjComputMater_2025_v11_p333,
 Gao_NanomaterBaselSwitz_2025_v15_p769,
-Feng_AdvSciWeinheimBadenWurttGer_2026_v13_pe17897,
+
 Hong_PhysRevLett_2025_v135_p216802,
 Wen_npjComputMater_2025_v11_p343,
 Qin_ApplPhysLett_2025_v126_p104101,
