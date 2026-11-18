@@ -35,6 +35,7 @@ Srivastava_Biorxiv_2026
 
 ## 2025
 {% publications %}
+Chen_ProcThirtyFourthIntJtConfArtifIntell_2025_p4905,
 Chan_NatNanotechnol_2025_v20_p1491,
 Liu_NatCommun_2025_v16_p10177,
 Ou_npjComputMater_2025_v11_p224,
