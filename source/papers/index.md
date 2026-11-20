@@ -10,3 +10,6 @@ title: Publications citing DeepModeling's work
 - [Uni-Mol](/papers/uni-mol/)
 - [ReacNetGenerator](/papers/ReacNetGenerator/)
 - [DeepFlame](/papers/DeepFlame/)
+- [DMFF](/papers/DMFF/)
+- [DeePTB](/papers/DeePTB/)
+- [CrystalFormer](/papers/CrystalFormer/)
